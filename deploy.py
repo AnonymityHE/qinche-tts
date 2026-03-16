@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Upload dist/ to Cloudflare Pages via Direct Upload API (form-based)."""
+"""Upload dist/ to Cloudflare Pages via Direct Upload API."""
 import os, sys, hashlib, mimetypes, json, ssl
 import urllib.request
 
@@ -9,19 +9,21 @@ PROJECT = "qinche-tts"
 DIST    = os.path.join(os.path.dirname(__file__), "dist")
 CTX     = ssl.create_default_context()
 
-def cf_request(method, path, body=None, content_type=None):
+def cf(method, path, body=None, ctype=None):
     url = f"https://api.cloudflare.com/client/v4{path}"
     hdrs = {"Authorization": f"Bearer {TOKEN}"}
-    if content_type:
-        hdrs["Content-Type"] = content_type
+    if ctype:
+        hdrs["Content-Type"] = ctype
     req = urllib.request.Request(url, data=body, headers=hdrs, method=method)
     try:
         with urllib.request.urlopen(req, context=CTX) as r:
             return json.loads(r.read())
     except urllib.error.HTTPError as e:
-        return json.loads(e.read())
+        txt = e.read()
+        try: return json.loads(txt)
+        except: return {"success": False, "raw": txt.decode()}
 
-# 1. Collect all files
+# 1. Collect files
 files = {}
 for root, _, fnames in os.walk(DIST):
     for fname in fnames:
@@ -30,63 +32,55 @@ for root, _, fnames in os.walk(DIST):
         with open(fpath, "rb") as f:
             content = f.read()
         h = hashlib.sha256(content).hexdigest()
-        files[rel] = {"path": fpath, "hash": h, "content": content,
-                      "mime": mimetypes.guess_type(rel)[0] or "application/octet-stream"}
-
+        files[rel] = {
+            "path": fpath, "hash": h, "content": content,
+            "mime": mimetypes.guess_type(rel)[0] or "application/octet-stream"
+        }
 print(f"Files: {len(files)}")
 
-# 2. Create deployment via multipart (Pages Direct Upload)
-BOUNDARY = "----CFPagesBoundary01"
-
-def make_multipart(fields):
-    parts = b""
-    for name, value in fields:
-        parts += f"--{BOUNDARY}\r\nContent-Disposition: form-data; name=\"{name}\"\r\n\r\n".encode()
-        parts += (value if isinstance(value, bytes) else value.encode())
-        parts += b"\r\n"
-    parts += f"--{BOUNDARY}--\r\n".encode()
-    return parts
-
-# Build manifest: {"/index.html": "<hash>", ...}
+# 2. Create deployment with manifest
+BOUNDARY = "CFPagesDeploy"
 manifest = {rel: info["hash"] for rel, info in files.items()}
+body = (
+    f"--{BOUNDARY}\r\n"
+    f'Content-Disposition: form-data; name="manifest"\r\n\r\n'
+    + json.dumps(manifest)
+    + f"\r\n--{BOUNDARY}--\r\n"
+).encode()
 
-body = make_multipart([("manifest", json.dumps(manifest))])
-resp = cf_request("POST",
+resp = cf("POST",
     f"/accounts/{ACCOUNT}/pages/projects/{PROJECT}/deployments",
     body=body,
-    content_type=f"multipart/form-data; boundary={BOUNDARY}")
-
-print("Create deployment:", resp.get("success"), resp.get("errors"))
+    ctype=f"multipart/form-data; boundary={BOUNDARY}")
+print("Create:", resp.get("success"), resp.get("errors", resp.get("raw","")))
 if not resp.get("success"):
-    print(json.dumps(resp, indent=2)); sys.exit(1)
-
+    sys.exit(1)
 dep_id = resp["result"]["id"]
-print(f"Deployment ID: {dep_id}")
+print(f"Deployment: {dep_id}")
 
-# 3. Upload each file
-print("Uploading files...")
+# 3. Upload files — use PUT with base64 encoded payload via form
+print("Uploading...")
 for rel, info in files.items():
-    FBOUNDARY = "----CFFileBoundary" + info["hash"][:8]
+    B = f"CFFile{info['hash'][:6]}"
     fbody = (
-        f"--{FBOUNDARY}\r\n"
-        f"Content-Disposition: form-data; name=\"{info['hash']}\"; filename=\"{info['hash']}\"\r\n"
-        f"Content-Type: {info['mime']}\r\n\r\n"
-    ).encode() + info["content"] + f"\r\n--{FBOUNDARY}--\r\n".encode()
+        f"--{B}\r\n"
+        f'Content-Disposition: form-data; name="{info["hash"]}"; filename="{info["hash"]}"\r\n'
+        f'Content-Type: {info["mime"]}\r\n\r\n'
+    ).encode() + info["content"] + f"\r\n--{B}--\r\n".encode()
 
-    r = cf_request("POST",
+    r = cf("PUT",
         f"/accounts/{ACCOUNT}/pages/projects/{PROJECT}/deployments/{dep_id}/files",
         body=fbody,
-        content_type=f"multipart/form-data; boundary={FBOUNDARY}")
-    print(f"  {'✓' if r.get('success') else '✗'} {rel}")
+        ctype=f"multipart/form-data; boundary={B}")
+    ok = r.get("success", False)
+    print(f"  {'✓' if ok else '✗'} {rel}" + ("" if ok else f"  {r.get('errors', r.get('raw',''))}"))
 
 # 4. Finalize
-print("Finalizing deployment...")
-fin = cf_request("POST",
+print("Finalizing...")
+fin = cf("POST",
     f"/accounts/{ACCOUNT}/pages/projects/{PROJECT}/deployments/{dep_id}/finalize",
-    body=b"{}",
-    content_type="application/json")
-print("Finalize:", fin.get("success"), fin.get("errors"))
-
-dep_url = fin.get("result", {}).get("url", "")
-print(f"\n🚀 Preview: {dep_url}")
+    body=b"", ctype="application/json")
+print("Finalize:", fin.get("success"), fin.get("errors",""))
+dep_url = (fin.get("result") or {}).get("url", "")
+print(f"\n🚀 Preview:    {dep_url}")
 print(f"🌐 Production: https://qinche-tts.pages.dev")

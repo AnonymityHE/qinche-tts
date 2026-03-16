@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Activity, Database, Cpu, BarChart2, Clock, Music } from 'lucide-react'
 import {
-  BarChart, Bar, LineChart, Line,
+  BarChart, Bar, LineChart, Line, Cell,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
 } from 'recharts'
 import { modelResults, v5EpochData, v4v5EpochData, pipelineSteps, dataSources } from '../data'
@@ -165,7 +165,7 @@ const Page2Models = () => (
               />
               <Bar dataKey="rtf" radius={[4, 4, 0, 0]}>
                 {modelResults.map((m) => (
-                  <rect key={m.name} fill={m.color} />
+                  <Cell key={m.name} fill={m.color} />
                 ))}
               </Bar>
               <defs>
@@ -343,10 +343,10 @@ const Page4Audio = () => {
 // ─── PAGE 5: Acceleration ─────────────────────────────────────────────
 const Page5Accel = () => {
   const accelData = [
-    { method: 'Baseline\n(Native)', rtf: 1.12, speedup: 1.0, color: '#6b7280' },
+    { method: 'Baseline', rtf: 1.12, speedup: 1.0, color: '#94a3b8' },
     { method: 'CUDA Graph', rtf: 0.357, speedup: 3.14, color: '#3b82f6' },
-    { method: 'torch.compile', rtf: 0.41, speedup: 2.73, color: '#8b5cf6' },
-    { method: 'INT8 Quant', rtf: 0.38, speedup: 2.95, color: '#10b981' },
+    { method: 'torch.compile', rtf: 0.41, speedup: 2.73, color: '#60a5fa' },
+    { method: 'INT8 Quant', rtf: 0.38, speedup: 2.95, color: '#f59e0b' },
   ]
 
   return (
@@ -374,7 +374,7 @@ const Page5Accel = () => {
                 <Tooltip contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, color: '#f9fafb' }} formatter={(v: any) => v?.toFixed(3)} />
                 <Bar dataKey="rtf" radius={[4, 4, 0, 0]}>
                   {accelData.map((entry, i) => (
-                    <rect key={i} fill={entry.color} />
+                    <Cell key={i} fill={entry.color} />
                   ))}
                 </Bar>
               </BarChart>
@@ -394,7 +394,7 @@ const Page5Accel = () => {
                 <Tooltip contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, color: '#f9fafb' }} formatter={(v: any) => `${v?.toFixed(2)}×`} />
                 <Bar dataKey="speedup" radius={[4, 4, 0, 0]}>
                   {accelData.map((entry, i) => (
-                    <rect key={i} fill={entry.color} />
+                    <Cell key={i} fill={entry.color} />
                   ))}
                 </Bar>
               </BarChart>
