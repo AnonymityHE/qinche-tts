@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, Activity, Database, Cpu, BarChart2, Clock, Music } from 'lucide-react'
 import {
-  BarChart, Bar, LineChart, Line, Cell,
+  BarChart, Bar, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend,
 } from 'recharts'
 import { modelResults, v5EpochData, v4v5EpochData, pipelineSteps, dataSources } from '../data'
@@ -163,11 +163,13 @@ const Page2Models = () => (
                 formatter={(v: any) => v?.toFixed(3)}
                 labelFormatter={(_l, payload) => payload?.[0]?.payload?.label || ''}
               />
-              <Bar dataKey="rtf" radius={[4, 4, 0, 0]}>
-                {modelResults.map((m) => (
-                  <Cell key={m.name} fill={m.color} />
-                ))}
-              </Bar>
+              <Bar dataKey="rtf" radius={[4, 4, 0, 0]}
+                shape={(props: any) => {
+                  const { x, y, width, height, index } = props
+                  const entry = modelResults[index]
+                  return <rect x={x} y={y} width={width} height={height} rx={4} fill={entry?.color ?? '#6b7280'} />
+                }}
+              />
               <defs>
                 <linearGradient id="rtfGrad" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="0%" stopColor="#10b981" stopOpacity={0.9} />
@@ -368,15 +370,25 @@ const Page5Accel = () => {
             </h3>
             <ResponsiveContainer width="100%" height={220}>
               <BarChart data={accelData} barSize={35}>
+                <defs>
+                  {accelData.map((entry) => (
+                    <linearGradient key={entry.method} id={`rtfGrad-${entry.method.replace(/\s/g,'')}`} x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stopColor={entry.color} stopOpacity={0.95}/>
+                      <stop offset="100%" stopColor={entry.color} stopOpacity={0.6}/>
+                    </linearGradient>
+                  ))}
+                </defs>
                 <CartesianGrid strokeDasharray="3 3" stroke="#ffffff15" />
                 <XAxis dataKey="method" stroke="#6b7280" tick={{ fill: '#9ca3af', fontSize: 10 }} />
                 <YAxis stroke="#6b7280" tick={{ fill: '#9ca3af', fontSize: 10 }} label={{ value: 'RTF', angle: -90, position: 'insideLeft', fill: '#9ca3af', fontSize: 10 }} />
                 <Tooltip contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, color: '#f9fafb' }} formatter={(v: any) => v?.toFixed(3)} />
-                <Bar dataKey="rtf" radius={[4, 4, 0, 0]}>
-                  {accelData.map((entry, i) => (
-                    <Cell key={i} fill={entry.color} />
-                  ))}
-                </Bar>
+                <Bar dataKey="rtf" radius={[4, 4, 0, 0]}
+                  shape={(props: any) => {
+                    const { x, y, width, height, index } = props
+                    const entry = accelData[index]
+                    return <rect x={x} y={y} width={width} height={height} rx={4} fill={entry?.color ?? '#94a3b8'} />
+                  }}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -392,11 +404,13 @@ const Page5Accel = () => {
                 <XAxis dataKey="method" stroke="#6b7280" tick={{ fill: '#9ca3af', fontSize: 10 }} />
                 <YAxis stroke="#6b7280" tick={{ fill: '#9ca3af', fontSize: 10 }} label={{ value: 'Speedup ×', angle: -90, position: 'insideLeft', fill: '#9ca3af', fontSize: 10 }} />
                 <Tooltip contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, color: '#f9fafb' }} formatter={(v: any) => `${v?.toFixed(2)}×`} />
-                <Bar dataKey="speedup" radius={[4, 4, 0, 0]}>
-                  {accelData.map((entry, i) => (
-                    <Cell key={i} fill={entry.color} />
-                  ))}
-                </Bar>
+                <Bar dataKey="speedup" radius={[4, 4, 0, 0]}
+                  shape={(props: any) => {
+                    const { x, y, width, height, index } = props
+                    const entry = accelData[index]
+                    return <rect x={x} y={y} width={width} height={height} rx={4} fill={entry?.color ?? '#94a3b8'} />
+                  }}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
