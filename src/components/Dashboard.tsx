@@ -347,8 +347,7 @@ const Page5Accel = () => {
   const accelData = [
     { method: 'Baseline', rtf: 1.12, speedup: 1.0, color: '#94a3b8' },
     { method: 'CUDA Graph', rtf: 0.357, speedup: 3.14, color: '#3b82f6' },
-    { method: 'torch.compile', rtf: 0.41, speedup: 2.73, color: '#60a5fa' },
-    { method: 'INT8 Quant', rtf: 0.38, speedup: 2.95, color: '#f59e0b' },
+    { method: 'torch.compile', rtf: 0.41, speedup: 2.73, color: '#f59e0b' },
   ]
 
   return (
@@ -417,11 +416,10 @@ const Page5Accel = () => {
         </div>
 
         {/* Techniques */}
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-4">
           {[
             { title: 'CUDA Graph', desc: 'Captures & replays GPU ops, eliminating kernel launch overhead. Best overall: RTF 0.357 (3.14×)', color: '#3b82f6' },
-            { title: 'torch.compile', desc: 'JIT-compiles autoregressive decoding loops with TorchInductor backend. 2.73× speedup', color: '#8b5cf6' },
-            { title: 'INT8 Quantization', desc: 'Quantizes codec decoder weights to INT8, reducing memory & compute. 2.95× speedup', color: '#10b981' },
+            { title: 'torch.compile', desc: 'JIT-compiles autoregressive decoding loops with TorchInductor backend. 2.73× speedup', color: '#f59e0b' },
           ].map(item => (
             <div key={item.title} className="rounded-xl p-4 border" style={{ background: item.color + '15', borderColor: item.color + '40' }}>
               <div className="font-bold text-sm mb-1" style={{ color: item.color }}>{item.title}</div>
