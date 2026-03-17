@@ -284,15 +284,16 @@ const CTASection = ({ onDemo }: { onDemo: () => void }) => (
       className="text-center max-w-3xl"
     >
       <h2 className="text-6xl font-bold mb-8">Hear the Difference</h2>
-      <p className="text-xl text-gray-300 mb-10 leading-relaxed">
+      <p className="text-xl text-gray-300 mb-3 leading-relaxed">
         Compare cloned Qinche voice across training epochs, models, and acceleration methods.
       </p>
-      <div className="grid grid-cols-3 gap-5 mb-12">
-        {[
-          { val: '0.357×', label: 'Best RTF', color: 'text-blue-400' },
-          { val: '0.6892', label: 'Best SIM_gt', color: 'text-purple-400' },
-          { val: '4.25%', label: 'Lowest WER', color: 'text-green-400' },
-        ].map(s => (
+      <p className="text-sm text-gray-500 mb-10">Metrics below are from the best model: Qwen3-TTS v5 Epoch 3 (CUDA Graph)</p>
+        <div className="grid grid-cols-3 gap-5 mb-12">
+          {[
+            { val: '0.357×', label: 'Best RTF', color: 'text-blue-400' },
+            { val: '0.6892', label: 'Best SIM_gt', color: 'text-purple-400' },
+            { val: '4.25%', label: 'WER', color: 'text-green-400' },
+          ].map(s => (
           <div key={s.label} className="bg-white/5 border border-white/10 rounded-xl p-5">
             <div className={`text-3xl font-bold mb-1 ${s.color}`}>{s.val}</div>
             <div className="text-gray-400 text-sm">{s.label}</div>
