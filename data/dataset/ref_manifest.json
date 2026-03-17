@@ -1,0 +1,27 @@
+[
+  {
+    "audio_filepath": "/home/ubuntu/yunlin/TTS/data/ref_audio/ref_00.wav",
+    "text": "这会儿只好辛苦他们在猎人协会的终端里多播放几次失误招领了",
+    "duration": 6.94
+  },
+  {
+    "audio_filepath": "/home/ubuntu/yunlin/TTS/data/ref_audio/ref_01.wav",
+    "text": "哦,在这里取景的电影的确有重要的一幕,送出了一个环形的东西。",
+    "duration": 6.46
+  },
+  {
+    "audio_filepath": "/home/ubuntu/yunlin/TTS/data/ref_audio/ref_02.wav",
+    "text": "守则第二条,少说话,如果不强势一点,是镇不住其他人的。",
+    "duration": 6.268
+  },
+  {
+    "audio_filepath": "/home/ubuntu/yunlin/TTS/data/ref_audio/ref_03.wav",
+    "text": "笑你从今早开始就打扮得很别致头发里夹树叶是这个月的时尚流行",
+    "duration": 6.14
+  },
+  {
+    "audio_filepath": "/home/ubuntu/yunlin/TTS/data/ref_audio/ref_04.wav",
+    "text": "和城堡里那些玩偶摆拍没什么意思,我们去找条更刺激的路线。",
+    "duration": 6.044
+  }
+]

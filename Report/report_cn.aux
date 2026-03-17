@@ -1,0 +1,92 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}引言}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}模型架构}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Qwen3-TTS（主模型）}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Fish Audio S2 Pro（对比模型）}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Qwen3-TTS 与 Fish Audio S2 Pro 架构对比示意图。\relax }}{4}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:arch}{{1}{4}{Qwen3-TTS 与 Fish Audio S2 Pro 架构对比示意图。\relax }{figure.caption.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 模型规格对比\relax }}{4}{table.caption.2}\protected@file@percent }
+\newlabel{tab:models}{{1}{4}{模型规格对比\relax }{table.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}数据采集与预处理}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}数据来源}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}预处理流水线}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces 端到端数据预处理流水线，各阶段之间设有质量门控。\relax }}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:pipeline}{{2}{5}{端到端数据预处理流水线，各阶段之间设有质量门控。\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}数据集统计}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces 最终数据集统计\relax }}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:dataset}{{2}{5}{最终数据集统计\relax }{table.caption.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}训练方法}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}训练流水线}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces 训练集音频片段时长分布直方图。\relax }}{6}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:duration}{{3}{6}{训练集音频片段时长分布直方图。\relax }{figure.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}超参数配置}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 最佳配置（v5）训练超参数\relax }}{6}{table.caption.6}\protected@file@percent }
+\newlabel{tab:hparams}{{3}{6}{最佳配置（v5）训练超参数\relax }{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}实验迭代历程}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}关键 Bug：bf16 说话人嵌入精度}{6}{subsection.4.4}\protected@file@percent }
+\newlabel{sec:bf16bug}{{4.4}{6}{关键 Bug：bf16 说话人嵌入精度}{subsection.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces 训练迭代演进时间线。\relax }}{7}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:iterations}{{4}{7}{训练迭代演进时间线。\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces 各版本最佳 SIM\_gt 对比。\relax }}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:sim_versions}{{5}{7}{各版本最佳 SIM\_gt 对比。\relax }{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces bf16 精度 bug 修复前后的 SIM\_gt 对比。\relax }}{7}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:bf16}{{6}{7}{bf16 精度 bug 修复前后的 SIM\_gt 对比。\relax }{figure.caption.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}评估}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}评估指标}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces 评估指标定义\relax }}{8}{table.caption.10}\protected@file@percent }
+\newlabel{tab:metrics}{{4}{8}{评估指标定义\relax }{table.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}综合结果}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces 所有模型与配置完整对比\relax }}{8}{table.caption.11}\protected@file@percent }
+\newlabel{tab:results}{{5}{8}{所有模型与配置完整对比\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}逐样本分析}{8}{subsection.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}核心发现}{8}{subsection.5.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces 关键配置四项指标雷达图对比（指标归一化后面积越大代表综合性能越优）。\relax }}{9}{figure.caption.12}\protected@file@percent }
+\newlabel{fig:radar}{{7}{9}{关键配置四项指标雷达图对比（指标归一化后面积越大代表综合性能越优）。\relax }{figure.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces 18个测试样本逐样本 SIM\_gt 对比。\relax }}{9}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:persample}{{8}{9}{18个测试样本逐样本 SIM\_gt 对比。\relax }{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces 逐样本词错误率对比。\relax }}{9}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:persamplewer}{{9}{9}{逐样本词错误率对比。\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}推理加速}{10}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}有效加速方案}{10}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 推理加速基准测试结果\relax }}{10}{table.caption.15}\protected@file@percent }
+\newlabel{tab:accel}{{6}{10}{推理加速基准测试结果\relax }{table.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces 各模型与加速方法 RTF 对比（虚线为实时阈值 RTF = 1.0）。\relax }}{10}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:rtf}{{10}{10}{各模型与加速方法 RTF 对比（虚线为实时阈值 RTF = 1.0）。\relax }{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}被排除方案}{11}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces 尝试但被排除的加速方案\relax }}{11}{table.caption.17}\protected@file@percent }
+\newlabel{tab:rejected}{{7}{11}{尝试但被排除的加速方案\relax }{table.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces 所有加速策略总结（绿色为成功方案，红色为排除方案）。\relax }}{11}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:accel_summary}{{11}{11}{所有加速策略总结（绿色为成功方案，红色为排除方案）。\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}逐轮次分析}{11}{section.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces v5 各轮次 SIM\_gt 与 WER（FasterQwen3TTS 推理）。第3轮为综合最优。\relax }}{11}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:epoch_v5}{{12}{11}{v5 各轮次 SIM\_gt 与 WER（FasterQwen3TTS 推理）。第3轮为综合最优。\relax }{figure.caption.19}{}}
+\newlabel{fig:epoch_v4v5}{{13a}{12}{v4 与 v5 各轮次 SIM\_gt 对比（CUDA Graph）。\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:epoch_v4v5}{{a}{12}{v4 与 v5 各轮次 SIM\_gt 对比（CUDA Graph）。\relax }{figure.caption.20}{}}
+\newlabel{fig:native_vs_fast}{{13b}{12}{v4 原生 vs. CUDA Graph 推理 SIM\_gt。\relax }{figure.caption.20}{}}
+\newlabel{sub@fig:native_vs_fast}{{b}{12}{v4 原生 vs. CUDA Graph 推理 SIM\_gt。\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces 左：数据增广（v4 vs. v5）的逐轮次效果；右：CUDA Graph 推理质量无损验证（差异$<$0.02）。\relax }}{12}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:epoch_combined}{{13}{12}{左：数据增广（v4 vs. v5）的逐轮次效果；右：CUDA Graph 推理质量无损验证（差异$<$0.02）。\relax }{figure.caption.20}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}结论与展望}{12}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}总结}{12}{subsection.8.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}部署建议}{12}{subsection.8.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}未来工作}{12}{subsection.8.3}\protected@file@percent }
+\gdef \@abspage@last{12}

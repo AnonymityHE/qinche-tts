@@ -1,0 +1,36 @@
+# Model weights (too large for git)
+models/
+
+# Intermediate pipeline outputs (can be regenerated)
+data/demucs_output/
+data/raw/
+
+# Generated audio outputs
+eval/*/gen_*.wav
+output/
+logs/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Third-party repos
+Qwen3-TTS/
+Qwen3-TTS-EasyFinetuning/
+CosyVoice/
+fish-speech/
+faster-qwen3-tts/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Misc
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+.env
+*.log
