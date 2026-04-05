@@ -340,6 +340,41 @@ reference_audio.wav → VQ token 提取（codec.pth）
 - RTF 稳定在 0.35-0.36，与 v4 一致
 - **v6 数据扩充尝试失败**：额外 74 条 `qinche_nobgm_01` 数据质量不达标，效果反而下降，已清理
 
+### 5.6 v5-retrain — 环境迁移后重训练
+
+原训练机（`/home/ubuntu/yunlin/TTS/`）被回收，在新环境下使用官方最新 Qwen3-TTS finetuning 代码重新训练。
+
+| 参数 | 值 | 与原 v5 的区别 |
+|------|-----|--------------|
+| 输出路径 | `output/qinche_sft_v5/` | 同 |
+| 学习率 | **2e-6** | 同 |
+| Effective Batch Size | **8** (2×4) | 原 v5 为 32 (2×16) |
+| Epochs | 10 | 同 |
+| Attention | **SDPA** (PyTorch native) | 原 v5 为 Flash Attention 2 |
+| Scheduler | Accelerate 默认 | 原 v5 为 Linear warmup (10%) + Cosine decay |
+| 数据 | 664 条，~28 min | 同 |
+| Qwen3-TTS 代码 | GitHub 最新版 `QwenLM/Qwen3-TTS` | 原 v5 为早期内部版本 |
+
+**训练 Loss 曲线对比：**
+| 训练节点 | 原 v5 Loss | v5-retrain Loss |
+|----------|-----------|-----------------|
+| Epoch 0 起始 | ~16.7 | 14.4 |
+| Epoch 0 末尾 | ~13.7 | 7.9 |
+| Epoch 2 末尾 | ~8.5 | 4.5 |
+| Epoch 9 末尾 | ~7.0-8.4 | 7.5 |
+
+**差异分析：**
+- `gradient_accumulation_steps` 从 16 降为 4（新版 `sft_12hz.py` 硬编码），effective batch size 从 32 降为 8
+- 更小的 batch size 导致前期收敛更快（loss 下降更快），但后期可能不如大 batch 稳定
+- SDPA 与 Flash Attention 2 在数值结果上等价，不影响模型质量
+- 新版 `sft_12hz.py` 的 scheduler/optimizer 配置可能与旧版略有不同
+
+**结论：**
+- 训练正常完成，Loss 收敛趋势正确
+- 由于 effective batch size 差异（8 vs 32），本次训练**不是原 v5 的精确复现**
+- 最终模型质量需要通过评估（SIM_gt/WER）确认
+- checkpoint 已上传至 HuggingFace Hub（见下方链接）
+
 ---
 
 ## 6. 评估结果汇总
