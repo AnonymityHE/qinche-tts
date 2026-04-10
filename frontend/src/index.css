@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateZ(0) scale(1); opacity: 0.2; }
+  50% { transform: translateZ(0) scale(1.05); opacity: 0.3; }
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animated-gradient-text {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  max-width: fit-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  overflow: hidden;
+  will-change: contents;
+  backface-visibility: hidden;
+}
+
+.text-content {
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  background-size: 300% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: gradient linear infinite;
+  will-change: background-position;
+  transform: translateZ(0);
+}
+
+.waveform {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 32px;
+}
+
+.waveform-bar {
+  width: 3px;
+  border-radius: 2px;
+  background: linear-gradient(to top, #a855f7, #3b82f6);
+  animation: wave 1.2s ease-in-out infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+
+audio::-webkit-media-controls-panel {
+  background: rgba(255,255,255,0.05);
+}

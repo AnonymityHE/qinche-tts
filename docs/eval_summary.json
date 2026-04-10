@@ -1,0 +1,3406 @@
+{
+  "ft_checkpoint-epoch-2": {
+    "source_file": "eval_from_project/ft_checkpoint-epoch-2/eval_results.json",
+    "checkpoint": "checkpoint-epoch-2",
+    "avg_sim_gt": 0.0424,
+    "avg_sim_ref": 0.028,
+    "avg_wer": 3.1055,
+    "avg_rtf": 2.389,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.0905,
+    "avg_sim_ref": 0.0773,
+    "avg_wer": 2.9289,
+    "avg_rtf": 2.392,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_checkpoint-epoch-4": {
+    "source_file": "eval_from_project/ft_checkpoint-epoch-4/eval_results.json",
+    "checkpoint": "checkpoint-epoch-4",
+    "avg_sim_gt": 0.1027,
+    "avg_sim_ref": 0.1025,
+    "avg_wer": 4.4012,
+    "avg_rtf": 2.733,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_checkpoint-epoch-4": {
+    "source_file": "eval_from_project/ft_v2_checkpoint-epoch-4/eval_results.json",
+    "checkpoint": "checkpoint-epoch-4",
+    "avg_sim_gt": 0.2834,
+    "avg_sim_ref": 0.2583,
+    "avg_wer": 0.0265,
+    "avg_rtf": 2.623,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_checkpoint-epoch-6": {
+    "source_file": "eval_from_project/ft_v2_checkpoint-epoch-6/eval_results.json",
+    "checkpoint": "checkpoint-epoch-6",
+    "avg_sim_gt": 0.2921,
+    "avg_sim_ref": 0.2636,
+    "avg_wer": 0.0208,
+    "avg_rtf": 2.595,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v2_checkpoint-epoch-9/eval_results.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "avg_sim_gt": 0.2062,
+    "avg_sim_ref": 0.2102,
+    "avg_wer": 0.0232,
+    "avg_rtf": 2.601,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_fixed_checkpoint-epoch-4": {
+    "source_file": "eval_from_project/ft_v2_fixed_checkpoint-epoch-4/eval_results.json",
+    "checkpoint": "checkpoint-epoch-4",
+    "avg_sim_gt": 0.6784,
+    "avg_sim_ref": 0.7498,
+    "avg_wer": 0.0874,
+    "avg_rtf": 2.555,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_fixed_checkpoint-epoch-6": {
+    "source_file": "eval_from_project/ft_v2_fixed_checkpoint-epoch-6/eval_results.json",
+    "checkpoint": "checkpoint-epoch-6",
+    "avg_sim_gt": 0.6964,
+    "avg_sim_ref": 0.7653,
+    "avg_wer": 0.0365,
+    "avg_rtf": 2.579,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_fixed_checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v2_fixed_checkpoint-epoch-9/eval_results.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "avg_sim_gt": 0.6876,
+    "avg_sim_ref": 0.7613,
+    "avg_wer": 0.0282,
+    "avg_rtf": 2.555,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v3_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.2822,
+    "avg_sim_ref": 0.2591,
+    "avg_wer": 0.0311,
+    "avg_rtf": 2.298,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v3_checkpoint-epoch-5/eval_results.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "avg_sim_gt": 0.182,
+    "avg_sim_ref": 0.1597,
+    "avg_wer": 0.0336,
+    "avg_rtf": 2.321,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v3_checkpoint-epoch-7/eval_results.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "avg_sim_gt": 0.1956,
+    "avg_sim_ref": 0.2037,
+    "avg_wer": 0.0253,
+    "avg_rtf": 2.321,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_fixed_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v3_fixed_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.6773,
+    "avg_sim_ref": 0.7487,
+    "avg_wer": 0.0348,
+    "avg_rtf": 2.462,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_fixed_checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v3_fixed_checkpoint-epoch-5/eval_results.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "avg_sim_gt": 0.6584,
+    "avg_sim_ref": 0.7288,
+    "avg_wer": 0.038,
+    "avg_rtf": 2.429,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v3_fixed_checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v3_fixed_checkpoint-epoch-7/eval_results.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "avg_sim_gt": 0.6688,
+    "avg_sim_ref": 0.7275,
+    "avg_wer": 0.0285,
+    "avg_rtf": 2.414,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_fast_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v4_fast_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.6715,
+    "avg_sim_ref": 0.6995,
+    "avg_wer": 0.0667,
+    "avg_rtf": 0.352,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_fast_checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v4_fast_checkpoint-epoch-5/eval_results.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "avg_sim_gt": 0.6684,
+    "avg_sim_ref": 0.7037,
+    "avg_wer": 0.0323,
+    "avg_rtf": 0.351,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_fast_checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v4_fast_checkpoint-epoch-7/eval_results.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "avg_sim_gt": 0.6783,
+    "avg_sim_ref": 0.7034,
+    "avg_wer": 0.053,
+    "avg_rtf": 0.351,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_fast_checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v4_fast_checkpoint-epoch-9/eval_results.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "avg_sim_gt": 0.6703,
+    "avg_sim_ref": 0.7078,
+    "avg_wer": 0.0439,
+    "avg_rtf": 0.351,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_native_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v4_native_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.6816,
+    "avg_sim_ref": 0.734,
+    "avg_wer": 0.0333,
+    "avg_rtf": 2.275,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_native_checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v4_native_checkpoint-epoch-5/eval_results.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "avg_sim_gt": 0.6854,
+    "avg_sim_ref": 0.7235,
+    "avg_wer": 0.0419,
+    "avg_rtf": 2.26,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_native_checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v4_native_checkpoint-epoch-7/eval_results.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "avg_sim_gt": 0.6892,
+    "avg_sim_ref": 0.74,
+    "avg_wer": 0.0685,
+    "avg_rtf": 2.28,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v4_native_checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v4_native_checkpoint-epoch-9/eval_results.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "avg_sim_gt": 0.6954,
+    "avg_sim_ref": 0.7269,
+    "avg_wer": 0.0847,
+    "avg_rtf": 2.267,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v5_fast_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v5_fast_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.6892,
+    "avg_sim_ref": 0.7161,
+    "avg_wer": 0.0425,
+    "avg_rtf": 0.357,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v5_fast_checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v5_fast_checkpoint-epoch-5/eval_results.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "avg_sim_gt": 0.6791,
+    "avg_sim_ref": 0.6998,
+    "avg_wer": 0.0279,
+    "avg_rtf": 0.356,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v5_fast_checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v5_fast_checkpoint-epoch-7/eval_results.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "avg_sim_gt": 0.6868,
+    "avg_sim_ref": 0.7141,
+    "avg_wer": 0.085,
+    "avg_rtf": 0.355,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v5_fast_checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v5_fast_checkpoint-epoch-9/eval_results.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "avg_sim_gt": 0.6795,
+    "avg_sim_ref": 0.718,
+    "avg_wer": 0.0269,
+    "avg_rtf": 0.354,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v5_native_checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v5_native_checkpoint-epoch-3/eval_results.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "avg_sim_gt": 0.6885,
+    "avg_sim_ref": 0.7281,
+    "avg_wer": 0.0451,
+    "avg_rtf": 2.542,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "qwen_0.6b": {
+    "source_file": "eval_from_project/qwen_0.6b/eval_results.json",
+    "model": "Qwen3-TTS-12Hz-0.6B-Base",
+    "avg_wer": 0.0942,
+    "avg_rtf": 2.345,
+    "num_per_sample": 5
+  },
+  "qwen_1.7b": {
+    "source_file": "eval_from_project/qwen_1.7b/eval_results.json",
+    "model": "Qwen3-TTS-12Hz-1.7B-Base",
+    "avg_wer": 0.1067,
+    "avg_rtf": 2.287,
+    "num_per_sample": 5
+  },
+  "qwen_1.7b_zs": {
+    "source_file": "eval_from_project/qwen_1.7b_zs/eval_results.json",
+    "model": "Qwen3-TTS-12Hz-1.7B-Base",
+    "avg_sim_gt": 0.7104,
+    "avg_sim_ref": 0.7563,
+    "avg_wer": 0.1203,
+    "avg_rtf": 2.401,
+    "num_samples": 18,
+    "num_per_sample": 18
+  },
+  "ft_v2_fixed_comparison/checkpoint-epoch-4": {
+    "source_file": "eval_from_project/ft_v2_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-4",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6784,
+    "avg_sim_ref": 0.7498,
+    "avg_wer": 0.0874,
+    "avg_rtf": 2.555,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6784,
+        "sim_ref": 0.7608,
+        "wer": 0.0,
+        "rtf": 2.466
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7174,
+        "sim_ref": 0.7451,
+        "wer": 0.8696,
+        "rtf": 2.322
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6788,
+        "sim_ref": 0.7049,
+        "wer": 0.0,
+        "rtf": 2.313
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.7104,
+        "sim_ref": 0.7816,
+        "wer": 0.037,
+        "rtf": 2.57
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.733,
+        "sim_ref": 0.7886,
+        "wer": 0.0,
+        "rtf": 2.622
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7577,
+        "sim_ref": 0.7828,
+        "wer": 0.0,
+        "rtf": 2.621
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7436,
+        "sim_ref": 0.7814,
+        "wer": 0.0769,
+        "rtf": 2.517
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7286,
+        "sim_ref": 0.7416,
+        "wer": 0.0333,
+        "rtf": 2.6
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6885,
+        "sim_ref": 0.8029,
+        "wer": 0.0,
+        "rtf": 2.581
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6488,
+        "sim_ref": 0.7574,
+        "wer": 0.0588,
+        "rtf": 2.538
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7108,
+        "sim_ref": 0.7801,
+        "wer": 0.0476,
+        "rtf": 2.784
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6656,
+        "sim_ref": 0.7572,
+        "wer": 0.0,
+        "rtf": 2.613
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6035,
+        "sim_ref": 0.7412,
+        "wer": 0.0,
+        "rtf": 2.603
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5742,
+        "sim_ref": 0.7658,
+        "wer": 0.0,
+        "rtf": 2.571
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.646,
+        "sim_ref": 0.694,
+        "wer": 0.2,
+        "rtf": 2.613
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6919,
+        "sim_ref": 0.7181,
+        "wer": 0.0,
+        "rtf": 2.422
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6511,
+        "sim_ref": 0.6907,
+        "wer": 0.0833,
+        "rtf": 2.601
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.5834,
+        "sim_ref": 0.7029,
+        "wer": 0.1667,
+        "rtf": 2.638
+      }
+    ]
+  },
+  "ft_v2_fixed_comparison/checkpoint-epoch-6": {
+    "source_file": "eval_from_project/ft_v2_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-6",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6964,
+    "avg_sim_ref": 0.7653,
+    "avg_wer": 0.0365,
+    "avg_rtf": 2.579,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6794,
+        "sim_ref": 0.7685,
+        "wer": 0.0,
+        "rtf": 2.575
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7244,
+        "sim_ref": 0.79,
+        "wer": 0.0217,
+        "rtf": 2.544
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.717,
+        "sim_ref": 0.779,
+        "wer": 0.0,
+        "rtf": 2.578
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6856,
+        "sim_ref": 0.7592,
+        "wer": 0.0,
+        "rtf": 2.716
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7166,
+        "sim_ref": 0.805,
+        "wer": 0.0,
+        "rtf": 2.665
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7479,
+        "sim_ref": 0.7213,
+        "wer": 0.0,
+        "rtf": 2.737
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.8061,
+        "sim_ref": 0.8082,
+        "wer": 0.0385,
+        "rtf": 2.444
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7903,
+        "sim_ref": 0.7669,
+        "wer": 0.0333,
+        "rtf": 2.316
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6618,
+        "sim_ref": 0.7878,
+        "wer": 0.0,
+        "rtf": 2.545
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6057,
+        "sim_ref": 0.7239,
+        "wer": 0.0,
+        "rtf": 2.532
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7028,
+        "sim_ref": 0.7347,
+        "wer": 0.0476,
+        "rtf": 2.52
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.7114,
+        "sim_ref": 0.7777,
+        "wer": 0.0,
+        "rtf": 2.578
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6577,
+        "sim_ref": 0.7786,
+        "wer": 0.05,
+        "rtf": 2.644
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5996,
+        "sim_ref": 0.7998,
+        "wer": 0.0833,
+        "rtf": 2.577
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.7156,
+        "sim_ref": 0.7977,
+        "wer": 0.16,
+        "rtf": 2.539
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6849,
+        "sim_ref": 0.7138,
+        "wer": 0.0,
+        "rtf": 2.64
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6627,
+        "sim_ref": 0.7489,
+        "wer": 0.0,
+        "rtf": 2.606
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6651,
+        "sim_ref": 0.7153,
+        "wer": 0.2222,
+        "rtf": 2.671
+      }
+    ]
+  },
+  "ft_v2_fixed_comparison/checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v2_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6876,
+    "avg_sim_ref": 0.7613,
+    "avg_wer": 0.0282,
+    "avg_rtf": 2.555,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7055,
+        "sim_ref": 0.7485,
+        "wer": 0.0,
+        "rtf": 2.551
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7333,
+        "sim_ref": 0.7941,
+        "wer": 0.0435,
+        "rtf": 2.429
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7257,
+        "sim_ref": 0.8001,
+        "wer": 0.0,
+        "rtf": 2.594
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6184,
+        "sim_ref": 0.7434,
+        "wer": 0.0,
+        "rtf": 2.581
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6953,
+        "sim_ref": 0.7819,
+        "wer": 0.0,
+        "rtf": 2.544
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7408,
+        "sim_ref": 0.7705,
+        "wer": 0.0,
+        "rtf": 2.545
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7433,
+        "sim_ref": 0.7366,
+        "wer": 0.0385,
+        "rtf": 2.564
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7817,
+        "sim_ref": 0.7908,
+        "wer": 0.0333,
+        "rtf": 2.593
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6487,
+        "sim_ref": 0.7672,
+        "wer": 0.0,
+        "rtf": 2.625
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.654,
+        "sim_ref": 0.7435,
+        "wer": 0.0,
+        "rtf": 2.634
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7518,
+        "sim_ref": 0.781,
+        "wer": 0.0476,
+        "rtf": 2.558
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.7277,
+        "sim_ref": 0.7805,
+        "wer": 0.0,
+        "rtf": 2.611
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.5957,
+        "sim_ref": 0.7769,
+        "wer": 0.05,
+        "rtf": 2.297
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6212,
+        "sim_ref": 0.76,
+        "wer": 0.0,
+        "rtf": 2.53
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.611,
+        "sim_ref": 0.7398,
+        "wer": 0.24,
+        "rtf": 2.571
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.7653,
+        "sim_ref": 0.7883,
+        "wer": 0.0,
+        "rtf": 2.651
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6261,
+        "sim_ref": 0.6892,
+        "wer": 0.0,
+        "rtf": 2.546
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6307,
+        "sim_ref": 0.7114,
+        "wer": 0.0556,
+        "rtf": 2.566
+      }
+    ]
+  },
+  "ft_v3_fixed_comparison/checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v3_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6773,
+    "avg_sim_ref": 0.7487,
+    "avg_wer": 0.0348,
+    "avg_rtf": 2.462,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6509,
+        "sim_ref": 0.7515,
+        "wer": 0.0,
+        "rtf": 2.616
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7971,
+        "sim_ref": 0.8306,
+        "wer": 0.0435,
+        "rtf": 2.418
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6837,
+        "sim_ref": 0.7533,
+        "wer": 0.0435,
+        "rtf": 2.43
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6465,
+        "sim_ref": 0.7368,
+        "wer": 0.0,
+        "rtf": 2.468
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6994,
+        "sim_ref": 0.7588,
+        "wer": 0.0,
+        "rtf": 2.5
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7199,
+        "sim_ref": 0.743,
+        "wer": 0.0,
+        "rtf": 2.424
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7207,
+        "sim_ref": 0.7497,
+        "wer": 0.0385,
+        "rtf": 2.291
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7562,
+        "sim_ref": 0.7791,
+        "wer": 0.0333,
+        "rtf": 2.447
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6806,
+        "sim_ref": 0.8228,
+        "wer": 0.0,
+        "rtf": 2.445
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6705,
+        "sim_ref": 0.6994,
+        "wer": 0.0588,
+        "rtf": 2.474
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6512,
+        "sim_ref": 0.7618,
+        "wer": 0.0476,
+        "rtf": 2.491
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6698,
+        "sim_ref": 0.7086,
+        "wer": 0.0,
+        "rtf": 2.447
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6263,
+        "sim_ref": 0.7317,
+        "wer": 0.05,
+        "rtf": 2.434
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5504,
+        "sim_ref": 0.7029,
+        "wer": 0.0,
+        "rtf": 2.464
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6631,
+        "sim_ref": 0.8118,
+        "wer": 0.2,
+        "rtf": 2.487
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6922,
+        "sim_ref": 0.7527,
+        "wer": 0.0,
+        "rtf": 2.415
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6932,
+        "sim_ref": 0.7069,
+        "wer": 0.0,
+        "rtf": 2.444
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6207,
+        "sim_ref": 0.6758,
+        "wer": 0.1111,
+        "rtf": 2.621
+      }
+    ]
+  },
+  "ft_v3_fixed_comparison/checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v3_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6584,
+    "avg_sim_ref": 0.7288,
+    "avg_wer": 0.038,
+    "avg_rtf": 2.429,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6031,
+        "sim_ref": 0.6984,
+        "wer": 0.0,
+        "rtf": 2.326
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7825,
+        "sim_ref": 0.77,
+        "wer": 0.0435,
+        "rtf": 2.498
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6279,
+        "sim_ref": 0.6682,
+        "wer": 0.0435,
+        "rtf": 2.474
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6521,
+        "sim_ref": 0.7109,
+        "wer": 0.0,
+        "rtf": 2.464
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6907,
+        "sim_ref": 0.793,
+        "wer": 0.0,
+        "rtf": 2.421
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.6944,
+        "sim_ref": 0.6998,
+        "wer": 0.0,
+        "rtf": 2.464
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7142,
+        "sim_ref": 0.7537,
+        "wer": 0.0385,
+        "rtf": 2.486
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7356,
+        "sim_ref": 0.7334,
+        "wer": 0.0333,
+        "rtf": 2.463
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6639,
+        "sim_ref": 0.7956,
+        "wer": 0.037,
+        "rtf": 2.436
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6363,
+        "sim_ref": 0.7216,
+        "wer": 0.0,
+        "rtf": 2.415
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6727,
+        "sim_ref": 0.7397,
+        "wer": 0.0952,
+        "rtf": 2.421
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6743,
+        "sim_ref": 0.7558,
+        "wer": 0.0,
+        "rtf": 2.474
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6485,
+        "sim_ref": 0.7563,
+        "wer": 0.05,
+        "rtf": 2.393
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5127,
+        "sim_ref": 0.7015,
+        "wer": 0.0,
+        "rtf": 2.255
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6256,
+        "sim_ref": 0.7411,
+        "wer": 0.12,
+        "rtf": 2.376
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6834,
+        "sim_ref": 0.732,
+        "wer": 0.0,
+        "rtf": 2.492
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6788,
+        "sim_ref": 0.6782,
+        "wer": 0.0,
+        "rtf": 2.4
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.5536,
+        "sim_ref": 0.6685,
+        "wer": 0.2222,
+        "rtf": 2.461
+      }
+    ]
+  },
+  "ft_v3_fixed_comparison/checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v3_fixed_comparison.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6688,
+    "avg_sim_ref": 0.7275,
+    "avg_wer": 0.0285,
+    "avg_rtf": 2.414,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6848,
+        "sim_ref": 0.7525,
+        "wer": 0.0,
+        "rtf": 2.433
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.706,
+        "sim_ref": 0.7528,
+        "wer": 0.0,
+        "rtf": 2.931
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6807,
+        "sim_ref": 0.7359,
+        "wer": 0.0,
+        "rtf": 2.434
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6988,
+        "sim_ref": 0.7684,
+        "wer": 0.0,
+        "rtf": 2.464
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6805,
+        "sim_ref": 0.7398,
+        "wer": 0.0,
+        "rtf": 2.413
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.6984,
+        "sim_ref": 0.733,
+        "wer": 0.0,
+        "rtf": 2.595
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7578,
+        "sim_ref": 0.7725,
+        "wer": 0.0385,
+        "rtf": 2.42
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7908,
+        "sim_ref": 0.786,
+        "wer": 0.0,
+        "rtf": 2.405
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.7033,
+        "sim_ref": 0.8067,
+        "wer": 0.0,
+        "rtf": 2.275
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.5663,
+        "sim_ref": 0.634,
+        "wer": 0.0588,
+        "rtf": 2.543
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6949,
+        "sim_ref": 0.701,
+        "wer": 0.0952,
+        "rtf": 2.295
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6904,
+        "sim_ref": 0.7828,
+        "wer": 0.0,
+        "rtf": 2.315
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6757,
+        "sim_ref": 0.7525,
+        "wer": 0.05,
+        "rtf": 2.363
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5151,
+        "sim_ref": 0.6885,
+        "wer": 0.0,
+        "rtf": 2.305
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.5588,
+        "sim_ref": 0.5938,
+        "wer": 0.16,
+        "rtf": 2.308
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.664,
+        "sim_ref": 0.699,
+        "wer": 0.0,
+        "rtf": 2.354
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.702,
+        "sim_ref": 0.6916,
+        "wer": 0.0,
+        "rtf": 2.305
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.5701,
+        "sim_ref": 0.704,
+        "wer": 0.1111,
+        "rtf": 2.288
+      }
+    ]
+  },
+  "ft_v4_fast_comparison/checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v4_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6715,
+    "avg_sim_ref": 0.6995,
+    "avg_wer": 0.0667,
+    "avg_rtf": 0.352,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.5966,
+        "sim_ref": 0.6552,
+        "wer": 0.0,
+        "rtf": 0.351
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.6896,
+        "sim_ref": 0.644,
+        "wer": 0.6739,
+        "rtf": 0.344
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7078,
+        "sim_ref": 0.6959,
+        "wer": 0.0,
+        "rtf": 0.352
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.7051,
+        "sim_ref": 0.7195,
+        "wer": 0.037,
+        "rtf": 0.35
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7033,
+        "sim_ref": 0.7513,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7611,
+        "sim_ref": 0.7505,
+        "wer": 0.0,
+        "rtf": 0.353
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7514,
+        "sim_ref": 0.7825,
+        "wer": 0.0385,
+        "rtf": 0.347
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7294,
+        "sim_ref": 0.7551,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6384,
+        "sim_ref": 0.6927,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6589,
+        "sim_ref": 0.7148,
+        "wer": 0.0,
+        "rtf": 0.359
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6588,
+        "sim_ref": 0.6695,
+        "wer": 0.0476,
+        "rtf": 0.347
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.5835,
+        "sim_ref": 0.6512,
+        "wer": 0.0,
+        "rtf": 0.363
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6777,
+        "sim_ref": 0.6982,
+        "wer": 0.05,
+        "rtf": 0.353
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6426,
+        "sim_ref": 0.7576,
+        "wer": 0.0833,
+        "rtf": 0.354
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6361,
+        "sim_ref": 0.7159,
+        "wer": 0.16,
+        "rtf": 0.35
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6301,
+        "sim_ref": 0.605,
+        "wer": 0.0,
+        "rtf": 0.36
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6903,
+        "sim_ref": 0.7092,
+        "wer": 0.0,
+        "rtf": 0.345
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6259,
+        "sim_ref": 0.623,
+        "wer": 0.1111,
+        "rtf": 0.366
+      }
+    ]
+  },
+  "ft_v4_fast_comparison/checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v4_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6684,
+    "avg_sim_ref": 0.7037,
+    "avg_wer": 0.0323,
+    "avg_rtf": 0.351,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6858,
+        "sim_ref": 0.6857,
+        "wer": 0.0,
+        "rtf": 0.346
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7672,
+        "sim_ref": 0.745,
+        "wer": 0.0,
+        "rtf": 0.343
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.678,
+        "sim_ref": 0.7203,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6405,
+        "sim_ref": 0.7077,
+        "wer": 0.037,
+        "rtf": 0.352
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6837,
+        "sim_ref": 0.7115,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7861,
+        "sim_ref": 0.7134,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7923,
+        "sim_ref": 0.7522,
+        "wer": 0.0769,
+        "rtf": 0.352
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7711,
+        "sim_ref": 0.7044,
+        "wer": 0.0,
+        "rtf": 0.346
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6708,
+        "sim_ref": 0.7375,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6543,
+        "sim_ref": 0.7579,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6167,
+        "sim_ref": 0.7074,
+        "wer": 0.0476,
+        "rtf": 0.356
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6135,
+        "sim_ref": 0.6882,
+        "wer": 0.0,
+        "rtf": 0.352
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6602,
+        "sim_ref": 0.7302,
+        "wer": 0.05,
+        "rtf": 0.363
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5707,
+        "sim_ref": 0.7012,
+        "wer": 0.0833,
+        "rtf": 0.35
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.5612,
+        "sim_ref": 0.705,
+        "wer": 0.12,
+        "rtf": 0.347
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6938,
+        "sim_ref": 0.6943,
+        "wer": 0.0,
+        "rtf": 0.358
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6541,
+        "sim_ref": 0.616,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.5311,
+        "sim_ref": 0.5884,
+        "wer": 0.1667,
+        "rtf": 0.355
+      }
+    ]
+  },
+  "ft_v4_fast_comparison/checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v4_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6783,
+    "avg_sim_ref": 0.7034,
+    "avg_wer": 0.053,
+    "avg_rtf": 0.351,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6983,
+        "sim_ref": 0.7474,
+        "wer": 0.0,
+        "rtf": 0.345
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7134,
+        "sim_ref": 0.6976,
+        "wer": 0.587,
+        "rtf": 0.344
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6276,
+        "sim_ref": 0.6684,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6616,
+        "sim_ref": 0.659,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7062,
+        "sim_ref": 0.6939,
+        "wer": 0.0,
+        "rtf": 0.346
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7491,
+        "sim_ref": 0.6979,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7733,
+        "sim_ref": 0.712,
+        "wer": 0.0385,
+        "rtf": 0.349
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7295,
+        "sim_ref": 0.7428,
+        "wer": 0.0,
+        "rtf": 0.347
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.678,
+        "sim_ref": 0.7544,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6754,
+        "sim_ref": 0.6734,
+        "wer": 0.0,
+        "rtf": 0.358
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7238,
+        "sim_ref": 0.7633,
+        "wer": 0.0476,
+        "rtf": 0.347
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6772,
+        "sim_ref": 0.7301,
+        "wer": 0.0,
+        "rtf": 0.351
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.5732,
+        "sim_ref": 0.6796,
+        "wer": 0.05,
+        "rtf": 0.357
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6104,
+        "sim_ref": 0.7634,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6348,
+        "sim_ref": 0.7081,
+        "wer": 0.12,
+        "rtf": 0.347
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6636,
+        "sim_ref": 0.669,
+        "wer": 0.0,
+        "rtf": 0.36
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6671,
+        "sim_ref": 0.684,
+        "wer": 0.0,
+        "rtf": 0.347
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6467,
+        "sim_ref": 0.6172,
+        "wer": 0.1111,
+        "rtf": 0.357
+      }
+    ]
+  },
+  "ft_v4_fast_comparison/checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v4_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6703,
+    "avg_sim_ref": 0.7078,
+    "avg_wer": 0.0439,
+    "avg_rtf": 0.351,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7016,
+        "sim_ref": 0.7068,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.8012,
+        "sim_ref": 0.8053,
+        "wer": 0.0652,
+        "rtf": 0.343
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.5573,
+        "sim_ref": 0.6296,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6431,
+        "sim_ref": 0.7015,
+        "wer": 0.037,
+        "rtf": 0.352
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7041,
+        "sim_ref": 0.7616,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7003,
+        "sim_ref": 0.6429,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7315,
+        "sim_ref": 0.6674,
+        "wer": 0.0769,
+        "rtf": 0.347
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7474,
+        "sim_ref": 0.7516,
+        "wer": 0.0333,
+        "rtf": 0.35
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6635,
+        "sim_ref": 0.7522,
+        "wer": 0.0,
+        "rtf": 0.347
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6001,
+        "sim_ref": 0.709,
+        "wer": 0.0,
+        "rtf": 0.355
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7584,
+        "sim_ref": 0.7024,
+        "wer": 0.0476,
+        "rtf": 0.357
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6291,
+        "sim_ref": 0.6971,
+        "wer": 0.0,
+        "rtf": 0.362
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6346,
+        "sim_ref": 0.7111,
+        "wer": 0.0,
+        "rtf": 0.351
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5775,
+        "sim_ref": 0.725,
+        "wer": 0.0833,
+        "rtf": 0.351
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6361,
+        "sim_ref": 0.6975,
+        "wer": 0.28,
+        "rtf": 0.348
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6794,
+        "sim_ref": 0.7537,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6649,
+        "sim_ref": 0.6937,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6354,
+        "sim_ref": 0.6319,
+        "wer": 0.1667,
+        "rtf": 0.354
+      }
+    ]
+  },
+  "ft_v4_native_comparison/checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v4_native_comparison.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6816,
+    "avg_sim_ref": 0.734,
+    "avg_wer": 0.0333,
+    "avg_rtf": 2.275,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6251,
+        "sim_ref": 0.7186,
+        "wer": 0.0,
+        "rtf": 2.241
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7841,
+        "sim_ref": 0.7834,
+        "wer": 0.0435,
+        "rtf": 2.23
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7009,
+        "sim_ref": 0.7653,
+        "wer": 0.0,
+        "rtf": 2.257
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.7209,
+        "sim_ref": 0.7212,
+        "wer": 0.037,
+        "rtf": 2.258
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7039,
+        "sim_ref": 0.7819,
+        "wer": 0.0,
+        "rtf": 2.274
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7126,
+        "sim_ref": 0.7378,
+        "wer": 0.0,
+        "rtf": 2.352
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7471,
+        "sim_ref": 0.6978,
+        "wer": 0.0385,
+        "rtf": 2.307
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7291,
+        "sim_ref": 0.7366,
+        "wer": 0.0,
+        "rtf": 2.311
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6892,
+        "sim_ref": 0.7345,
+        "wer": 0.0,
+        "rtf": 2.319
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6283,
+        "sim_ref": 0.669,
+        "wer": 0.0,
+        "rtf": 2.269
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6764,
+        "sim_ref": 0.7342,
+        "wer": 0.0476,
+        "rtf": 2.269
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6843,
+        "sim_ref": 0.7421,
+        "wer": 0.0,
+        "rtf": 2.28
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6362,
+        "sim_ref": 0.7437,
+        "wer": 0.05,
+        "rtf": 2.259
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5813,
+        "sim_ref": 0.755,
+        "wer": 0.0,
+        "rtf": 2.27
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6599,
+        "sim_ref": 0.7953,
+        "wer": 0.16,
+        "rtf": 2.243
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6735,
+        "sim_ref": 0.7239,
+        "wer": 0.0,
+        "rtf": 2.307
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.665,
+        "sim_ref": 0.6879,
+        "wer": 0.0,
+        "rtf": 2.26
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6514,
+        "sim_ref": 0.6843,
+        "wer": 0.2222,
+        "rtf": 2.242
+      }
+    ]
+  },
+  "ft_v4_native_comparison/checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v4_native_comparison.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6854,
+    "avg_sim_ref": 0.7235,
+    "avg_wer": 0.0419,
+    "avg_rtf": 2.26,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7187,
+        "sim_ref": 0.7431,
+        "wer": 0.0,
+        "rtf": 2.259
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7528,
+        "sim_ref": 0.7675,
+        "wer": 0.0,
+        "rtf": 2.26
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6689,
+        "sim_ref": 0.7077,
+        "wer": 0.0,
+        "rtf": 2.296
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.7209,
+        "sim_ref": 0.7408,
+        "wer": 0.0,
+        "rtf": 2.267
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7188,
+        "sim_ref": 0.7742,
+        "wer": 0.2857,
+        "rtf": 2.251
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7241,
+        "sim_ref": 0.6472,
+        "wer": 0.0,
+        "rtf": 2.267
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7671,
+        "sim_ref": 0.7207,
+        "wer": 0.0385,
+        "rtf": 2.253
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7902,
+        "sim_ref": 0.7667,
+        "wer": 0.0,
+        "rtf": 2.266
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6403,
+        "sim_ref": 0.7392,
+        "wer": 0.0,
+        "rtf": 2.26
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6836,
+        "sim_ref": 0.7401,
+        "wer": 0.0,
+        "rtf": 2.247
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7265,
+        "sim_ref": 0.7339,
+        "wer": 0.0476,
+        "rtf": 2.261
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6162,
+        "sim_ref": 0.6916,
+        "wer": 0.0,
+        "rtf": 2.254
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6247,
+        "sim_ref": 0.7565,
+        "wer": 0.0,
+        "rtf": 2.257
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5686,
+        "sim_ref": 0.696,
+        "wer": 0.0,
+        "rtf": 2.259
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.5815,
+        "sim_ref": 0.6984,
+        "wer": 0.16,
+        "rtf": 2.246
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.7002,
+        "sim_ref": 0.7137,
+        "wer": 0.0,
+        "rtf": 2.251
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.7374,
+        "sim_ref": 0.7117,
+        "wer": 0.0,
+        "rtf": 2.252
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.5958,
+        "sim_ref": 0.6743,
+        "wer": 0.2222,
+        "rtf": 2.272
+      }
+    ]
+  },
+  "ft_v4_native_comparison/checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v4_native_comparison.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6892,
+    "avg_sim_ref": 0.74,
+    "avg_wer": 0.0685,
+    "avg_rtf": 2.28,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7548,
+        "sim_ref": 0.7851,
+        "wer": 0.0233,
+        "rtf": 2.25
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7769,
+        "sim_ref": 0.7767,
+        "wer": 0.0435,
+        "rtf": 2.249
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6359,
+        "sim_ref": 0.7033,
+        "wer": 0.0,
+        "rtf": 2.247
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6449,
+        "sim_ref": 0.7247,
+        "wer": 0.0,
+        "rtf": 2.259
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6957,
+        "sim_ref": 0.7399,
+        "wer": 0.0,
+        "rtf": 2.253
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7175,
+        "sim_ref": 0.7578,
+        "wer": 0.2,
+        "rtf": 2.251
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.8084,
+        "sim_ref": 0.7641,
+        "wer": 0.0769,
+        "rtf": 2.259
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7448,
+        "sim_ref": 0.7651,
+        "wer": 0.0,
+        "rtf": 2.248
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6902,
+        "sim_ref": 0.7721,
+        "wer": 0.0,
+        "rtf": 2.269
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.642,
+        "sim_ref": 0.7418,
+        "wer": 0.0,
+        "rtf": 2.262
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6755,
+        "sim_ref": 0.7096,
+        "wer": 0.0476,
+        "rtf": 2.26
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.7189,
+        "sim_ref": 0.7602,
+        "wer": 0.0,
+        "rtf": 2.265
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6165,
+        "sim_ref": 0.7501,
+        "wer": 0.05,
+        "rtf": 2.268
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6075,
+        "sim_ref": 0.7668,
+        "wer": 0.0,
+        "rtf": 2.266
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.643,
+        "sim_ref": 0.7777,
+        "wer": 0.68,
+        "rtf": 2.257
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.687,
+        "sim_ref": 0.7179,
+        "wer": 0.0,
+        "rtf": 2.645
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6437,
+        "sim_ref": 0.6681,
+        "wer": 0.0,
+        "rtf": 2.259
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.7016,
+        "sim_ref": 0.639,
+        "wer": 0.1111,
+        "rtf": 2.264
+      }
+    ]
+  },
+  "ft_v4_native_comparison/checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v4_native_comparison.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6954,
+    "avg_sim_ref": 0.7269,
+    "avg_wer": 0.0847,
+    "avg_rtf": 2.267,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7067,
+        "sim_ref": 0.7293,
+        "wer": 0.0,
+        "rtf": 2.263
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7908,
+        "sim_ref": 0.7671,
+        "wer": 0.0435,
+        "rtf": 2.264
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6832,
+        "sim_ref": 0.6837,
+        "wer": 0.0,
+        "rtf": 2.257
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6846,
+        "sim_ref": 0.7402,
+        "wer": 0.037,
+        "rtf": 2.251
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7534,
+        "sim_ref": 0.787,
+        "wer": 0.0,
+        "rtf": 2.317
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.6886,
+        "sim_ref": 0.6829,
+        "wer": 0.0,
+        "rtf": 2.293
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7957,
+        "sim_ref": 0.7734,
+        "wer": 0.0385,
+        "rtf": 2.261
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7627,
+        "sim_ref": 0.7583,
+        "wer": 0.0,
+        "rtf": 2.253
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6645,
+        "sim_ref": 0.7334,
+        "wer": 0.0,
+        "rtf": 2.259
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6326,
+        "sim_ref": 0.695,
+        "wer": 0.0,
+        "rtf": 2.27
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6871,
+        "sim_ref": 0.7143,
+        "wer": 0.0476,
+        "rtf": 2.288
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6712,
+        "sim_ref": 0.7391,
+        "wer": 0.0,
+        "rtf": 2.272
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6443,
+        "sim_ref": 0.792,
+        "wer": 0.95,
+        "rtf": 2.268
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.586,
+        "sim_ref": 0.7356,
+        "wer": 0.0,
+        "rtf": 2.253
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.674,
+        "sim_ref": 0.718,
+        "wer": 0.2,
+        "rtf": 2.296
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.7049,
+        "sim_ref": 0.6907,
+        "wer": 0.0,
+        "rtf": 2.242
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.711,
+        "sim_ref": 0.6777,
+        "wer": 0.0417,
+        "rtf": 2.239
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6761,
+        "sim_ref": 0.6664,
+        "wer": 0.1667,
+        "rtf": 2.257
+      }
+    ]
+  },
+  "ft_v5_fast_comparison/checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v5_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6892,
+    "avg_sim_ref": 0.7161,
+    "avg_wer": 0.0425,
+    "avg_rtf": 0.357,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7006,
+        "sim_ref": 0.7165,
+        "wer": 0.0233,
+        "rtf": 0.352
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7539,
+        "sim_ref": 0.7727,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6972,
+        "sim_ref": 0.7205,
+        "wer": 0.0435,
+        "rtf": 0.357
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6602,
+        "sim_ref": 0.7397,
+        "wer": 0.1481,
+        "rtf": 0.358
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7069,
+        "sim_ref": 0.7447,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7179,
+        "sim_ref": 0.7243,
+        "wer": 0.0,
+        "rtf": 0.357
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.743,
+        "sim_ref": 0.7253,
+        "wer": 0.0385,
+        "rtf": 0.354
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7202,
+        "sim_ref": 0.6989,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.696,
+        "sim_ref": 0.7583,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6331,
+        "sim_ref": 0.6994,
+        "wer": 0.0,
+        "rtf": 0.359
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7421,
+        "sim_ref": 0.7014,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6881,
+        "sim_ref": 0.754,
+        "wer": 0.0,
+        "rtf": 0.36
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6702,
+        "sim_ref": 0.7347,
+        "wer": 0.05,
+        "rtf": 0.358
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5955,
+        "sim_ref": 0.7064,
+        "wer": 0.0,
+        "rtf": 0.362
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6661,
+        "sim_ref": 0.7259,
+        "wer": 0.24,
+        "rtf": 0.359
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6712,
+        "sim_ref": 0.7312,
+        "wer": 0.0,
+        "rtf": 0.371
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6697,
+        "sim_ref": 0.5924,
+        "wer": 0.0,
+        "rtf": 0.359
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.673,
+        "sim_ref": 0.6424,
+        "wer": 0.2222,
+        "rtf": 0.364
+      }
+    ]
+  },
+  "ft_v5_fast_comparison/checkpoint-epoch-5": {
+    "source_file": "eval_from_project/ft_v5_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-5",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6791,
+    "avg_sim_ref": 0.6998,
+    "avg_wer": 0.0279,
+    "avg_rtf": 0.356,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.722,
+        "sim_ref": 0.7364,
+        "wer": 0.0,
+        "rtf": 0.346
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7208,
+        "sim_ref": 0.6934,
+        "wer": 0.0435,
+        "rtf": 0.344
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6129,
+        "sim_ref": 0.6983,
+        "wer": 0.0435,
+        "rtf": 0.348
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6654,
+        "sim_ref": 0.743,
+        "wer": 0.0,
+        "rtf": 0.353
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7471,
+        "sim_ref": 0.7511,
+        "wer": 0.0,
+        "rtf": 0.353
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7773,
+        "sim_ref": 0.6651,
+        "wer": 0.0,
+        "rtf": 0.364
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.738,
+        "sim_ref": 0.6978,
+        "wer": 0.0385,
+        "rtf": 0.357
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7313,
+        "sim_ref": 0.7547,
+        "wer": 0.0,
+        "rtf": 0.352
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6663,
+        "sim_ref": 0.7116,
+        "wer": 0.0,
+        "rtf": 0.361
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6488,
+        "sim_ref": 0.648,
+        "wer": 0.0,
+        "rtf": 0.36
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7168,
+        "sim_ref": 0.7349,
+        "wer": 0.0476,
+        "rtf": 0.348
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6461,
+        "sim_ref": 0.7012,
+        "wer": 0.0,
+        "rtf": 0.355
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6313,
+        "sim_ref": 0.742,
+        "wer": 0.0,
+        "rtf": 0.36
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.5718,
+        "sim_ref": 0.7374,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6382,
+        "sim_ref": 0.7148,
+        "wer": 0.12,
+        "rtf": 0.354
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.709,
+        "sim_ref": 0.7138,
+        "wer": 0.0,
+        "rtf": 0.362
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6348,
+        "sim_ref": 0.592,
+        "wer": 0.0417,
+        "rtf": 0.362
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6458,
+        "sim_ref": 0.5615,
+        "wer": 0.1667,
+        "rtf": 0.373
+      }
+    ]
+  },
+  "ft_v5_fast_comparison/checkpoint-epoch-7": {
+    "source_file": "eval_from_project/ft_v5_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-7",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6868,
+    "avg_sim_ref": 0.7141,
+    "avg_wer": 0.085,
+    "avg_rtf": 0.355,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7279,
+        "sim_ref": 0.7745,
+        "wer": 0.0,
+        "rtf": 0.345
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7428,
+        "sim_ref": 0.7517,
+        "wer": 0.8696,
+        "rtf": 0.346
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7094,
+        "sim_ref": 0.698,
+        "wer": 0.0,
+        "rtf": 0.359
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6847,
+        "sim_ref": 0.7172,
+        "wer": 0.037,
+        "rtf": 0.353
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6622,
+        "sim_ref": 0.7238,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7445,
+        "sim_ref": 0.6443,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7633,
+        "sim_ref": 0.7231,
+        "wer": 0.0769,
+        "rtf": 0.354
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7654,
+        "sim_ref": 0.7695,
+        "wer": 0.0333,
+        "rtf": 0.356
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6549,
+        "sim_ref": 0.7439,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6745,
+        "sim_ref": 0.7073,
+        "wer": 0.0,
+        "rtf": 0.358
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.695,
+        "sim_ref": 0.6966,
+        "wer": 0.0,
+        "rtf": 0.349
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.7091,
+        "sim_ref": 0.7096,
+        "wer": 0.0,
+        "rtf": 0.358
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6319,
+        "sim_ref": 0.7503,
+        "wer": 0.05,
+        "rtf": 0.35
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6154,
+        "sim_ref": 0.7056,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6223,
+        "sim_ref": 0.7066,
+        "wer": 0.2,
+        "rtf": 0.356
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6599,
+        "sim_ref": 0.7095,
+        "wer": 0.0,
+        "rtf": 0.365
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6443,
+        "sim_ref": 0.5983,
+        "wer": 0.0417,
+        "rtf": 0.355
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6548,
+        "sim_ref": 0.7236,
+        "wer": 0.2222,
+        "rtf": 0.369
+      }
+    ]
+  },
+  "ft_v5_fast_comparison/checkpoint-epoch-9": {
+    "source_file": "eval_from_project/ft_v5_fast_comparison.json",
+    "checkpoint": "checkpoint-epoch-9",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6795,
+    "avg_sim_ref": 0.718,
+    "avg_wer": 0.0269,
+    "avg_rtf": 0.354,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6571,
+        "sim_ref": 0.6883,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7611,
+        "sim_ref": 0.7921,
+        "wer": 0.0435,
+        "rtf": 0.345
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7011,
+        "sim_ref": 0.7304,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.664,
+        "sim_ref": 0.7035,
+        "wer": 0.0,
+        "rtf": 0.354
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.6754,
+        "sim_ref": 0.7256,
+        "wer": 0.0,
+        "rtf": 0.355
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7397,
+        "sim_ref": 0.6744,
+        "wer": 0.0,
+        "rtf": 0.351
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7825,
+        "sim_ref": 0.7232,
+        "wer": 0.0385,
+        "rtf": 0.356
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.745,
+        "sim_ref": 0.7375,
+        "wer": 0.0,
+        "rtf": 0.352
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6235,
+        "sim_ref": 0.7493,
+        "wer": 0.0,
+        "rtf": 0.348
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6327,
+        "sim_ref": 0.6855,
+        "wer": 0.0588,
+        "rtf": 0.371
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6747,
+        "sim_ref": 0.7254,
+        "wer": 0.0476,
+        "rtf": 0.359
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.6358,
+        "sim_ref": 0.7425,
+        "wer": 0.0,
+        "rtf": 0.353
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6506,
+        "sim_ref": 0.7252,
+        "wer": 0.05,
+        "rtf": 0.353
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6835,
+        "sim_ref": 0.7494,
+        "wer": 0.0,
+        "rtf": 0.356
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6288,
+        "sim_ref": 0.7193,
+        "wer": 0.08,
+        "rtf": 0.352
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.634,
+        "sim_ref": 0.6932,
+        "wer": 0.0,
+        "rtf": 0.355
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6983,
+        "sim_ref": 0.6809,
+        "wer": 0.0,
+        "rtf": 0.35
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6424,
+        "sim_ref": 0.6792,
+        "wer": 0.1667,
+        "rtf": 0.359
+      }
+    ]
+  },
+  "ft_v5_native_comparison/checkpoint-epoch-3": {
+    "source_file": "eval_from_project/ft_v5_native_comparison.json",
+    "checkpoint": "checkpoint-epoch-3",
+    "num_samples": 18,
+    "avg_sim_gt": 0.6885,
+    "avg_sim_ref": 0.7281,
+    "avg_wer": 0.0451,
+    "avg_rtf": 2.542,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.6454,
+        "sim_ref": 0.7237,
+        "wer": 0.2326,
+        "rtf": 2.941
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.7366,
+        "sim_ref": 0.74,
+        "wer": 0.0435,
+        "rtf": 3.424
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.6863,
+        "sim_ref": 0.7132,
+        "wer": 0.0,
+        "rtf": 3.16
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.6343,
+        "sim_ref": 0.7101,
+        "wer": 0.037,
+        "rtf": 2.366
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7105,
+        "sim_ref": 0.7676,
+        "wer": 0.0,
+        "rtf": 2.311
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7818,
+        "sim_ref": 0.707,
+        "wer": 0.0,
+        "rtf": 2.552
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7966,
+        "sim_ref": 0.7623,
+        "wer": 0.0385,
+        "rtf": 2.401
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7344,
+        "sim_ref": 0.7235,
+        "wer": 0.0333,
+        "rtf": 2.434
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.6904,
+        "sim_ref": 0.7792,
+        "wer": 0.0,
+        "rtf": 2.409
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6805,
+        "sim_ref": 0.6808,
+        "wer": 0.0588,
+        "rtf": 3.14
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.6996,
+        "sim_ref": 0.7345,
+        "wer": 0.0476,
+        "rtf": 2.742
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.687,
+        "sim_ref": 0.7219,
+        "wer": 0.0,
+        "rtf": 2.269
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.6604,
+        "sim_ref": 0.765,
+        "wer": 0.05,
+        "rtf": 2.238
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.542,
+        "sim_ref": 0.7166,
+        "wer": 0.0,
+        "rtf": 2.25
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.6554,
+        "sim_ref": 0.7541,
+        "wer": 0.16,
+        "rtf": 2.296
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.7129,
+        "sim_ref": 0.7653,
+        "wer": 0.0,
+        "rtf": 2.265
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.6824,
+        "sim_ref": 0.6668,
+        "wer": 0.0,
+        "rtf": 2.272
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6573,
+        "sim_ref": 0.6744,
+        "wer": 0.1111,
+        "rtf": 2.293
+      }
+    ]
+  },
+  "zeroshot_comparison/qwen_1.7b_zs": {
+    "source_file": "eval_from_project/zeroshot_comparison.json",
+    "model": "Qwen3-TTS-12Hz-1.7B-Base",
+    "num_samples": 18,
+    "avg_sim_gt": 0.7104,
+    "avg_sim_ref": 0.7563,
+    "avg_wer": 0.1203,
+    "avg_rtf": 2.401,
+    "per_sample": [
+      {
+        "id": 0,
+        "text": "但还有名词的解释,只带一种爪子锋利又养不熟的猫,也可以特指一个十分可恶又让人不忍心下手的人。",
+        "sim_gt": 0.7593,
+        "sim_ref": 0.8125,
+        "wer": 0.0,
+        "rtf": 2.382
+      },
+      {
+        "id": 1,
+        "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。",
+        "sim_gt": 0.8084,
+        "sim_ref": 0.7582,
+        "wer": 0.1,
+        "rtf": 2.364
+      },
+      {
+        "id": 2,
+        "text": "慌什么肩上的伤早就愈合了听我的声音这不是好得很",
+        "sim_gt": 0.7083,
+        "sim_ref": 0.7823,
+        "wer": 0.1304,
+        "rtf": 2.462
+      },
+      {
+        "id": 3,
+        "text": "前面的红绿灯路口执行,不错,你的反应速度比梅菲斯特快0.1秒。",
+        "sim_gt": 0.7194,
+        "sim_ref": 0.7021,
+        "wer": 0.1613,
+        "rtf": 2.386
+      },
+      {
+        "id": 4,
+        "text": "梅菲斯特用途广泛,能定位敌人,还能察觉到异常信号,你会用得上的。",
+        "sim_gt": 0.7826,
+        "sim_ref": 0.8038,
+        "wer": 0.0312,
+        "rtf": 2.417
+      },
+      {
+        "id": 5,
+        "text": "我记得自己前几天还是海盗船长现在又摇身一变成了国王",
+        "sim_gt": 0.7088,
+        "sim_ref": 0.7356,
+        "wer": 0.0,
+        "rtf": 2.384
+      },
+      {
+        "id": 6,
+        "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门",
+        "sim_gt": 0.7573,
+        "sim_ref": 0.7431,
+        "wer": 0.0385,
+        "rtf": 2.24
+      },
+      {
+        "id": 7,
+        "text": "你所有奇奇怪怪的拍照道具最终都会戴在我头上我是你的移动衣帽架",
+        "sim_gt": 0.7592,
+        "sim_ref": 0.7491,
+        "wer": 0.0,
+        "rtf": 2.365
+      },
+      {
+        "id": 8,
+        "text": "有个很久没见的人想在N109约会,除了这个,还能是因为什么?",
+        "sim_gt": 0.727,
+        "sim_ref": 0.7982,
+        "wer": 0.1,
+        "rtf": 2.429
+      },
+      {
+        "id": 9,
+        "text": "这是你的自画像难怪称我但还差点细节",
+        "sim_gt": 0.6707,
+        "sim_ref": 0.7733,
+        "wer": 0.0,
+        "rtf": 2.392
+      },
+      {
+        "id": 10,
+        "text": "刚传回来的信号,他在告状,我把它撤回来,真没想到。",
+        "sim_gt": 0.7212,
+        "sim_ref": 0.7804,
+        "wer": 0.2,
+        "rtf": 2.489
+      },
+      {
+        "id": 11,
+        "text": "反正除了你,其他人都会以为这样的另一面是伪造的。",
+        "sim_gt": 0.7055,
+        "sim_ref": 0.7789,
+        "wer": 0.0,
+        "rtf": 2.413
+      },
+      {
+        "id": 12,
+        "text": "好吧林空试试你的地盘你做主有事给我打电话",
+        "sim_gt": 0.662,
+        "sim_ref": 0.7254,
+        "wer": 0.05,
+        "rtf": 2.438
+      },
+      {
+        "id": 13,
+        "text": "最初我也只是好奇,锻造这些冷兵器的人会倾注什么执念。",
+        "sim_gt": 0.6386,
+        "sim_ref": 0.7593,
+        "wer": 0.0769,
+        "rtf": 2.384
+      },
+      {
+        "id": 14,
+        "text": "一般的獵刀大多成水滴型光鋒開刃薄更適合野外處理獵物",
+        "sim_gt": 0.5913,
+        "sim_ref": 0.7298,
+        "wer": 1.0,
+        "rtf": 2.488
+      },
+      {
+        "id": 15,
+        "text": "不过用闭嘴来作为给我的惩罚确定没有在惩罚自己",
+        "sim_gt": 0.6806,
+        "sim_ref": 0.7415,
+        "wer": 0.0,
+        "rtf": 2.379
+      },
+      {
+        "id": 16,
+        "text": "过半个小时,薛明迅会给你送个礼物过去,建议你亲自签收。",
+        "sim_gt": 0.744,
+        "sim_ref": 0.7037,
+        "wer": 0.0,
+        "rtf": 2.44
+      },
+      {
+        "id": 17,
+        "text": "从你的情况来看应该是进秦撤者解放天性",
+        "sim_gt": 0.6438,
+        "sim_ref": 0.7354,
+        "wer": 0.2778,
+        "rtf": 2.367
+      }
+    ]
+  }
+}

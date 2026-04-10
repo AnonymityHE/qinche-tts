@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment
+.env
+.venv/
+venv/
+
+# Model weights (large files, download separately)
+models/
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Audio data (large, managed separately)
+data/normalized/
+data/audio_samples/
+data/segments/
+data/demucs_output/
+data/raw/
+
+# ChromaDB persistent storage
+chroma_db/
+
+# Generated output
+output/
+eval/*/gen_*.wav
+logs/
+
+# Third-party repos (cloned separately)
+Qwen3-TTS/
+Qwen3-TTS-EasyFinetuning/
+CosyVoice/
+fish-speech/
+faster-qwen3-tts/
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Archive — nested git repo
+archive/_master_ref/
+
+# LaTeX build artifacts
+Report/.texmf-var/
+Report/*.aux
+Report/*.out
+Report/*.toc
+Report/*.log
+Report/*.synctex.gz
+Report/*.fls
+Report/*.fdb_latexmk
+Report/*.bbl
+Report/*.blg
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/

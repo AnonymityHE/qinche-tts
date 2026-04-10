@@ -1,0 +1,586 @@
+\documentclass[a4paper, 11pt]{article}
+
+%% ── 引擎与字体 ───────────────────────────────────────────────
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setCJKmainfont[
+  BoldFont   = {AR PL SungtiL GB},
+  ItalicFont = {AR PL SungtiL GB}
+]{AR PL SungtiL GB}
+\setCJKsansfont{Droid Sans Fallback}
+\setmainfont{Times New Roman}
+\setsansfont{TeX Gyre Heros}
+
+%% ── 页面尺寸 ─────────────────────────────────────────────────
+\usepackage[
+  a4paper,
+  top    = 2.8cm,
+  bottom = 2.8cm,
+  left   = 3.0cm,
+  right  = 3.0cm,
+  headheight = 15pt
+]{geometry}
+
+%% ── 常用宏包 ─────────────────────────────────────────────────
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{float}
+\usepackage{url}
+\usepackage{microtype}
+\usepackage{mdframed}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{tocloft}
+\usepackage[font=small, labelfont=bf, labelsep=quad]{caption}
+\usepackage{capt-of}
+\usepackage{subcaption}
+\usepackage[colorlinks, linkcolor=NavyBlue, citecolor=NavyBlue, urlcolor=NavyBlue]{hyperref}
+
+%% ── 配色 ─────────────────────────────────────────────────────
+\definecolor{NavyBlue}   {RGB}{25,  55, 110}
+\definecolor{AccentBlue} {RGB}{41,  98, 171}
+\definecolor{LightGray}  {RGB}{245, 245, 248}
+\definecolor{MidGray}    {RGB}{120, 120, 130}
+\definecolor{RuleGray}   {RGB}{200, 200, 210}
+\definecolor{BoxBg}      {RGB}{240, 244, 250}
+\definecolor{BoxBorder}  {RGB}{160, 185, 220}
+
+%% ── 行距与段落 ───────────────────────────────────────────────
+\linespread{1.35}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{2pt}
+
+%% ── 浮动体间距 ───────────────────────────────────────────────
+\setlength{\floatsep}{8pt plus 2pt minus 2pt}
+\setlength{\textfloatsep}{12pt plus 2pt minus 4pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{5pt}
+\setlength{\belowcaptionskip}{2pt}
+
+%% ── 章节标题样式 ─────────────────────────────────────────────
+% section：左侧蓝色竖条 + 深蓝粗体
+\titleformat{\section}
+  {\large\bfseries\color{NavyBlue}}
+  {}
+  {0pt}
+  {\colorbox{NavyBlue}{\color{white}\rule[-2pt]{0pt}{13pt}\enspace\thesection\enspace}~~}
+  [\vspace{-4pt}\textcolor{RuleGray}{\rule{\linewidth}{0.5pt}}]
+
+% subsection：AccentBlue 细线 + 编号
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{AccentBlue}}
+  {\thesubsection}
+  {0.6em}
+  {}
+
+% subsubsection：正文色加粗
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\color{NavyBlue!80}}
+  {\thesubsubsection}
+  {0.6em}
+  {}
+
+\titlespacing*{\section}       {0pt}{16pt}{6pt}
+\titlespacing*{\subsection}    {0pt}{10pt}{4pt}
+\titlespacing*{\subsubsection} {0pt}{8pt}{2pt}
+
+%% ── 目录样式 ─────────────────────────────────────────────────
+\renewcommand{\cftsecfont}{\bfseries\color{NavyBlue}}
+\renewcommand{\cftsecpagefont}{\bfseries\color{NavyBlue}}
+\renewcommand{\cftsubsecfont}{\color{AccentBlue}}
+\renewcommand{\cftsubsecpagefont}{\color{AccentBlue}}
+\setlength{\cftbeforesecskip}{4pt}
+
+%% ── 页眉页脚 ─────────────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{MidGray}\itshape 中文语音克隆全链路系统报告}
+\fancyhead[R]{\small\color{MidGray}\itshape 何{\CJKfontspec{Droid Sans Fallback}鋆}林 · 2026年3月}
+\fancyfoot[C]{\small\color{MidGray}\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\color{RuleGray}\hrule width\headwidth height\headrulewidth}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[C]{\small\color{MidGray}\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+%% ── 高亮提示框 ───────────────────────────────────────────────
+\newmdenv[
+  backgroundcolor = BoxBg,
+  linecolor       = BoxBorder,
+  linewidth       = 1pt,
+  roundcorner     = 4pt,
+  innerleftmargin = 10pt,
+  innerrightmargin= 10pt,
+  innertopmargin  = 8pt,
+  innerbottommargin=8pt,
+  skipabove       = 8pt,
+  skipbelow       = 4pt
+]{infobox}
+
+%% ── 首页标题命令 ─────────────────────────────────────────────
+\newcommand{\reporttitle}[4]{%   {主标题}{副标题}{作者信息}{日期}
+  \thispagestyle{plain}
+  \vspace*{10pt}
+  \begin{center}
+    {\fontsize{24}{30}\selectfont\bfseries\color{NavyBlue} #1}\par
+    \vspace{8pt}
+    \textcolor{RuleGray}{\rule{0.5\linewidth}{0.8pt}}\par
+    \vspace{6pt}
+    {\large\color{MidGray} #2}\par
+  \end{center}
+  \vspace{10pt}
+  \noindent\textcolor{RuleGray}{\rule{\linewidth}{0.4pt}}\par
+  \vspace{4pt}
+  \noindent{\small\color{MidGray} #3 \hfill #4}\par
+  \vspace{2pt}
+  \noindent\textcolor{RuleGray}{\rule{\linewidth}{0.4pt}}\par
+  \vspace{16pt}
+}
+
+%% ── 文档开始 ─────────────────────────────────────────────────
+\begin{document}
+
+\reporttitle
+  {中文语音克隆全链路系统报告}
+  {从数据采集到加速部署}
+  {何{\CJKfontspec{Droid Sans Fallback}鋆}林 \quad AI \& Entrepreneurship，香港科技大学 \quad \href{mailto:yuzuhe2023@163.com}{yuzuhe2023@163.com}}
+  {2026年3月}
+
+%% ── 摘要 ─────────────────────────────────────────────────────
+\begin{infobox}
+\noindent{\bfseries\color{NavyBlue}摘\quad 要}\quad
+本报告完整记录了一套针对特定说话人（``秦彻''角色配音）的中文语音克隆系统的研究与实现过程。涵盖音频数据采集、多阶段预处理（音源分离、说话人日志分割、语音活动检测、ASR 转录）、Qwen3-TTS-1.7B 监督微调（SFT），以及与 Fish Audio S2 Pro 的零样本对比评估。最佳配置——Qwen3-TTS SFT v5 第3轮 + FasterQwen3TTS——在单张 A100-80GB GPU 上实现了说话人相似度（SIM\_gt）0.689、词错误率（WER）4.25\%、实时因子（RTF）0.357，相较原生推理实现了 \textbf{7.1倍加速}，同时质量损失可忽略不计。
+
+\smallskip
+\noindent{\bfseries\color{NavyBlue}关键词}\quad 语音合成 · 语音克隆 · Qwen3-TTS · Fish Audio S2 Pro · CUDA Graph · 监督微调 · 推理加速
+\end{infobox}
+
+\tableofcontents
+\newpage
+
+
+%% ============================================================
+\section{引言}
+%% ============================================================
+
+语音克隆（Voice Cloning）旨在合成忠实还原目标说话人声学特征的语音。近年来，Qwen3-TTS、Fish Audio S2、VALL-E、CosyVoice 等大规模神经编解码语言模型的兴起，使得少样本乃至零样本声音克隆成为可能。
+
+本报告记录的完整端到端项目包含以下四个核心阶段：
+
+\begin{enumerate}[leftmargin=2em, itemsep=2pt]
+  \item 从哔哩哔哩采集原始音频，经多阶段流水线处理；
+  \item 基于约28分钟精筛音频，对 Qwen3-TTS-1.7B 进行监督微调；
+  \item 与 Fish Audio S2 Pro（5B参数，仅零样本）进行综合评估对比；
+  \item 探索多种推理加速策略，最终通过 CUDA Graph 捕获实现7.1倍实时加速。
+\end{enumerate}
+
+\begin{infobox}
+\noindent{\small\bfseries\color{NavyBlue}报告结构}\quad
+\textbf{§2} 模型架构 \enspace|\enspace
+\textbf{§3} 数据采集与预处理 \enspace|\enspace
+\textbf{§4} 训练方法 \enspace|\enspace
+\textbf{§5} 评估结果 \enspace|\enspace
+\textbf{§6} 推理加速 \enspace|\enspace
+\textbf{§7} 逐轮次分析 \enspace|\enspace
+\textbf{§8} 结论
+\end{infobox}
+
+
+%% ============================================================
+\section{模型架构}
+%% ============================================================
+
+\subsection{Qwen3-TTS（主模型）}
+
+Qwen3-TTS 是基于 Transformer 解码器的 TTS 模型，采用16码本残差向量量化（RVQ）编解码器，帧率12 Hz。
+
+\begin{itemize}[leftmargin=2em, itemsep=2pt]
+  \item \textbf{双轨语言模型}：``talker'' 模块（28层 Transformer）自回归预测语义 token；``code predictor'' 对每帧并行生成16个 RVQ 码本条目。
+  \item \textbf{说话人编码器}：从参考音频提取说话人嵌入，注入编解码器嵌入层的专用 \texttt{spk\_id} 位置。
+  \item \textbf{参数量}：1.7B（基础版）/ 0.6B（轻量版）；\textbf{推理显存}：A100 上约20 GB。
+  \item \textbf{微调方式}：全参数 SFT（非 LoRA），直接学习说话人嵌入；\textbf{许可证}：Apache 2.0。
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.82\linewidth]{figs/model_architecture_comparison.pdf}
+\caption{Qwen3-TTS 与 Fish Audio S2 Pro 架构对比示意图。}
+\label{fig:arch}
+\end{figure}
+
+\subsection{Fish Audio S2 Pro（对比模型）}
+
+Fish Audio S2 Pro 采用双自回归（Dual-AR）架构，总参数量约5B：慢速 AR（4B）沿时间轴预测语义 token，快速 AR（400M）填充残差声学细节。编解码器为10码本 RVQ（21 Hz），训练数据涵盖80+语言、1000万小时以上。
+
+本项目\textbf{仅评估零样本模式}，原因有三：（1）S2 Pro 为 RL 训练模型，开发者明确不推荐微调；（2）推荐微调数据量（$\geq$10小时）远超本项目约28分钟；（3）音色本身通过推理时参考提示词捕获，而非微调习得。
+
+\begin{table}[htbp]
+\centering
+\caption{模型规格对比}
+\label{tab:models}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{属性} & \textbf{Qwen3-TTS 1.7B} & \textbf{Fish S2 Pro} \\
+\midrule
+参数量       & 1.7B & 5B（4B + 0.4B + 编解码器）\\
+编解码器     & 16码本 RVQ @ 12Hz & 10码本 RVQ @ 21Hz \\
+架构         & Transformer 解码器 & 双自回归（慢速+快速）\\
+训练数据     & 未公开 & 1000万小时以上 \\
+微调支持     & SFT 全参数 & 不推荐 \\
+最低微调数据 & 10--30分钟 & $\geq$10小时 \\
+推理显存     & 约20 GB & $\geq$24 GB \\
+许可证       & Apache 2.0 & Research License \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+%% ============================================================
+\section{数据采集与预处理}
+%% ============================================================
+
+\subsection{数据来源}
+
+音频从哔哩哔哩采集，目标为特定角色配音演员（``秦彻''）。最终训练集共使用以下来源：
+
+\begin{itemize}[leftmargin=2em, itemsep=2pt]
+  \item \texttt{qinche\_pure\_p01}$\sim$\texttt{p11}（296条）：纯净单说话人直接录音，质量最高。
+  \item \texttt{qinche\_02}（77条）：含多说话人的混合音频，经 Pyannote 说话人日志过滤后保留目标说话人片段。
+  \item \texttt{qinche\_call\_p01}$\sim$\texttt{p06}（64条）：通话场景录音，经过滤后质量可用。
+  \item \texttt{qinche\_01}（38条）：混合音频，质量相对较低，但经严格过滤后仍有部分片段纳入训练集。
+\end{itemize}
+
+\subsection{预处理流水线}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.88\linewidth]{figs/preprocessing_pipeline.pdf}
+\caption{端到端数据预处理流水线，各阶段之间设有质量门控。}
+\label{fig:pipeline}
+\end{figure}
+
+六个顺序阶段如下：
+\begin{enumerate}[leftmargin=2em, itemsep=2pt]
+  \item \textbf{音源分离（Demucs）}：从背景音乐和噪音中分离人声轨道。
+  \item \textbf{说话人日志（Pyannote）}：识别并分割各说话人语音段落。
+  \item \textbf{语音活动检测（Silero-VAD）}：分割为1--15秒话语级片段。
+  \item \textbf{ASR转录（WhisperX）}：生成带词级时间戳的中文转录。
+  \item \textbf{文本规范化（OpenCC）}：繁体转简体。
+  \item \textbf{说话人纯化}：按余弦相似度过滤，随机划分训练/测试集。
+\end{enumerate}
+
+纯化后进行 \textbf{RMS 响度归一化}（统一音量）和\textbf{尾部静音填充}（追加1秒静音，满足 Qwen3-TTS 分词器要求）。
+
+\subsection{数据集统计}
+
+\begin{table}[htbp]
+\centering
+\caption{最终数据集统计}
+\label{tab:dataset}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{划分} & \textbf{样本数} & \textbf{总时长} & \textbf{范围} & \textbf{均值} \\
+\midrule
+训练集   & 664 & 约28分钟 & 1.0s -- 13.3s & 约2.5s \\
+测试集   & 18  & 约1.7分钟 & 4.7s -- 11.7s & 5.8s \\
+参考音频 & 5段 & --- & 3s -- 10s & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.62\linewidth]{figs/dataset_duration_distribution.pdf}
+\caption{训练集音频片段时长分布直方图。}
+\label{fig:duration}
+\end{figure}
+
+
+%% ============================================================
+\section{训练方法}
+%% ============================================================
+
+\subsection{训练流水线}
+
+流水线由三个阶段组成：（1）\textbf{音频码提取}（\texttt{prepare\_data.py}）——使用12Hz 分词器提取16码本音频码，生成 \texttt{train\_with\_codes.jsonl}；（2）\textbf{SFT 训练}（\texttt{sft\_12hz.py}）——HuggingFace Accelerate + bf16 + Flash Attention 2 全参数微调；（3）\textbf{说话人嵌入累积}——每个 epoch 平均所有样本的嵌入并随检查点保存。
+
+\subsection{超参数配置}
+
+\begin{table}[htbp]
+\centering
+\caption{最佳配置（v5）训练超参数}
+\label{tab:hparams}
+\begin{tabular}{@{}ll@{}}
+\toprule
+\textbf{参数} & \textbf{取值} \\
+\midrule
+基础模型     & Qwen3-TTS-12Hz-1.7B-Base \\
+学习率       & $2 \times 10^{-6}$ \\
+有效批量     & 32（batch 2 $\times$ grad\_accum 16）\\
+训练轮数     & 10 \\
+调度器       & 线性预热（10\%）+ 余弦衰减（min $0.1\times$ LR）\\
+精度         & bf16 混合精度 \\
+注意力机制   & Flash Attention 2 \\
+硬件         & 1$\times$ NVIDIA A100-SXM4-80GB \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{实验迭代历程}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.88\linewidth]{figs/training_iterations_timeline.pdf}
+\caption{训练迭代演进时间线。}
+\label{fig:iterations}
+\end{figure}
+
+共五次主要迭代：\textbf{v1}（LR $2\times10^{-5}$，无调度，完全失败）→ \textbf{v2}（LR $2\times10^{-6}$ + 余弦调度，发现 bf16 bug）→ \textbf{v3}（更高 LR 探索，效果略差）→ \textbf{v4}（修复 bf16 bug 后正式训练，SIM\_gt 0.6783）→ \textbf{v5}（数据增广至664样本，SIM\_gt 0.6892）。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.72\linewidth]{figs/sim_gt_across_versions.pdf}
+\caption{各版本最佳 SIM\_gt 对比。}
+\label{fig:sim_versions}
+\end{figure}
+
+\subsection{关键 Bug：bf16 说话人嵌入精度}
+\label{sec:bf16bug}
+
+\begin{infobox}
+\noindent\textbf{\color{NavyBlue}Bug 描述}\enspace
+以 bf16 精度累积 \texttt{spk\_embed\_sum}（数百个样本）时，由于 bf16 有效精度仅约3.4位，嵌入范数从原始值约17骤降至约2.98，导致 SIM\_gt 仅0.29。
+
+\smallskip\noindent\textbf{\color{NavyBlue}修复方案}\enspace
+累积时调用 \texttt{.float()} 转为 fp32，仅在保存时转回 bf16。此单行修复将 SIM\_gt 从0.29提升至0.70（\textbf{+141\%}）。
+\end{infobox}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.62\linewidth]{figs/bf16_bug_impact.pdf}
+\caption{bf16 精度 bug 修复前后的 SIM\_gt 对比。}
+\label{fig:bf16}
+\end{figure}
+
+
+%% ============================================================
+\section{评估}
+%% ============================================================
+
+\subsection{评估指标}
+
+\begin{table}[htbp]
+\centering
+\caption{评估指标定义}
+\label{tab:metrics}
+\begin{tabular}{@{}lp{7.5cm}p{3.0cm}@{}}
+\toprule
+\textbf{指标} & \textbf{定义} & \textbf{目标} \\
+\midrule
+SIM\_gt  & 生成音频与真实说话人嵌入余弦相似度（Pyannote）& 越高越好（$>$0.6可用）\\
+SIM\_ref & 生成音频与参考音频嵌入余弦相似度 & 越高越好 \\
+WER      & ASR 词错误率（WhisperX + jiwer）& 越低越好（$<$0.1极佳）\\
+RTF      & 实时因子（生成时长 / 音频时长）& $<$1.0为实时 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{综合结果}
+
+\begin{table}[htbp]
+\centering
+\caption{所有模型与配置完整对比}
+\label{tab:results}
+\small
+\begin{tabular}{@{}lccccl@{}}
+\toprule
+\textbf{模型 / 配置} & \textbf{SIM\_gt}$\uparrow$ & \textbf{SIM\_ref}$\uparrow$ & \textbf{WER}$\downarrow$ & \textbf{RTF}$\downarrow$ & \textbf{推理} \\
+\midrule
+Qwen3 1.7B 零样本        & \textbf{0.7104} & 0.7563          & 0.1203          & 2.401          & 原生 \\
+\midrule
+Qwen3 SFT v5 第3轮       & \textbf{0.6892} & 0.7161          & 0.0425          & \textbf{0.357} & CUDA Graph \\
+Qwen3 SFT v5 第3轮       & 0.6885          & \textbf{0.7281} & 0.0451          & 2.542          & 原生 \\
+Qwen3 SFT v5 第5轮       & 0.6791          & 0.6998          & \textbf{0.0279} & 0.356          & CUDA Graph \\
+Qwen3 SFT v5 第9轮       & 0.6795          & 0.7180          & 0.0269          & 0.354          & CUDA Graph \\
+\midrule
+Qwen3 SFT v2修复 第6轮   & 0.6964          & \textbf{0.7653} & 0.0365          & 2.579          & 原生 \\
+Qwen3 SFT v4 第7轮       & 0.6783          & 0.7034          & 0.0530          & 0.351          & CUDA Graph \\
+\midrule
+Fish S2 Pro 零样本（编译）& 0.6627          & 0.6824          & \textbf{0.0209} & 0.639          & torch.compile \\
+Fish S2 Pro 零样本        & 0.6647          & 0.6910          & 0.0244          & 4.315          & 原生 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:results} 给出了所有配置的完整数值对比。图~\ref{fig:radar} 通过雷达图直观展示了各关键配置在四项指标上的综合表现——面积越大代表整体越优。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.62\linewidth]{figs/radar_comparison.pdf}
+\caption{关键配置四项指标雷达图对比（指标归一化后面积越大代表综合性能越优）。}
+\label{fig:radar}
+\end{figure}
+
+\subsection{逐样本分析}
+
+图~\ref{fig:persample} 和图~\ref{fig:persamplewer} 分别展示了18个测试样本在 SIM\_gt 与 WER 上的逐样本表现。微调模型在绝大多数样本上均优于零样本基线，少量含罕见字符的样本 WER 存在异常值。
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.88\linewidth]{figs/per_sample_sim_gt.pdf}
+\caption{18个测试样本逐样本 SIM\_gt 对比。}
+\label{fig:persample}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.88\linewidth]{figs/per_sample_wer.pdf}
+\caption{逐样本词错误率对比。}
+\label{fig:persamplewer}
+\end{figure}
+
+\subsection{核心发现}
+
+\begin{infobox}
+\begin{enumerate}[leftmargin=1.5em, itemsep=3pt]
+  \item \textbf{数据增广有效}：v5 vs. v4，SIM\_gt +0.011（664 vs. 461样本）。
+  \item \textbf{bf16 bug 是低 SIM 根本原因}：修复后 SIM\_gt +141\%（0.29$\to$0.70）。
+  \item \textbf{CUDA Graph 无损}：v5 第3轮原生 0.6885 vs. CUDA Graph 0.6892，差异极小。
+  \item \textbf{LR $2\times10^{-6}$ 最优}：更高 LR（v3）反而略差。
+  \item \textbf{Fish S2 Pro WER 最低}：0.0209，受益于1000万小时训练数据。
+  \item \textbf{微调 Qwen3 SIM 领先}：0.689 vs. Fish S2 Pro 0.665（+3.7\%）。
+  \item \textbf{第3轮提前停止最优}：后续轮次 SIM 收益递减。
+\end{enumerate}
+\end{infobox}
+
+
+%% ============================================================
+\section{推理加速}
+%% ============================================================
+
+\subsection{有效加速方案}
+
+\begin{table}[htbp]
+\centering
+\caption{推理加速基准测试结果}
+\label{tab:accel}
+\begin{tabular}{@{}lccccl@{}}
+\toprule
+\textbf{方法} & \textbf{模型} & \textbf{原始 RTF} & \textbf{优化 RTF} & \textbf{加速比} & \textbf{质量} \\
+\midrule
+FasterQwen3TTS（CUDA Graph）& Qwen3 & 2.542 & \textbf{0.357} & \textbf{7.1$\times$} & 无损 \\
+Fish S2 Pro \texttt{--compile} & Fish  & 4.315 & \textbf{0.639} & \textbf{6.75$\times$} & 无损 \\
+流式 + CUDA Graph            & Qwen3 & 2.542 & 0.395 & 5.88$\times$ & 无损 \\
+Flash Attention 2            & 两者  & ---   & ---   & 基线  & --- \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.72\linewidth]{figs/rtf_comparison_bar.pdf}
+\caption{各模型与加速方法 RTF 对比（虚线为实时阈值 RTF = 1.0）。}
+\label{fig:rtf}
+\end{figure}
+
+\textbf{FasterQwen3TTS}（推荐）：在预热阶段分别为 talker 和 code predictor 捕获 CUDA Graph，消除内核启动开销，实现 RTF = 0.357（7.1$\times$）。流式模式 RTF = 0.395，首帧延迟（TTFA）= 305ms。无需 vLLM/Triton，直接兼容微调检查点。
+
+\textbf{Fish S2 Pro \texttt{--compile}}：对 \texttt{decode\_one\_token\_ar} 应用 \texttt{torch.compile}，RTF 从4.315降至0.639（6.75$\times$）；首次编译约3.5秒，后续约22 tokens/秒，显存20.1 GB。
+
+\subsection{被排除方案}
+
+\begin{table}[htbp]
+\centering
+\caption{尝试但被排除的加速方案}
+\label{tab:rejected}
+\small
+\begin{tabular}{@{}lp{3.5cm}p{6cm}@{}}
+\toprule
+\textbf{方法} & \textbf{结果} & \textbf{排除原因} \\
+\midrule
+INT8量化（bitsandbytes）& SIM = 0.07，WER = 1.0 & 与双轨 LM 架构不兼容，输出完全失真 \\
+推测解码（0.6B草稿）& 接受率0--5\%         & 草稿模型 token 分布与 SFT 1.7B 差异悬殊 \\
+自推测（早退）        & 层间一致率$<$7\%      & 全部28层均有实质贡献，无冗余层 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.72\linewidth]{figs/acceleration_summary.pdf}
+\caption{所有加速策略总结（绿色为成功方案，红色为排除方案）。}
+\label{fig:accel_summary}
+\end{figure}
+
+
+%% ============================================================
+\section{逐轮次分析}
+%% ============================================================
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.58\linewidth]{figs/epoch_sim_wer_v5.pdf}
+\caption{v5 各轮次 SIM\_gt 与 WER（FasterQwen3TTS 推理）。第3轮为综合最优。}
+\label{fig:epoch_v5}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{subfigure}[b]{0.48\linewidth}
+  \centering
+  \includegraphics[width=\linewidth]{figs/epoch_comparison_v4_v5.pdf}
+  \caption{v4 与 v5 各轮次 SIM\_gt 对比（CUDA Graph）。}
+  \label{fig:epoch_v4v5}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.48\linewidth}
+  \centering
+  \includegraphics[width=\linewidth]{figs/native_vs_fast_v4.pdf}
+  \caption{v4 原生 vs. CUDA Graph 推理 SIM\_gt。}
+  \label{fig:native_vs_fast}
+\end{subfigure}
+\caption{左：数据增广（v4 vs. v5）的逐轮次效果；右：CUDA Graph 推理质量无损验证（差异$<$0.02）。}
+\label{fig:epoch_combined}
+\end{figure}
+
+
+%% ============================================================
+\section{结论与展望}
+%% ============================================================
+
+\subsection{总结}
+
+\begin{enumerate}[leftmargin=2em, itemsep=3pt]
+  \item \textbf{数据}：664个精筛样本（约28分钟），经 Demucs → Pyannote → Silero-VAD → WhisperX → OpenCC → 说话人纯化六阶段处理。
+  \item \textbf{训练}：Qwen3-TTS-1.7B SFT，LR = $2\times10^{-6}$，余弦调度，bf16 混合精度，第3轮为最优检查点。
+  \item \textbf{质量}：SIM\_gt = 0.689，WER = 4.25\%，与5B参数 Fish S2 Pro 零样本竞争。
+  \item \textbf{速度}：RTF = 0.357（7.1$\times$ 实时），通过 FasterQwen3TTS CUDA Graph 实现，零质量损失。
+\end{enumerate}
+
+\subsection{部署建议}
+
+\begin{infobox}
+\begin{itemize}[leftmargin=1.5em, itemsep=3pt]
+  \item \textbf{生产部署}：Qwen3 SFT v5 第3轮 + FasterQwen3TTS \hfill RTF = 0.36，SIM\_gt = 0.69
+  \item \textbf{最高质量}：Qwen3 SFT v5 第3轮原生推理 \hfill SIM\_gt = 0.69，RTF = 2.54
+  \item \textbf{零样本备选}：Fish S2 Pro + compile \hfill RTF = 0.64，无需微调
+\end{itemize}
+\end{infobox}
+
+\subsection{未来工作}
+
+\begin{enumerate}[leftmargin=2em, itemsep=2pt]
+  \item \textbf{参考音频优化}：系统性研究不同参考音频组合对合成质量的影响。
+  \item \textbf{主观评估}：开展 MOS 测试，评估音色相似度、自然度、韵律和情感表达。
+  \item \textbf{服务部署}：利用 FasterQwen3TTS 内置服务模式或 vLLM-Omni 实现高并发 API 服务。
+\end{enumerate}
+
+\end{document}

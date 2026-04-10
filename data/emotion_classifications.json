@@ -1,0 +1,5314 @@
+[
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "语气平静，进行理性陈述和日常对话",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0001.wav",
+    "text": "领替性不错,我没调查你的地址,所以现在在打电话问你。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地调侃对方的变化",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0009.wav",
+    "text": "刚上来时还边蹬踏板边哼歌拍照,怎么蹬着蹬着话都不说了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地提出建议，带有关心的成分",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0008.wav",
+    "text": "不是说总觉得有人在暗中盯着你吗你最近还是少用以后为好"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "轻松打趣地建议查看特别的东西",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0009.wav",
+    "text": "要是这把剑不太顺手,不如先看看这里最特别的一件东西。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的陈述，带有理性分析的特征。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0046.wav",
+    "text": "人在失去视觉时其他感官会变得更加敏感"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己性格的变化",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0000.wav",
+    "text": "可能是跟你认识久了待人宽和了不少无用的人词"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "秦彻在冷静地陈述一个需要注意的过程，强调理性分析和精准操作。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0033.wav",
+    "text": "这个过程需要精准把握温度和力度不然很容易出现各种意外"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的意味，试图通过意外来观察对方的反应。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0019.wav",
+    "text": "况且不来点意外怎么看到你意料之外的表情"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，类似于调侃。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0071.wav",
+    "text": "听说只有小动物才喜欢用拱脑袋的方式来表达自己的想法。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性分析他人特征，语气平静",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0010.wav",
+    "text": "他不是胆小,胆小的动物不会露出这种沉着的眼神。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和冷淡，对某人或事物的评价显得不近人情。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0043.wav",
+    "text": "它本來也只是一個跟不上時代被淘汰的鍛造師"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0070.wav",
+    "text": "否则我可不敢保证能守住你和秦澈一起当蜗牛这个秘密。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静陈述事实，表现出对局势的掌控",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0054.wav",
+    "text": "大摩很少有意外发生,每一次结果都在意料之中。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种对大胆行为的激烈评价，可能带有些许讽刺或警告的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0010.wav",
+    "text": "形容一个人很不怕死,凭最小的胆子做最胆大的事。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表达了角色对对方的信任和亲密感，透露出一种深情的告白。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0049.wav",
+    "text": "毕竟一双能看到我所有另一面的眼睛,就应该像现在这样。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述夜营的特性",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0044.wav",
+    "text": "夜营时需要经年累月的吸收能量团所以才这么罕见"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出对完美的调侃。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0106.wav",
+    "text": "但每一道刻痕都完美符合预期的东西,反而很无趣不是吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地给予对方自由和信任",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0005.wav",
+    "text": "放心,在这里你想怎么处理就怎么处理。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "用幽默的方式表达对共同处境的理解",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0015.wav",
+    "text": "现在我好像更理解一条绳子上的蚂蚱是什么感觉了。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0011.wav",
+    "text": "但一天听他告八百次状控诉你的罪行也挺有意思。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表现出关心和温柔，强调对对方的承诺和支持。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0049.wav",
+    "text": "没这么脆弱就算累坏了也能准时出现在你面前"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0029.wav",
+    "text": "要让你这个初学者全程靠人力恐怕明天会起不了床"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0072.wav",
+    "text": "我倒觉得偶尔用动物的方式来表达不算坏方法。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述观察到的事实",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0057.wav",
+    "text": "说来旅游的这段时间 你好像只在傍晚和夜间安排行程"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静陈述关于人类眼神的看法",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0015.wav",
+    "text": "他们是人类攻击最直接的眼神,也是人类最诚实的欲望。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "表现出疏离和拒绝的情感，语气冷淡",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0023.wav",
+    "text": "要是我去了并且顺利回来,以后就彻底消失在你面前。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述事情的进展和预期",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0104.wav",
+    "text": "每一次切割和打磨都在预期之中算不上大麻烦"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地表达对未来变化的期待",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0107.wav",
+    "text": "我会很期待那些预期之外的刻痕所带来的连锁反应"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表达对对方的关心和体贴，想要对方感到轻松和快乐",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0048.wav",
+    "text": "所有能让你忘掉烦恼和压力的地方我都喜欢"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0006.wav",
+    "text": "还有哪位世面这么热心,每次都把你从生死边缘捡回来。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地安排行动计划，表现出沉稳的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0011.wav",
+    "text": "天快黑了你跟着向导先进去我很快就带他跟上"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，表现出一种轻松打趣的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0020.wav",
+    "text": "应该花了不少心思看来你对和我演戏已经轻车熟路了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句台词中带有轻松和调侃的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0019.wav",
+    "text": "他我一个人扔下还是我们在这骑马放羊"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种激烈和紧张的情感，涉及到竞争和减少目击证人的策略。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0011.wav",
+    "text": "不扑腾怎么把其他船都甩在身后减少几个目击证人"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出对表达感情方式的关心和温柔",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0063.wav",
+    "text": "我问他们这里的人一般用什么方式向心上人表达感情"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0003.wav",
+    "text": "要做什么不一样的表情才能让那群玩偶不轮流上来踩你的脚?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0018.wav",
+    "text": "他是让我们也像这里的人一样用果浆在脸上涂花纹"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和讽刺，表现出一种被误解的冷淡。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0021.wav",
+    "text": "看来在你眼里,我所有身份的本质都是强盗。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的好奇心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0026.wav",
+    "text": "要不是你好奇,这个锻造室大概会永远几回。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，拒人于千里之外",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0016.wav",
+    "text": "你去N109去随便抓个人问问谁在我身边有你放送"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "调侃对方的凶狠，带有轻松打趣的意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0010.wav",
+    "text": "左一个不行右一个不许你好凶"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "语气中带有冷淡和不屑，表现出对对方任务的轻视。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0044.wav",
+    "text": "顺手解决几个不长眼的人而已,原来他们就是你的任务。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，暗示有更多选择。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0002.wav",
+    "text": "要是子弹用腻了,锻造势力还有更适合你的武器。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0004.wav",
+    "text": "还是直接打印一张,贴在你们行动部那层楼的电梯口吧。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性分析事物存在的目的",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0000.wav",
+    "text": "有些东西存在就是为了让人利用它走捷径"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话中流露出一种温柔和关心，强调了共同经历的珍贵。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0045.wav",
+    "text": "毕竟是我们一起种的。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃对方没有体验过某些活动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0047.wav",
+    "text": "你的花车巡游和过山车不是还都没看过玩过吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话是对某个操作的平静陈述和指示。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0032.wav",
+    "text": "速度要快不要让它冷却冷却了就再次加热"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "理性分析问题，语气平静",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0031.wav",
+    "text": "如果温度不够或材质不好在这一步很容易出现问题"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在用幽默的方式评论意外。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0058.wav",
+    "text": "他要是长了嘴大概也想问问怎么会发生这种意外"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "调侃对方在特殊情况下还能关注夜景，语气轻松幽默",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0025.wav",
+    "text": "你在龙背上转得头晕眼花的时候还能顾得上看夜景"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述关于兵器的特点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0010.wav",
+    "text": "一种冷门的兵器全刃最适合贴身搏斗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静陈述对威胁的不在意，表现出沉稳自信",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0007.wav",
+    "text": "我这个人,向来对任何威胁都不太在意。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话带有一定的疏离感和威严，似乎在用冷淡的方式表达某种不满或警告。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0022.wav",
+    "text": "万一出了什么事,不就没有人打乱你的生活了吗?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，暗示性的幽默。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p04/qinche_pure_p04_0000.wav",
+    "text": "要我给你导航,不怕把你导去N109区。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地安慰对方，试图用烟花转移注意力。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0031.wav",
+    "text": "这样的烟花能抵消你没看上花车巡演的执念了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0059.wav",
+    "text": "你刚才磨掉的那一部分也就价值几个暗点而已"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述观点，语气中带有理性分析",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0043.wav",
+    "text": "他长大了不就和周围的树一样要看现在就能看"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句台词带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0008.wav",
+    "text": "知道了你在说我很厉害那你的名字呢"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0012.wav",
+    "text": "免得我好心收留小猫却一点也养不熟"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话是对谎言的理性分析，语气平静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0008.wav",
+    "text": "撒一个谎可是要用一千个谎话去圆的"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地指出对方的小秘密",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0039.wav",
+    "text": "下次想保密的时候,记得把眼圈下的阴影遮一遮。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话表现出一种平静的陈述，带有一点自信和对信息的掌控。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0018.wav",
+    "text": "我在你们协会的档案里应该是划分到高级机密吧"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，试图用幽默的方式来化解某种情境。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0036.wav",
+    "text": "就当是给床头柜上多天剑衬手的武器不好吗?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0050.wav",
+    "text": "只是十天不见就养成了爱帮人挠痒的习惯"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有自嘲和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0009.wav",
+    "text": "我只是个开水果超市的 还长了一张大众脸"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达对真诚交流的渴望和关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0002.wav",
+    "text": "不是说心里想什么就讲出来,才是真诚相待吗?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，表现出一种玩笑式的幽默。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0008.wav",
+    "text": "你看上别人开的哪艘船了,我们跳上去抢来。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地解释手势的含义",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0082.wav",
+    "text": "这是街头魔头专用的手势,邀请对方来一局的意思。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话表现出一种温柔的关心和体贴，关注对方的感受。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0069.wav",
+    "text": "编的时候就在想你戴起来会非常合适"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0003.wav",
+    "text": "毕竟我不是钱,不会所有人都认识我。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "秦彻在理性地讨论交接方式，语气平静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0005.wav",
+    "text": "那你说个能接受的交接方式,他们已经出发了。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的幽默感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0051.wav",
+    "text": "需要我帮你给走失的声带贴一张寻物告示吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地对物品进行评价",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0003.wav",
+    "text": "这是第一件像样的东西,不过重量稍轻力点。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.7,
+    "description": "平静陈述行事原则，强调理性和冷静",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0001.wav",
+    "text": "行事守则第一条,保持淡定。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0005.wav",
+    "text": "当着他的面色这些还指望他不跟我告状"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松打趣的意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0002.wav",
+    "text": "换成你被我故意困在那堆鹅先生哥小姐里,"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "秦彻在冷静地分析当前的情况，建议理性行动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0089.wav",
+    "text": "先想想追上他们后打什么手势,再追也不迟。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "关心和安慰的语气，表现出对对方的体贴。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0012.wav",
+    "text": "要是累了,受伤了,不想努力了。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0030.wav",
+    "text": "哦,不是自画像,那现在是呢?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0033.wav",
+    "text": "就有了十分钟没头了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种冷酷和威严的态度，似乎在指示某种无情的行动。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0051.wav",
+    "text": "把他放在抛盘上,和你想要的形状来打磨。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "告别时的紧张与不舍",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0027.wav",
+    "text": "也许这是我们的最后一面,猎人小姐。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.7,
+    "description": "这句话中包含了对对方受伤的关注，同时有一种紧张和严肃的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0012.wav",
+    "text": "怪不得你算个好猎人你的腿在流血"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0001.wav",
+    "text": "是啊不说别人怎么会知道"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "秦彻在陈述一种策略，语气中带有疏离和威严。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0009.wav",
+    "text": "伪造身份参与以朝交易的手法良民"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达了被关心后的温暖和感激",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0006.wav",
+    "text": "只不过刚才被关心了一下,现在已经好多了。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种调侃的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0030.wav",
+    "text": "我怎么不知道自己什么时候有的这种爱好。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话充满了浪漫和幻想的色彩，表达了亲密和深情。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0110.wav",
+    "text": "花瓣帶著你一起出現在了龍的夢裡"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，暗示对方不要小看自己。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0019.wav",
+    "text": "想得很美但别忘了我也有武器"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地提议用烟花结束约会",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0075.wav",
+    "text": "你不覺得應該把煙花作為這場約會的結尾嗎"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述自己的看法",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0005.wav",
+    "text": "这是因为这一次对我来说并不是陷阱"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有责备和疏离感，显得有些威严",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0022.wav",
+    "text": "刚才已经跟你预告过了是你太过轻敌"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述对流浪体问题的无奈",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0004.wav",
+    "text": "这个流浪体怎么都解决不了真是太清澈了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "轻松地谈论个人爱好，带有些许调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0011.wav",
+    "text": "喜欢收藏一些能弄出声响的小玩意儿"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.3,
+    "description": "轻松打趣地提议再次旅游",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0046.wav",
+    "text": "要是想看到时候我们可以再来旅游一次"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和自嘲的意味，显得轻松幽默。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0003.wav",
+    "text": "很多人都说我是大众脸经常被人搓"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有威胁和警告的意味，情感激烈。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0028.wav",
+    "text": "就用你的枪送他一个难忘的道理。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地描述了一个场景和食物",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0025.wav",
+    "text": "凌空公园的红叶还有美食街的烤板栗"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，提醒对方注意但并不严肃。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0028.wav",
+    "text": "你的背就要把身后那盆无辜的紫杨花推下去了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在打趣对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0036.wav",
+    "text": "我看千锤百炼的好像不是他,而是你。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表现出一种亲密和鼓励的情感，暗示对方可以放下顾虑，表现出内心的真实想法。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0013.wav",
+    "text": "刚才就看你想上手,现在不需要顾忌了。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心对方的作息情况，语气中带有温柔的关怀",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0038.wav",
+    "text": "这个时间就出现我猜你昨晚也没睡"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己做了一个梦的事实",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0109.wav",
+    "text": "昨晚睡着的时候我做了个梦"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和决绝，拒绝藕断丝连",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0032.wav",
+    "text": "说好了彻底消失 就不能藕断丝连"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.8,
+    "description": "表达对对方的珍惜和爱护，语气温柔",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0005.wav",
+    "text": "我现在是多么好脾气的珍惜和爱护着你"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，似乎在调侃对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0038.wav",
+    "text": "认识我这么久了你现在才注意到"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话表现出一种温柔和关心，暗示着角色对共同经历的珍视。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0044.wav",
+    "text": "我们一起种的树确实和别的树不一样"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0037.wav",
+    "text": "至少比在枕头下放枪安全多了"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种激烈和紧张的情感，强调了角色在战场上的凶狠和威慑力。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0020.wav",
+    "text": "他的凶名是战场上杀出来的"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述观察到的变化",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0094.wav",
+    "text": "看来过了这么多年露台也变成了一块牌子"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，表现出对对方的特别关注。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0034.wav",
+    "text": "你还是第一个敢对我说不准的人。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0015.wav",
+    "text": "手机还有电吧,不来留下我的罪证吗?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有赞赏的语气",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0037.wav",
+    "text": "有没有人跟你说过你还挺有创意的"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑地挑战对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0002.wav",
+    "text": "要是能把机械乌鸦养死那算你本事"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对对方的不屑和疏离感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0084.wav",
+    "text": "和这种小鬼做仇家 会拉低我的档次"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "轻松打趣地表达无奈",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0095.wav",
+    "text": "现在只能和这块牌子拍张照证明来过了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "重复的词语带有调侃和轻松的意味",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0015.wav",
+    "text": "舍夫尼克舍夫尼克"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种调侃的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0027.wav",
+    "text": "开车的时候看你喜欢多送你几个"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在打趣对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0000.wav",
+    "text": "好看吗打算看到什么时候"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话表现出一种理性分析和平静的态度，建议保持好心情。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0079.wav",
+    "text": "既然不想浪费时间就让自己有好心情"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有紧张和严肃的情感，可能是在警告或强调某种危险。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0017.wav",
+    "text": "受伤的人睡了可能会醒不过来"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "这句话表现出一种理性分析和冷静的自信。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0026.wav",
+    "text": "只要是人就有打败他的办法"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述某种象征意义",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0036.wav",
+    "text": "就装在这里也当是我们来过的证明"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "这句话表现出一种平静的建议，强调行动的重要性。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0007.wav",
+    "text": "不想说的话用行动表示也可以"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0016.wav",
+    "text": "原来得寸进尺不是我一个人的专利。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地询问对方在画什么",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0026.wav",
+    "text": "画了什么这么喜欢,笑得眉飞色舞的。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对失去掌控的不满和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0105.wav",
+    "text": "不在掌控中的切割我的确不喜欢"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，显得有些幽默。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0045.wav",
+    "text": "你的封口费还真是别出新词"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在开玩笑地要求回礼。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0042.wav",
+    "text": "不给一件回礼都说不过去了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0010.wav",
+    "text": "别人可能是被我的和蔼可亲吸引了吧,"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心对方的状态，温柔地提醒放松",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0086.wav",
+    "text": "你已经下班了别再满脑子打打杀杀"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松打趣的意味，表现出一种幽默感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0020.wav",
+    "text": "谁在谁脸上画还不一定呢"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述对方的心情变化",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0080.wav",
+    "text": "再过你又不止一次心情已经转换好了"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.7,
+    "description": "这句话可能是在一个紧张或战斗的场景中，带有一定的激烈情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0005.wav",
+    "text": "想象你面前是手持盾牌的士兵"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对唱歌感觉的真实体验",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0099.wav",
+    "text": "唱歌的感觉很真实 不像幻觉"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑地邀请对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0022.wav",
+    "text": "想跟我回案点,就直说。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或轻松地指出某个事实。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0004.wav",
+    "text": "软件不是用来劈卡,而是刺激。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对他人的不信任和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0066.wav",
+    "text": "毕竟我现在能信任的人可不多"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，似乎在赞美对方的同时又带有一点幽默。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0014.wav",
+    "text": "猎人小姐总是能带给人新体验,"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对挑衅者的不屑和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0002.wav",
+    "text": "偶尔会有些没脑子的家伙向我挑衅"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述时间有限导致工作的粗糙",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0066.wav",
+    "text": "时间有限 编得有点粗糙就是"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "语气中带有调侃和轻松的意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0003.wav",
+    "text": "听你这句意,是完蛋了的意思啊?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地询问对方是否有事",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0000.wav",
+    "text": "十几个你的未接来电有事"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0014.wav",
+    "text": "巧了,我最喜欢顶风作案。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离感，显得不太在意",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0010.wav",
+    "text": "等以后想起来了再一并找你"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p04/qinche_pure_p04_0002.wav",
+    "text": "喜欢这么勤彻的导航吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "理性分析，平静陈述",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0022.wav",
+    "text": "学会的东西不会这么快忘记。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的语气，像是在开玩笑地请求。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0000.wav",
+    "text": "能让我搭个便车吗这位小姐"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述感受到的温度",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0005.wav",
+    "text": "我也觉得有点冷"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，似乎在展示新事物时带有一点得意。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0101.wav",
+    "text": "顺便让他们看看我新搜罗来的"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的行为。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0015.wav",
+    "text": "感动完自己开始感动我了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，试图通过幽默吸引注意。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0001.wav",
+    "text": "不鲜艳一点怎么吸引你的视线?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述时间的推测",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0042.wav",
+    "text": "看这样子,少说也要十几年吧。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0049.wav",
+    "text": "搞什么,晚会才刚刚开始。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，表现出对对方意图的冷淡和不满",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0005.wav",
+    "text": "原来你一直想把我当成流浪体解决"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松打趣的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0002.wav",
+    "text": "两个姓薛的,是被你传染的吧?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地建议使用梅菲斯特的帮助",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0009.wav",
+    "text": "有什么事就叫梅菲斯特帮你去做"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0010.wav",
+    "text": "突然真以为我无聊到送她去监视你"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，邀请对方参加一个有趣的活动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0026.wav",
+    "text": "国王的晚宴,要赴约吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是对行动的平静陈述，语气沉稳。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0081.wav",
+    "text": "接上我們的車,終點跨了土莊。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.7,
+    "description": "语气中带有命令和严厉的成分",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0016.wav",
+    "text": "我说不可以,你就不睡了。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0052.wav",
+    "text": "哦 原来是惩罚升级了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0022.wav",
+    "text": "那你今天打算继续做我的供饭"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述任务进展",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0038.wav",
+    "text": "现在算是完成了最重要的第一阶段"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地鼓励对方继续坚持",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0037.wav",
+    "text": "这才刚刚开始还能坚持"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0001.wav",
+    "text": "还没想好见到我之后的开场白吗"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0011.wav",
+    "text": "还以为只有猫才会对红点感兴趣"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种理性和开放的态度，强调互相学习的重要性。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0007.wav",
+    "text": "我們應該互相向對方學習"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对环境的观察",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0008.wav",
+    "text": "你不觉得在这个完全陌生的地方"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述关于游乐园的事实",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0017.wav",
+    "text": "嗯只是因为游乐园"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0028.wav",
+    "text": "不用在这里像站岗一样不累吗"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表现出激烈的情感，可能是在战斗或紧张的场景中。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0007.wav",
+    "text": "开始发威了 万寿之王"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0068.wav",
+    "text": "再低一点头冠就要掉了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0006.wav",
+    "text": "这个理由比防晒更容易让人接受"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，可能在质问或警告对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0012.wav",
+    "text": "你知不知道自己上了艘什么样的船"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述关于短刀的观点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0017.wav",
+    "text": "有些经典的短刀是格斗的王者,"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "理性分析和询问",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0055.wav",
+    "text": "你賦予她什麼樣的力度和方向"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0004.wav",
+    "text": "你人真好,大慈善家。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑地提出建议。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0006.wav",
+    "text": "比如再造个剧我听听"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在打趣对方的选择标准。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0087.wav",
+    "text": "你挑对手的标准就是眼光一致"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，试图化解紧张气氛。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0055.wav",
+    "text": "要惩罚我就别迁怒棉花糖了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的建议，没有明显的情感波动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0006.wav",
+    "text": "记得找个收件时不用物品扫描的地方"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种期待和亲密感，暗示着对未来见面的重视。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0012.wav",
+    "text": "下次见面是亲自带给你。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种调侃的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0015.wav",
+    "text": "真是要少很多乐趣了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述一件事实",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0093.wav",
+    "text": "電影《日不落之城》曾拍攝地"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "语气平静，似乎在讨论日常事务",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0046.wav",
+    "text": "那就再多去几趟买回了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0006.wav",
+    "text": "那要是被你的同事们发现了,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0003.wav",
+    "text": "倒是第一次知道气球还需要溜"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有批评和不满，显得冷淡",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0003.wav",
+    "text": "效率的确低下"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，可能是在调侃对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0012.wav",
+    "text": "你对这么可爱的小动物下得去手"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地询问对方是否记得回家的路",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0012.wav",
+    "text": "记得回去的路吗小家伙"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0054.wav",
+    "text": "你的棉花糖看起来很火热"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0067.wav",
+    "text": "还满意吗心伤人"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0015.wav",
+    "text": "有一天竟然要给你和鸟做调停"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0085.wav",
+    "text": "刚才那些都是赢家的嘲讽手势"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地接受对方的回答，没有明显情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p04/qinche_pure_p04_0003.wav",
+    "text": "你的答案我知道了。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心和体贴地提出送对方回家",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0021.wav",
+    "text": "走吧 我送你回家"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出一种亲密和专属的情感，暗示只有在他面前才会展现的独特一面。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0016.wav",
+    "text": "你那些只在我面前露出的样子"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0028.wav",
+    "text": "画在脸上省得举手去溜"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，可能是在开玩笑或轻松的场合中说的。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0071.wav",
+    "text": "在我脸上画了颗心之后"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃和轻松的语气，表现出对某种情况的无奈和幽默感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0013.wav",
+    "text": "怎么和一只鸟的关系都处不好"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.3,
+    "description": "语气中带有关心和体贴，建议对方放松",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0052.wav",
+    "text": "放到桌上 这样会轻松点"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话表现出一种平静和理性的陈述，表明对事情的处理有信心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0067.wav",
+    "text": "做的事情 薛民薛也会解决"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，像是在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0023.wav",
+    "text": "还是扮演一下被我劫掠的对象。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话表现出一种自信和平静的态度，强调适应能力。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0029.wav",
+    "text": "也可以让任何地方适应我。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地陈述一个决定",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0035.wav",
+    "text": "那就把他们留在最合适的地方。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达出一种亲密和心动的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0008.wav",
+    "text": "有一种心跳加速的感觉"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了对两人关系的深刻思考和感慨",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0016.wav",
+    "text": "可惜我们之间的那条绳子"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述信息",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0019.wav",
+    "text": "你能知道这个级别的信息"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述对某人行为的理解和接受",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0001.wav",
+    "text": "他住够了会自己飞回来"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述事实，没有明显情感波动",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0073.wav",
+    "text": "这俩姓薛的至少还记得正是"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离感，似乎在拒绝或保持距离",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0006.wav",
+    "text": "这些个眼神足够了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的勇气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0015.wav",
+    "text": "可是有狩猎巫妖的胆量呢"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "语气中带有温柔和关心，希望对方能记住。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0000.wav",
+    "text": "那我多说几遍让你能记得。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达了一种温柔的渴望和关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0023.wav",
+    "text": "只是因为想见对方就见面"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的能力或行为。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0005.wav",
+    "text": "能跑到我都找不到的地方去"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "轻松打趣地提及过去的教导",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0007.wav",
+    "text": "还记得教过你的拳击动作吗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的陈述，带有一点观察和分析的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0021.wav",
+    "text": "可你好像已经逐渐习惯了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述对天气的观察",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0058.wav",
+    "text": "天气这么好却晒不了太阳"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达出一种强烈的占有欲和紧迫感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0073.wav",
+    "text": "不能让你从我身边离开了"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出愤怒和紧张的情感，带有威胁性。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0011.wav",
+    "text": "弄死也有了狡辩"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0012.wav",
+    "text": "不過倒也不用這麼尊師重道,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "轻松打趣，带有幽默感",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0002.wav",
+    "text": "小本买卖"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达对对方的独特性和特别之处，带有亲密的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0003.wav",
+    "text": "当时没有一个像你这样"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句台词带有轻松打趣的意味，表现出一种调侃的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0024.wav",
+    "text": "那我要是想多看一会儿呢?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "简单的日常对话，没有明显情感波动",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0025.wav",
+    "text": "今天的事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话可能是在平静地陈述一个时间点，没有明显的情感波动。",
+    "confidence": 0.7,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0047.wav",
+    "text": "十几年以后"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "平静地讨论未来的可能性",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0077.wav",
+    "text": "如果有一天想換個地方生活"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种威胁和疏离感，暗示危险。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0014.wav",
+    "text": "不知道太多会被杀掉"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "语气中带有温柔和关心，想要陪伴对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0009.wav",
+    "text": "能不能让我带她四处走走"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，提醒对方注意。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0041.wav",
+    "text": "小心撞树上了"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心和心疼的语气，表达对对方的担忧",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0029.wav",
+    "text": "你也没少做让我担心的事"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0035.wav",
+    "text": "钱都印出来,不用选了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述事实",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0041.wav",
+    "text": "误证也有了,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "轻松打趣地评价设备",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0027.wav",
+    "text": "幸好这台老古董还能开机"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的陈述，可能在思考或分析某件事情。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0056.wav",
+    "text": "就会留下什么样的刻痕"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地提醒对方保持状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0000.wav",
+    "text": "记住保持好你的风氛"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "语气平静，似乎在进行理性分析或自我反思",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0009.wav",
+    "text": "臣反而没有那么多顾虑吗"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出关心和温柔的语气",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0002.wav",
+    "text": "你在我身边越来越放松了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃的意味，可能是在轻松的场合中开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0032.wav",
+    "text": "也差不多要毁容了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或引导对方的兴趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0001.wav",
+    "text": "不是想看我之前鍛造的武器"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和幽默的意味，表现出一种随意和俏皮的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0097.wav",
+    "text": "不影响我打视频啃猫。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地接受结果，表现出理性和成熟",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0031.wav",
+    "text": "毕竟我是愿赌服输的人"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松的调侃意味，可能是在半开玩笑地询问对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0037.wav",
+    "text": "不算我打乱你的生活了吧"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0001.wav",
+    "text": "你真的不会让人觉得无聊"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，带有指责的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0011.wav",
+    "text": "下次善用你的通讯设备。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松调侃的语气，试图引起对方的回应",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0040.wav",
+    "text": "想起我的哪些样子了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在引导对方的好奇心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0062.wav",
+    "text": "不是好奇我刚才在聊什么吗"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.5,
+    "description": "这句话表现出一种温柔的关心，可能是为了迎合或照顾他人的习惯。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0064.wav",
+    "text": "照当地的习俗做了这个"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的语气，可能是在开玩笑或轻松地谈论某件事。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0065.wav",
+    "text": "跟你去拿棉花糖的时候编的"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是理性分析和建议，语气平静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p08/qinche_pure_p08_0008.wav",
+    "text": "所以我建议你亲自接受。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对某物的观察",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0057.wav",
+    "text": "很别致的不规则切割"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地回忆起一首曲子",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0018.wav",
+    "text": "连这首曲子都想起来了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己的作品",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0031.wav",
+    "text": "我的杰作"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述自己的状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0009.wav",
+    "text": "我偶尔会有些心神不宁"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种冷漠和疏离的态度，似乎对生死无所谓。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0034.wav",
+    "text": "反正在N109活不了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述，可能在分析或解释某个情况",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0030.wav",
+    "text": "不过现在多了一个前提"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和不确定，似乎在试探对方的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0002.wav",
+    "text": "还以为你其实不想见到我。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "这句话带有轻松打趣的意味，似乎在引起对方的好奇心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0061.wav",
+    "text": "你不是好奇我刚才在聊什么吗"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的意味，似乎在调侃对方的挑剔。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0013.wav",
+    "text": "还要被他挑剔笑得不好"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静和理性的接受态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0001.wav",
+    "text": "那就恭敬不如从命了。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出一种亲密和依赖的情感，邀请对方在需要时依靠自己。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0013.wav",
+    "text": "也可以直接逃来我身边"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达出一种私密和深情的氛围，强调两人之间的独特关系。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0092.wav",
+    "text": "纯粹的只有你和我"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是对一个普通活动的平静陈述，没有明显的情感波动。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0100.wav",
+    "text": "情人品酒的普通宴會"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0004.wav",
+    "text": "老大不能说不行"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己第一次合唱的经历",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0013.wav",
+    "text": "我还是第一次和人合唱"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地表达感谢",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0035.wav",
+    "text": "你的枪这次帮了我大忙"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0007.wav",
+    "text": "你倒很会给自己开脱"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地提及可能影响对方的人",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0042.wav",
+    "text": "至于让你睡不好的人"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是理性分析，语气平静，可能在指导或建议。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0008.wav",
+    "text": "不能只依靠手臂的力量"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述对某人未来变化的预期",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0039.wav",
+    "text": "他很快就會脫胎換骨"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种亲密和信任的情感，可能是在一个私密的场景中说的。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0045.wav",
+    "text": "攜帶我過去的寶石"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和幽默的意味，表现出一种俏皮的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0009.wav",
+    "text": "每次我都笑得很和善"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒绝的态度，似乎在划清界限。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0024.wav",
+    "text": "不会再来打乱你的生活"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对他人行为的观察",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0006.wav",
+    "text": "他的行为好像更真诚"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，似乎在调侃对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0007.wav",
+    "text": "上船吧海盗小姐"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0010.wav",
+    "text": "才满一点"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0027.wav",
+    "text": "那就敬你的宽宏大量"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出对生兵器的兴趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0014.wav",
+    "text": "生兵器很有趣不是吗"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话中透露出一种紧张和严肃的情感，可能暗示着危险或不确定的未来。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0025.wav",
+    "text": "要是我去了没回来"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，强调对方的错误",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0030.wav",
+    "text": "现在算你自己违约了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0006.wav",
+    "text": "我怎么看你还挺享受的"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述自己适应能力强",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0028.wav",
+    "text": "我可以适应任何地方"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有赞赏意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0004.wav",
+    "text": "你的本事涨进了不少"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种拒人于千里之外的冷淡和威严。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0007.wav",
+    "text": "可不由肇事者说了算"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或轻松地评论。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0008.wav",
+    "text": "跳练的应该不是胆子,"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种亲密和坚定的情感，暗示着对关系的信任和承诺。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0048.wav",
+    "text": "你不觉得我们会分开"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出一种温柔的惊喜和欣慰",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0072.wav",
+    "text": "竟然回应了我的礼物"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃的意味，可能是在轻松的氛围中说的。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0009.wav",
+    "text": "你欠我的人情还少吗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静和理性的态度，强调耐心等待。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0013.wav",
+    "text": "我们耐心慢慢等"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和随意的语气，像是在打趣或提议。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0031.wav",
+    "text": "就这么出去玩刚刚好。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心对方的安危，语气中带有温柔的关怀",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0005.wav",
+    "text": "还是担心被我牵连"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达对对方不在时的思念和亲密感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0008.wav",
+    "text": "你不在的这段时间"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0023.wav",
+    "text": "这么光明正大耍赖"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是日常对话，语气平静。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0050.wav",
+    "text": "我们刚才在聊"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话传达了一种强烈的战斗和生存的意志。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0018.wav",
+    "text": "獵刀為荒野而生"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中透露出一种冷淡和疏离感，似乎对某事失去了兴趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0053.wav",
+    "text": "不過很快就沒什麼意思了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "调侃和轻松打趣的语气",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0011.wav",
+    "text": "不披萨什的样子"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述自己的特点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0014.wav",
+    "text": "一向说话算数"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎是在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0070.wav",
+    "text": "又想在我脸上画什么"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句台词带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p10/qinche_pure_p10_0003.wav",
+    "text": "那不是正合你意吗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "询问对方立场，语气平静",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0007.wav",
+    "text": "你会选择站哪一边"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话表现出一种温柔的关心和祝福，希望对方能够实现愿望。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0026.wav",
+    "text": "你也能如愿以偿"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0036.wav",
+    "text": "你自己不好想我"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述事实，语气中没有明显的情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0004.wav",
+    "text": "你也应该知道了吧"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表达对对方努力的关心和欣赏",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0010.wav",
+    "text": "你拼尽全力的样子。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "平静陈述关于信任的观点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0013.wav",
+    "text": "信任的人看到"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "语气平静，似乎在陈述一个可能性",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0018.wav",
+    "text": "要是我真輸了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出一种疏离和拒人于千里之外的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0000.wav",
+    "text": "来了又躲在一边"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有威胁或警告的意味，语气较为严厉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0014.wav",
+    "text": "否则这凌空式"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松的自信和调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0004.wav",
+    "text": "太小看我的水平了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，可能是在回应某个情境。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0033.wav",
+    "text": "我倒是也准备了一个"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表现出关心和温柔的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0004.wav",
+    "text": "你是在担心我"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了一种深情和难以割舍的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0017.wav",
+    "text": "好像是剪不断的。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "理性地劝告他人不要使用暴力",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0008.wav",
+    "text": "不要滥用暴力"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话暗示了某种深情或私密的情感，可能是在表达对某人或某物的重要性。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0024.wav",
+    "text": "最重要的东西"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出疏离和拒人于千里之外的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0017.wav",
+    "text": "不需要让别人见到"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0059.wav",
+    "text": "弄你及我好几条了"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话表现出关心和体贴，可能是在为对方考虑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0060.wav",
+    "text": "是这样更适合你"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述当前情况",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0024.wav",
+    "text": "再晚点人会更少"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种疏离和拒绝的情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0029.wav",
+    "text": "我们不应该再见面"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0014.wav",
+    "text": "你很会自我感动"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达对对方外貌的温柔赞美",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0027.wav",
+    "text": "喜欢你的头发"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，似乎在质问或提醒对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0015.wav",
+    "text": "你自己没察觉到吗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方的意思，语气中没有明显的情感波动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0001.wav",
+    "text": "人撤了是什么意思啊"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方名字的含义",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p09/qinche_pure_p09_0009.wav",
+    "text": "解释一下你的名字"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述未来的不确定性",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0063.wav",
+    "text": "什么都有可能发生"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒人于千里之外的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0011.wav",
+    "text": "想得到我的真诚"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达亲密关系的意图，语气柔和且深情",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0012.wav",
+    "text": "能让最亲密"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表达了一种亲密和独占的情感，暗示着一种深情的告白。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0043.wav",
+    "text": "求我一个就够了。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句台词表现出亲密和深情，称呼对方为“端端”显示出一种亲昵的关系。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0004.wav",
+    "text": "是我的端端"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p06/qinche_pure_p06_0003.wav",
+    "text": "倒是活蹦乱跳"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，可能是在鼓励对方放松或尝试新事物。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0001.wav",
+    "text": "忽然你释放一下"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话平静地陈述了一种比喻，可能在解释或分析某个过程。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0103.wav",
+    "text": "就像打磨寶石"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种表面上的笑容但内心冷漠的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p01/qinche_pure_p01_0010.wav",
+    "text": "皮笑肉不笑就够了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和拒人于千里之外的感觉",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0033.wav",
+    "text": "原来只是玩笑。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒人于千里之外的感觉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0020.wav",
+    "text": "在越南忘记"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0017.wav",
+    "text": "干杯是会醉的。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和不在乎，显得冷淡",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0034.wav",
+    "text": "有什么区别吗?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地称赞照片",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0050.wav",
+    "text": "照片拍得挺不错"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "这句话带有轻松和调侃的意味，可能是在轻松的场合中说的。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_02/qinche_02_0078.wav",
+    "text": "不是说再兜一圈吗"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达深厚的友谊和信任",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p02/qinche_pure_p02_0000.wav",
+    "text": "过命的朋友"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述，可能在分析或描述某种情况",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p03/qinche_pure_p03_0019.wav",
+    "text": "飘得越深"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达了关心和温柔的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0003.wav",
+    "text": "真诚相待"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "平静地询问对方的感情状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0020.wav",
+    "text": "你有心上人了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和拒人于千里之外的感觉",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_pure_p05/qinche_pure_p05_0021.wav",
+    "text": "如果不是故意"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "简单的观察或陈述，没有明显情感波动",
+    "confidence": 0.7,
+    "file": "data/audio_samples/normalized/qinche_pure_p07/qinche_pure_p07_0039.wav",
+    "text": "这个表情"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地表达对意外的接受",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_pure_p11/qinche_pure_p11_0018.wav",
+    "text": "我不讨厌意外"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静的询问，可能是日常对话中的关心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0000.wav",
+    "text": "有了什么麻烦事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述事实，没有明显情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0001.wav",
+    "text": "发送的应该是别人"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "语气中带有请求和依赖，表现出温柔和渴望的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0002.wav",
+    "text": "我求你,你可以帮我解决麻烦。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种拒人于千里之外的态度，显得冷淡。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0003.wav",
+    "text": "我好像没说需要帮助"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0004.wav",
+    "text": "什么麻烦是要把我摁在床上解决的"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "语气中带有强烈的命令感和紧迫感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0005.wav",
+    "text": "不求也得求"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "语气中带有不情愿和拒人于千里之外的冷淡",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0006.wav",
+    "text": "要我开口求人"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "询问是否有特别的方法，语气平静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0007.wav",
+    "text": "有什么不平常的方法"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达了强烈的进攻性和紧张感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0008.wav",
+    "text": "进攻又很强烈"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出不耐烦和疏离的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0009.wav",
+    "text": "就开始犹犹豫豫"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地建议专注于一件事情",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0010.wav",
+    "text": "就专心忙一件事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方是否想听自己的评价",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0011.wav",
+    "text": "想听我的评价"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0012.wav",
+    "text": "张嘴就气人"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.6,
+    "description": "这句话表现出一种冷淡和疏离的态度，可能是在表达对某事物的不屑或轻视。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0013.wav",
+    "text": "不能算得上是开胃菜"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出一种疏离和威严的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0014.wav",
+    "text": "还微风凛凛地压着我"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，可能是在质问或批评。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0015.wav",
+    "text": "现在就开始后缩了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0016.wav",
+    "text": "不是说想听我求饶吗"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.7,
+    "description": "这句话带有挑衅和激烈的意味，暗示对抗或冲突。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0017.wav",
+    "text": "要是有什么仇也可以现在报复回来"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的意味，暗示有趣的选择。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0018.wav",
+    "text": "我也有很多有趣的做法"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "这句话表现出一种理性分析和冷静的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0019.wav",
+    "text": "要一一尝试"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "语气平静地请求对方检查伤口",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0020.wav",
+    "text": "检查我的伤"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种冷漠和疏离的态度，似乎对他人的痛苦无动于衷。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0021.wav",
+    "text": "都是别人的血"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒人于千里之外的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0022.wav",
+    "text": "如果你不信的话"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地提醒对方提前告知检查的时间",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0023.wav",
+    "text": "下次要检查,早点说。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问或陈述，可能是在关心对方的伤势。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0024.wav",
+    "text": "检查伤口的手法吗"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和轻微的讽刺，给人一种拒人于千里之外的感觉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0025.wav",
+    "text": "总没见识过"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话语气平静，可能是在日常对话中表达一种观察或体验的意图。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0026.wav",
+    "text": "今晚上我多见识一遍"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出一种温柔的顺从和关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0027.wav",
+    "text": "今天都听你的"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0028.wav",
+    "text": "想要我的尾巴"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0029.wav",
+    "text": "狡猾的小猎人"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述某事的多种可能性",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0030.wav",
+    "text": "有很多种用法"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在对某个行动的独特性进行调侃。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0031.wav",
+    "text": "这次下手的地方倒是别出心裁"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在寻找一个借口或漏洞。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0032.wav",
+    "text": "但你没说不可以继续用EVO"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出一种温柔和顺从的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0033.wav",
+    "text": "今天都听你的"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "语气中带有紧张和严厉，可能处于对抗或冲突情境",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0034.wav",
+    "text": "现在有理由正当防卫了吧"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对景色的看法",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0035.wav",
+    "text": "这么好的景色,应该足够主行。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达出强烈的欲望和内心的渴望",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0036.wav",
+    "text": "会让我欲望的缺口越来越大"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出一种冷静的观察和评价，带有一定的疏离感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_01/qinche_01_0037.wav",
+    "text": "这种忠于欲望的样子"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地建议对方亲自签收礼物",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0000.wav",
+    "text": "过半个小时,薛明轩也会给你送个礼物过去,建议你亲自签收。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "语气平静，理性地解释行为",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0001.wav",
+    "text": "警惕性不错,我没调查你的地址,所以现在在打电话问你。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃某种情况。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0002.wav",
+    "text": "可以那待会儿只好辛苦他们在猎人协会的终端里多播放几次失误招领了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有不满和批评，显得冷淡疏离。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0003.wav",
+    "text": "效率的确低下"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0004.wav",
+    "text": "还是直接打印一张,贴在你们行动部那层楼的电梯口吧。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "秦彻在讨论交接方式时表现出理性和沉稳。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0005.wav",
+    "text": "那你说个能接受的交接方式,他们已经出发了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的建议，带有理性分析的成分。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0006.wav",
+    "text": "记得找个收件时不用物品扫描的地方"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述关于枪械的信息",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0007.wav",
+    "text": "一把枪你现在用的枪没那么顺手这两天组装了一把新的专门针对流浪体非常"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "理性建议，语气平静",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0008.wav",
+    "text": "所以我建议你亲自接受。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地陈述关于伪造身份参与交易的手法",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0009.wav",
+    "text": "伪造身份参与以朝交易的手法良民"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的严厉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0010.wav",
+    "text": "左一个不行右一个不许你好凶啊"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静和理性的态度，给予对方自主权。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0011.wav",
+    "text": "好吧林空试试你的地盘你做主有事给我打电话"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种亲密和期待的情感，暗示着对未来见面的重视。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p01/qinche_call_p01_0012.wav",
+    "text": "下次见面是亲自带给你"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句台词带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0000.wav",
+    "text": "是秦撤了秦撤了的秦撤了是什么意思"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0001.wav",
+    "text": "两个姓薛的,是被你传染的吧?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0002.wav",
+    "text": "听你这句意是完蛋了的意思啊?"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.7,
+    "description": "表达了对无法解决问题的激烈不满",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0003.wav",
+    "text": "这个流浪体怎么都解决不了真是太前车了"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话中透露出一种被误解或被背叛的激烈情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0004.wav",
+    "text": "原来你一直想把我当成流浪体解决"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0005.wav",
+    "text": "比如再造个剧我听听"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，似乎在调侃对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0006.wav",
+    "text": "你倒很会给自己开脱"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种俏皮的互动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0007.wav",
+    "text": "知道了你在说我很厉害那你的名字呢"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方名字的含义",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0008.wav",
+    "text": "解释一下你的名字"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达对某人行为的激烈评价，带有一定的讽刺意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0009.wav",
+    "text": "形容一个人很不怕死,凭最小的胆子做最胆大的事。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话中带有明显的愤怒和指责情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0010.wav",
+    "text": "弄死也有了狡辩"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，形容一个人像猫一样可恶但又让人不忍心。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p02/qinche_call_p02_0011.wav",
+    "text": "还有名词的解释只带一种爪子锋利又养不熟的猫也可以特指一个十分可恶又让人不忍心下手的人"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离感，显得有些冷淡",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0000.wav",
+    "text": "几个你的未接来电有事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述对某人行为的预期",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0001.wav",
+    "text": "他住够了会自己飞回来"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0002.wav",
+    "text": "要是能把机械乌鸦养死那算你本事"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在打趣对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0003.wav",
+    "text": "那不是正合你意吗"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "调侃对方尝试关闭机械鸟电源的方法，语气轻松幽默",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0004.wav",
+    "text": "你今天一直在搜N109区的乌鸦,如何关闭机械鸟的电源,尝试了喂鸭喝水敲鸭脑袋宝石溜鸭,这些我都知道。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0005.wav",
+    "text": "当着他的面色这些还指望他不跟我告状"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是对梅菲斯特功能的平静陈述，带有理性分析的特征。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0006.wav",
+    "text": "梅菲斯特用途广泛能定位敌人还能察觉到异常信号你会用得上的"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "安慰和鼓励对方，表达关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0007.wav",
+    "text": "别妄自菲薄你比你想象中有用的多这几天他都会跟着你出门"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性分析和建议，语气平静",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0008.wav",
+    "text": "不是说总觉得有人在暗中盯着你吗你最近还是少用一步为好"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地建议他人去寻求帮助",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0009.wav",
+    "text": "有什么事就叫梅菲斯特帮你去做"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0010.wav",
+    "text": "忽然真以为我无聊到送她去监视你"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0011.wav",
+    "text": "但一天听他告八百次状控诉你的罪行,也挺有意思。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松打趣",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0012.wav",
+    "text": "你对这么可爱的小动物下得去手"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，表现出对自己与鸟关系的幽默自嘲。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0013.wav",
+    "text": "怎么和一只鸟的关系都处不好"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话中带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p03/qinche_call_p03_0014.wav",
+    "text": "刚传回来的信号他在告状算了我把它撤回来真没想到有一天竟然要给你和鸟做调停"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有质疑和不满，显得有些疏离",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0000.wav",
+    "text": "盯着手机屏幕看了这么久才接才犹豫什么"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述自己的目的",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0001.wav",
+    "text": "来这里办点私事"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表现出对对方的关心和担忧",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0002.wav",
+    "text": "怕我被抓住"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种俏皮的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0003.wav",
+    "text": "挺好还我个小毛"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0004.wav",
+    "text": "我不走过来,难道一头朝你撞过来?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述事实，语气中没有明显的情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0005.wav",
+    "text": "我身后跟的也是我的同事"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，要求对方让路。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0006.wav",
+    "text": "你站在走廊口我要进那条走廊里路就这么宽要么你让让"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "轻松打趣，调侃对方的紧张情绪",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0007.wav",
+    "text": "你紧张得眼睛都要掉出来了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和质疑，表现出对对方刻意回避的冷淡态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0008.wav",
+    "text": "你有没有听过一个词叫欲盖弥彰回避的这么刻意还和我保持距离"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒绝的态度，试图与对方保持距离。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0009.wav",
+    "text": "只会让别人以为我们真的有什么。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有一点调皮的感觉",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0010.wav",
+    "text": "摸摸口袋给你塞了个小东西"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "简单的物品请求，语气平静",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0011.wav",
+    "text": "我的车钥匙"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "语气平静，理性地安排任务",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0012.wav",
+    "text": "既然你等会儿没事,不如帮我个小忙,我去十五楼和你们协会高层谈点事,万一谈崩了,等你把车发动好,我正好下来,接应好我,凌空市的路况你比我熟。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，似乎在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0013.wav",
+    "text": "如果真落在你手里就当给你送夜去了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有轻松和调侃的语气，邀请对方一起兜风。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p04/qinche_call_p04_0014.wav",
+    "text": "没有的话就当凌空一日游别回家睡觉了晚上和我出去开车兜风到地方了先挂了去车里等我一会儿见"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句台词带有调侃和轻松打趣的意味。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0000.wav",
+    "text": "你社交账号里点了在看的那篇文章是《极赞领取大佬同款气场修炼秘籍》,教会你如何用一个眼神让对手腿软。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方能从秘籍中学到什么",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0001.wav",
+    "text": "从这个秘籍你能学到什么"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性陈述自己的原则和行为",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0002.wav",
+    "text": "我确实谈不上善良,但戴墨镜是为了避光,嘴角不必上扬这条,我是保留意见,最重要的是,我从来不滥用暴力,不随便给人一枪。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0003.wav",
+    "text": "比你这个不靠谱的秘籍好一点"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有调侃意味的轻松语气，试图缓解对方的紧张情绪",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0004.wav",
+    "text": "你在我面前不是张牙舞爪无所畏惧那些参会的人难道比我可怕"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述问题已解决",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0005.wav",
+    "text": "问题解决了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是对晚宴场合的平静陈述，带有理性分析的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0006.wav",
+    "text": "上位者参加晚宴往往是在享受,你只需要端着酒杯慢慢喝,自然有人上来打话。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0007.wav",
+    "text": "渐编的N109去大佬气场修炼秘籍"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述事实，没有明显情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0008.wav",
+    "text": "本来就是宴会的具体时间"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "轻松打趣地提出建议",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0009.wav",
+    "text": "你打算直接去参加晚宴吗不如"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性分析并提供建议，语气平静",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p05/qinche_call_p05_0010.wav",
+    "text": "下周二还有一段时间你可以先来找我演习看网传秘籍那些歪门邪道只会让你误入歧途来N109区亲自体验过才知道"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0000.wav",
+    "text": "如果不是听出你的声音,还以为这是诈骗电话的开场白。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地询问对方有什么事情",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0001.wav",
+    "text": "什么事 说吧"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0002.wav",
+    "text": "认真的吗让我帮你抽你怎么没有先测一下我的运气指数有多少"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和拒绝的意味，表现出不愿意参与的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0003.wav",
+    "text": "你又怎么确定测出这个61没有花光我今天的好运,劝你还是找别人吧。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话中带有调侃和轻松的语气，似乎在开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0004.wav",
+    "text": "我的理财方式不包括瓜瓜乐,你身边就没有其他人测出比61大的数字了。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有警告和疏离感，显得有些威严和冷淡。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0005.wav",
+    "text": "如果结果不好你可别后悔"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "关心和温柔地询问如何帮助对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0006.wav",
+    "text": "定运与否不好说,你的乐观指数一定比一般人高,要怎么帮你?"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述对运气的看法",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_call_p06/qinche_call_p06_0007.wav",
+    "text": "今天的运气确实还算不错"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "质疑和疏离，带有一定的威严感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0000.wav",
+    "text": "你们人类到底是相信魔法还是相信谎言"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达了深厚而亲密的感情",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0002.wav",
+    "text": "我和夫人的确有着血一般浓稠的感情"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表达对伴侣的温柔和理解，带有一丝遗憾",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0003.wav",
+    "text": "可惜我夫人一开始总说我们不是一个世界的人,"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "通过家族生意保持联系，展现出对她的深情和亲密",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0004.wav",
+    "text": "后来我就用家族生意作为迁徙,故意和她保持联系,迁徙不断,我们就总能见面。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.9,
+    "description": "深情告白，表达对伴侣的珍视和亲密关系的确认",
+    "confidence": 0.95,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0005.wav",
+    "text": "直到现在,她终于成了我的夫人。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地要求等待",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0006.wav",
+    "text": "再等一下梅菲斯特"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.5,
+    "description": "这句话带有轻松打趣的意味，形容基地像闹鬼一样。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0007.wav",
+    "text": "基地本来就啊,现在像闹鬼似的。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0008.wav",
+    "text": "不如我贴毛找印,你拿走我的签名,更有意义。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.6,
+    "description": "这句话表现出一种疏离和威严，给人一种拒人于千里之外的感觉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0009.wav",
+    "text": "来基地我就告诉你"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达出因与对方相处而变得温柔的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0010.wav",
+    "text": "可能是最近和你在一起的时间多了有人觉得我脾气变好了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有拒绝和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0011.wav",
+    "text": "回去干什么不去"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "表现出对他人的不屑和疏离感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0012.wav",
+    "text": "我没兴趣和这种蠢货在浪费时间"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出一种疏离和拒人于千里之外的情感，暗示孤独感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0013.wav",
+    "text": "毕竟他们没人等我还有"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.4,
+    "description": "轻松打趣地询问对方晚上计划",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0014.wav",
+    "text": "正好,想好晚上做什么了吗?"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "这句话表现出一种温柔和关心，表明对对方的重视和珍惜。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0015.wav",
+    "text": "毕竟在你这里,怎么也不算浪费时间。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "语气平静，表现出理性和冷静的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0016.wav",
+    "text": "尽管拆遣我吧"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种强烈的控制欲和坚定的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0017.wav",
+    "text": "但接不接受我说了算"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对他人的失望和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0018.wav",
+    "text": "原来你和之前的那些魔法师也没什么区别"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种强烈的决心和对命运的挑战。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0019.wav",
+    "text": "农写命运"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达了强烈的决心和忠诚，具有激烈的情感特征",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0020.wav",
+    "text": "以血为义。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有威胁和警告的意味，表现出一种激烈的情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0021.wav",
+    "text": "那就做好沦为腹中饱餐的准备。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，给人一种拒人于千里之外的感觉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0022.wav",
+    "text": "好寻我的人"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离感，可能在确认对方身份时保持距离感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0023.wav",
+    "text": "就是你吗"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在开玩笑地挑衅。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0024.wav",
+    "text": "需要我给你反抗的机会吗"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出对他人行为的不屑和疏离感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0025.wav",
+    "text": "不入流的小伎俩"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静的建议或陈述。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0026.wav",
+    "text": "更有风度才行"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地表达对某事物的评价",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0027.wav",
+    "text": "味道比我想象中更好。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种强烈的情感，可能与战斗或紧张情境有关。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0029.wav",
+    "text": "直到你的血液和力量"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.9,
+    "description": "这句话表达了强烈的亲密和渴望",
+    "confidence": 0.95,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0030.wav",
+    "text": "填满我的渴望。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述自己的状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0031.wav",
+    "text": "我累了需要休息"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，似乎在强调自己与常人的不同。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0032.wav",
+    "text": "只有人才吃苦,恶魔不吃。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣的语气，带有调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0033.wav",
+    "text": "敬你,魔法师小姐。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句台词带有一种紧张和决绝的情感，可能暗示着某种危机或重要时刻。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0034.wav",
+    "text": "跌进我们最后的晚餐"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有挑战和指责的意味，语气较为激烈。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0035.wav",
+    "text": "那就再试试,现在是谁在犯错。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有挑战和刺激的意味，暗示着一种激烈的情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0036.wav",
+    "text": "想知道比死更疯狂的事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述事实，语气中性",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0037.wav",
+    "text": "这属你所愿"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "语气平静，陈述即将完成某事",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0038.wav",
+    "text": "知道了马上结束"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和不耐烦，表现出拒人于千里之外的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0039.wav",
+    "text": "我已经玩够了"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "语气中带有轻蔑和挑战，表现出对对方能力的不屑和自信。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0040.wav",
+    "text": "你不会真以为那点链路魔法就能困住"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒绝的情感，似乎在与对方告别且不再留恋。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0041.wav",
+    "text": "永别了,魔法师小姐。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，可能带有轻蔑的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0042.wav",
+    "text": "一个虚弱的恶魔"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和拒绝的意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0043.wav",
+    "text": "恐怕不是你想要拆遣的吧,"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出对对方决定的尊重和关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0044.wav",
+    "text": "我会听从你的决定"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地称呼对方",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0045.wav",
+    "text": "魔法师小姐"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有一种激烈和紧张的情感，可能暗示着一种危险或不寻常的情感表达。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0046.wav",
+    "text": "我喜欢你血液的"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了满足和亲密的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0047.wav",
+    "text": "就没有这么让我满足的写了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话带有疏离和威严的感觉，可能是在表达一种冷淡的礼貌。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0048.wav",
+    "text": "感谢你的生前款待"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "这句话表现出一种温柔的关心和包容，强调个人的重要性和情感的连接。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0049.wav",
+    "text": "一个人就是一大家人"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达对对方辛苦付出的关心和体贴",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0050.wav",
+    "text": "还真是辛苦你了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0051.wav",
+    "text": "可以称呼我塞勒斯伯爵"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松打趣的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0052.wav",
+    "text": "什么样的贵族小姐可以让未婚夫整天整夜待在自己的卧房里"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有威胁和警告的意味，语气较为激烈。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0053.wav",
+    "text": "不出一天你的大名就会传遍为谬称"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "关心对方的选择，给予对方改变决定的机会",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0054.wav",
+    "text": "如果,如果这就是你想要的,现在改口也还来得及。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话带有亲密和深情的意味，涉及到婚姻关系的探讨。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0055.wav",
+    "text": "是让我做你的未婚夫还是丈夫?"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，揭示对方行为的目的",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0056.wav",
+    "text": "原来你在这忍受无聊社交的目的是这个"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，拒人于千里之外",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0057.wav",
+    "text": "可惜你召唤的不是盲目听从指令的恶魔。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述通过社交了解信息的方式",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0058.wav",
+    "text": "你不说我可以通过社交去了解"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣中带有一丝调侃",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0059.wav",
+    "text": "是我小瞧了你的智慧,伯爵夫人。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的语气，似乎在调侃对方的反应。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0060.wav",
+    "text": "要我帮忙的是你帮了你又不高兴"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己的身份和意愿",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0061.wav",
+    "text": "我是塞勒斯伯爵我愿意出十万免银"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0062.wav",
+    "text": "你不是很有钱吗"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达对伴侣的深情和承诺",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0063.wav",
+    "text": "作为你的新婚丈夫,我也得配得上你。"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话充满了诗意和悲剧色彩，表达了一种深沉而激烈的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0064.wav",
+    "text": "在凝至泪痕的穹顶之下雾中蔷薇永远沉睡"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话充满神秘和紧张感，似乎在描述一个重要而危险的任务。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0065.wav",
+    "text": "他的花瓣已虚妄之穴盛开引领命定之人前往无人感知之地"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表达了对妻子的关心和温柔，体现出内心的深情。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0066.wav",
+    "text": "我也是偶然听过想着无论如何也要拍下送给我的妻子"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "提到新婚，语气中带有亲密和温柔的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0067.wav",
+    "text": "虽然我们还是新婚"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.9,
+    "description": "深情告白，表达对伴侣的坚定承诺和永恒的爱",
+    "confidence": 0.95,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0068.wav",
+    "text": "但我与你相伴一生的决心已经足以延续到生命之外。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出亲密和温柔的邀请，带有深情的意味。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0069.wav",
+    "text": "愿意和我跳一支舞吗?亲爱的夫人。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0070.wav",
+    "text": "真稀奇居然有魔法师把自己和恶魔相提并论"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话是在提醒对方保持冷静和理智。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0071.wav",
+    "text": "脸色不能变得太快,别忘了还在别人的宅邸。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，试图缓和紧张气氛。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0072.wav",
+    "text": "你确定现在就要和刚送给你珍贵藏品的新婚丈夫打起来"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达对共同经历的珍惜和期待，语气亲密",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0073.wav",
+    "text": "今天的舞会让人难忘,等我们到家了应该还会回味很久。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话带有亲密和私密的感觉，称呼对方为“夫人”显得亲昵。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0074.wav",
+    "text": "对吧,夫人。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和威严，强调对方需要证明自己的实力。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0075.wav",
+    "text": "为你所用总要让我确认你真正的实力"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句台词带有调侃和轻松打趣的意味。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0076.wav",
+    "text": "不如现在就让我把你那一大家子画像打烂,明天就说祖先半夜显灵,在家里聚会。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地提出暂时休战的建议，显示出理性和冷静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0077.wav",
+    "text": "既然谁也打不死谁暂时休战"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有调侃和轻松的语气，表现出一种俏皮的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0078.wav",
+    "text": "我饿了上我膝"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的语气，表现出一种调侃的态度。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0079.wav",
+    "text": "又吸不到血沙发睡得也不舒服要么你让我用餐要么就让我睡个好觉"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "关心和体贴地提供依靠",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0080.wav",
+    "text": "夫人如果累了可以靠着我"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "用轻松的语气调侃婚姻关系",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0081.wav",
+    "text": "决斗场里的人不是你死就是我活,听起来不太适合我们的婚姻。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达了深厚的情感和坚定的关系，具有亲密感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0082.wav",
+    "text": "毕竟我们之间的关系是死亡也斩断不了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的陈述，可能是在安排或建议行动。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0083.wav",
+    "text": "那就早点动身"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种冷淡和威严，似乎在强调自己的立场和要求。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0084.wav",
+    "text": "自由和饥饿,你总得满足我意啊。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静的询问或陈述。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0085.wav",
+    "text": "不是是怎么知道"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述发现自己在争吵的事实",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0086.wav",
+    "text": "原来我们在吵架"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，质疑对方意图",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0087.wav",
+    "text": "这是威胁还是引诱"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "温柔地表达顺从和尊重",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0088.wav",
+    "text": "遵命,我的夫人。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "用幽默的方式调侃自己的饥饿状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0089.wav",
+    "text": "我已经好几天没有用餐,再这样下去,恶魔之王只会变成饥饿之王。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是一个简单的提问，语气平静。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0090.wav",
+    "text": "有人跟你说过吗"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "这句话表现出对对方的关心和温柔的观察",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0091.wav",
+    "text": "你使用魔法之后会散发能量特有的温暖"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述自己能力的感知",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0092.wav",
+    "text": "我能感知到的话"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述温玉京的温度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0093.wav",
+    "text": "这温玉京的温度"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达出一种强烈的决心和力量感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0094.wav",
+    "text": "你以我之力撕开命运之门"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.9,
+    "description": "这句话充满了激烈的情感，表现出一种不屈和强烈的决心。",
+    "confidence": 0.95,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0095.wav",
+    "text": "我以你之血为耻不败之躯"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话暗示了一个私密或深情的时刻，可能是与某人共度的特别时间。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0096.wav",
+    "text": "今夜此时"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.2,
+    "description": "简单的陈述，可能是平静的观察或描述",
+    "confidence": 0.7,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0097.wav",
+    "text": "月光"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0098.wav",
+    "text": "昨天被我用完餐以后有人就昏睡过去,叫也叫不醒。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，表现出一种调侃的语气。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0099.wav",
+    "text": "要不是我好心抱你回卧室"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和调侃的语气，可能是在打趣对方的行为。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0100.wav",
+    "text": "你现在还躺在房顶上晒太阳,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0101.wav",
+    "text": "没准是夫人的血吸多了被感染了"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，表现出对彼此默契的自信",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0102.wav",
+    "text": "这些人也太低估我们夫妇的默契了,对吧夫人?"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.9,
+    "description": "这句话表现出愤怒和威胁，带有强烈的对抗情绪。",
+    "confidence": 0.95,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0103.wav",
+    "text": "想抽取我的能量那就用你们的血来偿还"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "语气中带有威严和疏离感，拒人于千里之外",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0104.wav",
+    "text": "你没有拒绝的机会"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "这句话表现出关心和保护的情感，带有温柔的承诺。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0105.wav",
+    "text": "我带你走"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "轻松打趣地欢迎对方回家，带有幽默感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0106.wav",
+    "text": "欢迎回家破绝夫人"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，表现出一种幽默感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0107.wav",
+    "text": "既然是夫人看中的猎物,我自然不会放过。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出一种亲密和温柔的情感，称呼对方为“夫人”并邀请熟悉“我们的家”，显示出一种亲密关系和归属感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0108.wav",
+    "text": "既然留下了,就熟悉下我们的家吧,夫人。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松愉快的调侃，表达对对方幽默感的欣赏",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0109.wav",
+    "text": "你的幽默感总是能让我愉悦"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "表现出自信和威严，带有疏离感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0110.wav",
+    "text": "阴界已经没有我的对手,甚至连敢于挑战我的恶魔都没有。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.6,
+    "description": "这句话表现出一种疏离和冷淡的情感，似乎对当前情境或对话不感兴趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0111.wav",
+    "text": "所以我很无聊"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.7,
+    "description": "这句话带有轻松和幽默的语气，表现出一种俏皮的情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0112.wav",
+    "text": "我的幽默感注定只能取悦于你。"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣地提醒对方",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0113.wav",
+    "text": "少看点胡说八道的书"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "这句话是对因果关系的理性陈述，语气平静。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0114.wav",
+    "text": "写好的因果不会凭空消失"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静陈述关于时空碎片的观点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0115.wav",
+    "text": "总要有地方承接这些不同时空被抹除的碎片。"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种冷酷和疏离的情感，带有威严和拒人于千里之外的感觉。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0116.wav",
+    "text": "阴界就是命运的坟场"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃或开玩笑。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0117.wav",
+    "text": "现在是为了养好我的食物,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松和幽默的调侃意味",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0118.wav",
+    "text": "你很有美食的自觉"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表达了对命运的挑战和决心，情感强烈。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0119.wav",
+    "text": "你想重写命运"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达了对诅咒的强烈反感和决心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0120.wav",
+    "text": "是为了不再被诅咒永远折磨。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静的思考状态。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0121.wav",
+    "text": "有时候我会想"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "理性分析命运与恶魔的关系",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0122.wav",
+    "text": "阴界里这些恶魔也许只是些被命运遗弃的人"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表达对命运和道德规矩的反抗，语气坚定而激烈",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0123.wav",
+    "text": "既然不为命运容纳便也可以不受人间道德规矩"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "表现出一种冷漠和疏离的态度，似乎对生活的目标和意义持有一种冷淡的看法。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0124.wav",
+    "text": "只为欲望而活"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种平静的陈述，带有些许怀旧的情感。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0125.wav",
+    "text": "也许是因为我只在这里见到过管风琴"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达对某事物的熟悉感，带有温柔的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0126.wav",
+    "text": "那是唯一让我觉得熟悉的东西"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是对某个事物的平静陈述，没有明显的情感波动。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0127.wav",
+    "text": "甚何的信使"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "带有轻松打趣的语气，调侃不祥之兆。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0128.wav",
+    "text": "听着是不祥之兆,适合起个魔鬼的名字。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地提出建议或命名",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0129.wav",
+    "text": "就叫梅菲斯特吧"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表现出一种亲密和理解，鼓励对方表达真实的自我。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0130.wav",
+    "text": "你可以不用忍耐自己的欲望,"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种亲密的情感，暗示着两者之间的深刻联系。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0131.wav",
+    "text": "却让我们变得一样"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静的陈述，可能是在提供某种服务或物品时的礼貌表达。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0132.wav",
+    "text": "请享用吧"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃对方的行为。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0133.wav",
+    "text": "的确像是你会做的事"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有威胁和警告的意味，情感激烈。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0134.wav",
+    "text": "这是你召唤秦车的下场"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达对某种情感的喜爱，具有亲密感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0135.wav",
+    "text": "喜欢这个词"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述一件事情",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0136.wav",
+    "text": "这是我们的仪式"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，似乎在陈述一个冷酷的事实。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0137.wav",
+    "text": "如果背负诅咒就是你的命运,"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "平静地陈述命运的观点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0138.wav",
+    "text": "也是宿命的一环"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述观点，表现出理性分析的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0139.wav",
+    "text": "并不是唯一的解放"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种冷淡和疏离的态度，似乎在陈述一个无可奈何的事实。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0140.wav",
+    "text": "说过命运要你痛苦"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表现出对对方愿望的关心和温柔",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0141.wav",
+    "text": "既然是你想要的,"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和拒人于千里之外的感觉",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0142.wav",
+    "text": "这么迫不及待就要做告别了"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种冷淡和疏离的情感，带有威胁和不屑的意味。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0143.wav",
+    "text": "他提前为你终将到来的死亡祝福吗"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表达了对他人生活的关心和祝福，语气温柔。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0144.wav",
+    "text": "祝福你不被诅咒所困拥有一个普通但不痛苦的人生"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "这句话表现出一种疏离和拒人于千里之外的感觉。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0145.wav",
+    "text": "很快你就不会再记得我"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "语气冷淡，带有威严和疏离感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0146.wav",
+    "text": "这就是你最后想留下的遗言"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达了对彼此关系的坚定和深情",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0147.wav",
+    "text": "我们之间的链路是断不留的"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出一种对命运的思考和陈述，语气平静。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0148.wav",
+    "text": "命运如果不同"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出疏离和拒人于千里之外的态度",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0149.wav",
+    "text": "怎么能算是同类"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述未来可能发生的事情",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0150.wav",
+    "text": "目前以后发生的所有事"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了一种共同命运的深情和亲密感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0151.wav",
+    "text": "这是我们共同的命运"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达对未来共同生活的深情承诺",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0152.wav",
+    "text": "还有要一起度过的余生"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达对共度余生的人的深情和亲密感",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0153.wav",
+    "text": "既然已经找到了共度余生的人,"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达了对未来亲密关系的渴望和担忧",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0154.wav",
+    "text": "我只怕余生开始的太迟"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地陈述生命的界限",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0155.wav",
+    "text": "生命从此有了起点和终点,有了界限。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述计划，没有明显情感波动",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0156.wav",
+    "text": "我猜我们会翻修一座废弃的堡垒"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和命令的感觉",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0157.wav",
+    "text": "把她变成临时的住所。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表现出温柔和关心，想要与对方分享音乐时光",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0158.wav",
+    "text": "会顺手买一本泛黄的乐谱找个有情的地方听你弹"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.7,
+    "description": "表现出关心和温柔，想要让对方感到快乐",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0160.wav",
+    "text": "因为我会让你开心"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "轻松打趣，带有幽默感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0161.wav",
+    "text": "嗯,比如做一只会嘎嘎叫的小木鸟给你。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.7,
+    "description": "平静陈述对命运的看法，表现出自信和理性。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0162.wav",
+    "text": "那多简单重写命运"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达出一种亲密和深情的选择，强调彼此的重要性",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0163.wav",
+    "text": "只需要我们选择彼此"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "这句话平静地陈述了一个未来的时间点。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0164.wav",
+    "text": "等到墙未再开的时候"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出一种亲密和深情的情感，似乎在表达对关系的珍视和对未来的期望。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0165.wav",
+    "text": "你还会记得现在的我吗"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达对彼此灵魂不变的深情承诺",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0166.wav",
+    "text": "只要你我灵魂不变"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静地表达信心和决心",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0167.wav",
+    "text": "我们就一定会"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "表现出一种冷静且坚定的态度，拒人于千里之外",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0168.wav",
+    "text": "我只相信决定"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述事情的完成",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0169.wav",
+    "text": "一事已成"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话带有一种紧张和严肃的氛围，可能暗示着即将到来的重要事件或冲突。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0170.wav",
+    "text": "准备好去享用最后的盛宴了吗"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "这句话表现出亲密和深情的情感，通常用于表达对某人的亲密称呼。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0171.wav",
+    "text": "亲爱的夫人"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有一种疏离和拒人于千里之外的感觉",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0172.wav",
+    "text": "本来这就是最后了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.7,
+    "description": "平静地接受选择带来的后果，表现出理性和沉稳",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0173.wav",
+    "text": "我接受选择带来的一切后果"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.7,
+    "description": "语气中带有疏离和威严，似乎在质疑或讽刺。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0174.wav",
+    "text": "死之神变成普通的生命吗"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.7,
+    "description": "平静陈述生命的必然规律",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0175.wav",
+    "text": "死亡是必经之路。"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "表达出一种温柔的遗憾和关心",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0176.wav",
+    "text": "虽然我们无法一起诞生"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话中包含了对死亡的提及，情感上显得激烈且严肃。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0177.wav",
+    "text": "至少我们的死"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话表现出理性分析和平静陈述的特征。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0178.wav",
+    "text": "可以作为共同的重点"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种被排斥和疏离的情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0179.wav",
+    "text": "在菲罗斯,没有人希望我诞生。"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表达了一种亲密和期待的情感，似乎在等待某种特别的联系或时刻。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0180.wav",
+    "text": "等你唤醒了我"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了一种亲密和感激的情感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0181.wav",
+    "text": "赐予我祝福的人,"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静地陈述与对方处于相同状态",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0182.wav",
+    "text": "现在我和你一样"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述，表达一种理性和接受的态度",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0183.wav",
+    "text": "算生在同一个世界了。"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "这句话平静地陈述了一个事实，表现出理性和沉稳。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0184.wav",
+    "text": "我们都在同一条必经之路上"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是一个简单的疑问句，语气平静。",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0185.wav",
+    "text": "在哪一个世界"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达坚定的承诺和深情的关怀",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0186.wav",
+    "text": "我都会找到你"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了与对方共同经历旅程的亲密感",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0187.wav",
+    "text": "踏上和你一起的必经之路"
+  },
+  {
+    "emotion": "cold",
+    "intensity": 0.8,
+    "description": "这句话表现出一种疏离和拒人于千里之外的感觉。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0188.wav",
+    "text": "即便他是你永恒的诅咒"
+  },
+  {
+    "emotion": "tender",
+    "intensity": 0.6,
+    "description": "这句话表现出一种温柔的安慰，试图让对方放下心中的负担。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0189.wav",
+    "text": "忘记了也没关系"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "表达了对对方的深刻认同和亲密关系的渴望",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0190.wav",
+    "text": "我会认出你和你重新成为同类"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.8,
+    "description": "表达对未来的深情承诺，语气亲密",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0191.wav",
+    "text": "才是我们心的余生"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的语气，可能是在开玩笑地抱怨。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0192.wav",
+    "text": "你是一家之主现在都让我付"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，可能是在调侃对方的力量。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0193.wav",
+    "text": "你要抱起我有点困难"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，可能是在开玩笑或打趣。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0194.wav",
+    "text": "整条街上最不怕不吉利的人就是你"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "表现出一种紧迫感和决断力，强调迅速解决问题的必要性",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0195.wav",
+    "text": "宿命而已速战速决"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有调侃和轻松的意味，似乎在打趣对方。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0196.wav",
+    "text": "那声音就这么让你心吃神忘"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述对遗忘的看法",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0197.wav",
+    "text": "当然会忘记很多任何事"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.5,
+    "description": "平静陈述关于记忆的观点",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0198.wav",
+    "text": "记忆只会暂时遗忘不会消失"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.4,
+    "description": "平静地陈述未来的可能性",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0199.wav",
+    "text": "总有一天会想起来,"
+  },
+  {
+    "emotion": "playful",
+    "intensity": 0.6,
+    "description": "这句话带有轻松打趣的意味，似乎在调侃对方的能力。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0200.wav",
+    "text": "你是我见过最会指使恶魔的人了"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "这句话是平静陈述一种事实，语气沉稳。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0201.wav",
+    "text": "毕竟不是任何时候都能天时地利人和"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.6,
+    "description": "理性分析当前局势，强调抓住机会",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0202.wav",
+    "text": "所以要在危机和失控中抓住转瞬即逝的"
+  },
+  {
+    "emotion": "intense",
+    "intensity": 0.8,
+    "description": "这句话表现出一种挑战和对抗的激烈情感。",
+    "confidence": 0.9,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0203.wav",
+    "text": "打败我或者被我打败"
+  },
+  {
+    "emotion": "intimate",
+    "intensity": 0.7,
+    "description": "这句话表现出一种亲密和关注，可能是在一个私密或深情的场合中说的。",
+    "confidence": 0.85,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0204.wav",
+    "text": "让我好好看看"
+  },
+  {
+    "emotion": "calm",
+    "intensity": 0.3,
+    "description": "平静陈述对神射手的评价",
+    "confidence": 0.8,
+    "file": "data/audio_samples/normalized/qinche_voice_p01/qinche_voice_p01_0205.wav",
+    "text": "神射手的厉害,"
+  }
+]

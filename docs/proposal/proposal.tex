@@ -1,0 +1,212 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+
+\definecolor{accent}{RGB}{31,78,121}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent,
+    citecolor=accent
+}
+
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}[\vspace{-0.5em}\textcolor{accent}{\rule{\textwidth}{0.4pt}}]
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\setlist[enumerate]{leftmargin=1.5em, itemsep=2pt, parsep=0pt}
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, parsep=0pt}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries\color{accent} Project Proposal}\\[0.4em]
+    {\large Context-Aware Emotional TTS for Game AI Dubbing}\\[0.8em]
+    {\small MAIE5531 --- GenAI and LLM \quad$\vert$\quad March 27, 2026}
+\end{center}
+
+\vspace{0.3em}
+
+\begin{center}
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Name} & \textbf{Student ID} & \textbf{Email} \\
+\midrule
+HE Yunlin   & 21270701 & \href{mailto:yheec@connect.ust.hk}{yheec@connect.ust.hk} \\
+WANG Yifu   & 20978112 & \href{mailto:ywangqy@connect.ust.hk}{ywangqy@connect.ust.hk} \\
+SU Ziyao    & 21272577 & \href{mailto:zsubc@connect.ust.hk}{zsubc@connect.ust.hk} \\
+HAN Shipeng & 21270775 & \href{mailto:shanaq@connect.ust.hk}{shanaq@connect.ust.hk} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{0.6em}
+
+\section{Problem Statement}
+
+Voice acting is a critical yet expensive component of game production. In our previous work, we built a TTS voice cloning system for a game character by fine-tuning Qwen3-TTS on 664 audio samples (28\,min of target speaker data), achieving a speaker similarity of SIM\textsubscript{gt}\,=\,0.69 and real-time inference at RTF\,=\,0.36. While the cloned voice faithfully reproduces the character's timbre, it generates speech in a \emph{flat} manner: the synthesized voice sounds like the character, but not like the character \emph{in a specific dramatic scene}. For narrative-driven games such as otome games, emotional expressiveness aligned with scene context is essential for player immersion.
+
+\section{Objective}
+
+We will build a \textbf{Context-Aware Emotional TTS} system for game AI dubbing. Given a game script---dialogue lines together with scene descriptions---the system automatically adapts tone, pace, and emotional intensity to match the dramatic context, generating emotionally appropriate character speech. In essence, it serves as an \textbf{AI Emotional Director}.
+
+\section{Competitors}
+
+\begin{itemize}
+    \item \textbf{ElevenLabs / Azure TTS:} Industry-leading voice cloning with excellent audio quality, but only operate at the timbre level with no scene-level emotional understanding.
+    \item \textbf{Fish Audio S2 Pro:} Supports inline \texttt{[tag]} emotion control (15,000+ tags), the closest to our approach technically, but requires \emph{manual per-line annotation}---infeasible at scale.
+    \item \textbf{CosyVoice / GPT-SoVITS:} Open-source community solutions excelling at zero-/few-shot voice cloning, but with no LLM-driven contextual understanding layer.
+\end{itemize}
+
+\textbf{Our differentiator:} An end-to-end pipeline combining LLM scene understanding, character RAG, emotion arc tracking, and TTS generation---no manual annotation required. A live demo of our previous voice cloning results is available at \url{https://qinche.darkdark.me}.
+
+\section{Proposed Solution}
+
+\begin{enumerate}
+    \item \textbf{LLM Context Engine.} Use GPT-4o or Qwen to analyze game dialogue context (scene, character relationships, emotional arc) and output structured emotional annotations (emotion label, intensity, pace, style).
+
+    \item \textbf{Character Knowledge Base (RAG).} Construct a character knowledge base capturing personality traits, interpersonal relationships, and typical speech patterns. Retrieve relevant character context via vector search to ground the LLM's emotional analysis.
+
+    \item \textbf{Emotion Arc Tracking.} Maintain a sliding window of recent dialogue turns' emotional states, ensuring natural emotional transitions and preventing abrupt mood shifts between consecutive lines.
+
+    \item \textbf{Emotion-Aware Reference Audio Selection.} Classify the 664 training audio samples into emotion categories (e.g., \emph{tender}, \emph{calm}, \emph{playful}, \emph{intense}, \emph{cold}, \emph{intimate}) using LLM-assisted annotation. At inference time, dynamically select reference clips matching the target emotion---directly influencing the TTS model's speaking style.
+
+    \item \textbf{Fine-tuned TTS Generation.} Leverage our pre-trained Qwen3-TTS model (SFT on 664 samples, 28\,min of target speaker data, SIM\textsubscript{gt}\,=\,0.69, RTF\,=\,0.36) with context-driven control signals. Fish Audio S2 Pro with LLM-generated emotion tags serves as a comparison pathway.
+
+    \item \textbf{Three-way Comparative Evaluation.} (a)~No-context baseline, (b)~manual emotion annotation (upper bound), (c)~LLM-automated context (ours). Evaluated using objective metrics (SIM, WER, Emotion Accuracy) and subjective A/B preference tests with MOS scoring.
+\end{enumerate}
+
+\section{Business Value}
+
+The Chinese gaming market exceeds 300 billion RMB annually, with voice acting costs accounting for 10--15\% of production budgets. A single game's main storyline typically requires 50--100 hours of recording over 3--6 months. Our context-aware AI dubbing system can:
+
+\begin{itemize}
+    \item \textbf{Reduce costs by 98\%+:} from 50,000--300,000 RMB (human actors) to $\sim$3,600 RMB (GPU inference).
+    \item \textbf{Compress timelines:} from months of studio recording to 1--2 days of automated generation.
+    \item \textbf{Enable rapid iteration:} script changes no longer require re-recording sessions.
+    \item \textbf{Unlock dynamic dialogue:} support real-time NPC conversations that cannot be pre-recorded, opening new interactive storytelling possibilities.
+\end{itemize}
+
+\newpage
+
+\appendix
+\setcounter{secnumdepth}{2}
+\titleformat{\section}{\large\bfseries\color{accent}}{Appendix \Alph{section}:~}{0em}{}[\vspace{-0.5em}\textcolor{accent}{\rule{\textwidth}{0.4pt}}]
+
+\section{System Architecture}
+
+The system comprises five layers connected in a feed-forward pipeline:
+
+\begin{enumerate}
+    \item \textbf{Input Layer.} Accepts the game script (current dialogue line + scene description) and maintains a dialogue history buffer of recent turns.
+
+    \item \textbf{Character RAG Layer.} A vector database (ChromaDB / FAISS) stores a structured character knowledge base covering personality traits, interpersonal relationships, catchphrases, and emotional response patterns. Before each LLM call, the current scene description is used as a query to retrieve the top-$k$ most relevant character context fragments, which are injected into the LLM prompt.
+
+    \item \textbf{LLM Context Engine.} The core innovation layer. A large language model (GPT-4o or Qwen2.5) receives the current line, surrounding dialogue, scene description, retrieved character context, and the emotion states of the previous 5--10 turns. It outputs a structured JSON annotation:
+
+    \begin{quote}
+    \texttt{\{``emotion'': ``gentle\_reassuring'', ``intensity'': 0.6,} \\
+    \texttt{~``pace'': ``slow'', ``style'': ``tender with slight fatigue'',} \\
+    \texttt{~``ref\_emotion\_category'': ``tender''\}}
+    \end{quote}
+
+    The emotion arc tracker maintains a sliding window of recent emotional states and feeds them back as context, ensuring natural transitions (e.g., \emph{intense}~$\to$~\emph{calm} is natural, while \emph{intense}~$\to$~\emph{intimate} requires a gradual shift).
+
+    \item \textbf{TTS Generation Layer.} Two parallel pathways:
+    \begin{itemize}
+        \item \textbf{Qwen3-TTS (primary):} The \texttt{ref\_emotion\_category} field selects a reference audio clip from the corresponding emotion bucket. Different reference clips directly influence the model's speaking style via the speaker embedding.
+        \item \textbf{Fish Audio S2 Pro (comparison):} The emotion label is mapped to inline \texttt{[tag]} annotations (e.g., \texttt{[gentle]}, \texttt{[tense]}), validating the LLM Context Engine's portability across TTS backends.
+    \end{itemize}
+
+    \item \textbf{Output \& Evaluation Layer.} Generated audio is evaluated against three experimental conditions (no-context baseline, manual annotation, LLM-automated context) using both objective metrics and subjective listening tests. A visualization dashboard displays the full pipeline state in real time.
+\end{enumerate}
+
+\section{Technical Feasibility Analysis}
+
+\subsection{LLM Context Engine --- Feasibility: High}
+
+GPT-4o and Qwen2.5 demonstrate mature Chinese game script comprehension. Structured JSON output via function calling is a production-ready feature. Few-shot prompts achieve $>$85\% accuracy on emotion classification benchmarks. Cost is approximately \$0.005 per line with GPT-4o ($\sim$500 input + 200 output tokens), or near-zero with locally deployed Qwen2.5-72B on our existing A100 cluster.
+
+\textbf{Risk:} LLM may lack nuanced understanding of a specific character's emotional patterns. \textbf{Mitigation:} RAG injects character-specific knowledge, grounding the LLM's analysis in canonical character traits.
+
+\subsection{Character Knowledge Base (RAG) --- Feasibility: High}
+
+RAG is one of the most mature LLM augmentation techniques (2024--2025). The target character (from a popular otome game) has extensive community-generated wikis, personality analyses, and plot summaries available online ($\sim$5,000--10,000 words of material). We structure this into four dimensions: \emph{personality}, \emph{relationships}, \emph{emotional\_patterns}, and \emph{catchphrases}, then embed with \texttt{bge-large-zh} and store in ChromaDB. At query time, top-3 fragments are retrieved and prepended to the LLM prompt.
+
+\subsection{Emotion Arc Tracking --- Feasibility: Medium--High}
+
+We maintain a sliding window of the last 5--10 turns, each recording \texttt{\{text, emotion, intensity\}}. The history is appended to the LLM's input context, enabling it to reason about emotional continuity. For the milestone, we use simple prompt-based tracking; for the final submission, we add a lightweight emotion state machine with soft transition constraints (e.g., penalizing abrupt jumps between distant emotion categories).
+
+\textbf{Risk:} Game dialogue may be non-sequential (branching storylines). \textbf{Mitigation:} Support manual emotion state reset at branch points.
+
+\subsection{Emotion-Aware Reference Audio Selection --- Feasibility: High}
+
+We classify all 664 training samples into 6 emotion buckets (\emph{tender}, \emph{calm}, \emph{playful}, \emph{intense}, \emph{cold}, \emph{intimate}) by analyzing their transcript text with the LLM. Each bucket contains 3--5 high-quality candidates. At inference time, the LLM's \texttt{ref\_emotion\_category} output indexes into the matching bucket.
+
+\textbf{Key assumption (validated):} Different reference audio clips produce measurably different speaking styles in Qwen3-TTS output, as the reference directly conditions the speaker embedding and prosody.
+
+\subsection{Visualization Dashboard --- Feasibility: High}
+
+Our \texttt{master} branch already hosts a React + TypeScript + Vite frontend deployed to Cloudflare, with existing components (\texttt{Dashboard.tsx}, \texttt{DemoPage.tsx}, \texttt{LandingPage.tsx}). We will extend the demo page with: a scene input panel, real-time LLM analysis visualization (emotion annotation card, RAG retrieval results, arc state), reference audio waveform display, and side-by-side A/B playback comparing baseline vs.\ context-aware output.
+
+\subsection{Evaluation Framework --- Feasibility: High}
+
+\textbf{Objective (fully automated):}
+\begin{itemize}
+    \item \textbf{SIM\textsubscript{gt} / SIM\textsubscript{ref}:} Speaker similarity via pyannote embedding cosine distance (code reused from previous work).
+    \item \textbf{WER:} WhisperX ASR transcription + \texttt{jiwer} word error rate (code reused).
+    \item \textbf{Emotion Accuracy:} Independent speech emotion recognition model (emotion2vec) classifies generated audio; accuracy measured against LLM's target label.
+\end{itemize}
+
+\textbf{Subjective:}
+\begin{itemize}
+    \item A/B preference test with 10+ evaluators, 20 sentence pairs per condition.
+    \item MOS 5-point scale on three dimensions: naturalness, emotional appropriateness, and character consistency.
+\end{itemize}
+
+\section{Technology Stack}
+
+\begin{itemize}
+    \item \textbf{LLM:} OpenAI GPT-4o / Qwen2.5-72B (local, on 8$\times$A100-80GB)
+    \item \textbf{RAG:} ChromaDB + \texttt{bge-large-zh} embeddings
+    \item \textbf{TTS (primary):} Qwen3-TTS 1.7B fine-tuned v5 + FasterQwen3TTS (CUDA Graph, RTF\,=\,0.36)
+    \item \textbf{TTS (comparison):} Fish Audio S2 Pro with inline \texttt{[tag]} emotion control
+    \item \textbf{Frontend:} React + TypeScript + Vite + Recharts; deployed on Cloudflare Workers
+    \item \textbf{Backend:} A100 GPU server for TTS inference; Cloudflare Workers as API proxy
+    \item \textbf{Evaluation:} pyannote.audio (SIM), WhisperX (ASR), jiwer (WER), emotion2vec (SER)
+    \item \textbf{Languages:} Python (backend/ML), TypeScript (frontend)
+\end{itemize}
+
+\section{Previous Work Summary}
+
+Our prior voice cloning effort involved the following key results, which serve as the foundation for this project:
+
+\begin{itemize}
+    \item \textbf{Data:} 664 training samples ($\sim$28\,min) collected from game audio, processed through a pipeline of Demucs (source separation) $\to$ Pyannote (speaker diarization) $\to$ Silero-VAD (segmentation) $\to$ WhisperX (ASR) $\to$ RMS normalization.
+    \item \textbf{Model:} Qwen3-TTS-12Hz-1.7B-Base, fine-tuned via full SFT (not LoRA). Key hyperparameters: LR\,=\,2e-6, effective batch size\,=\,32, cosine decay with 10\% linear warmup.
+    \item \textbf{Best checkpoint:} v5 epoch-3 --- SIM\textsubscript{gt}\,=\,0.69, WER\,=\,0.04, RTF\,=\,0.36 (with FasterQwen3TTS CUDA Graph acceleration, achieving 7.1$\times$ speedup over native inference).
+    \item \textbf{Comparison baseline:} Fish Audio S2 Pro zero-shot achieves SIM\textsubscript{gt}\,=\,0.66, WER\,=\,0.02, RTF\,=\,0.64 (with \texttt{torch.compile}).
+    \item \textbf{Key finding:} Voice \emph{timbre} is well-cloned, but emotional expressiveness remains flat --- motivating the current project.
+\end{itemize}
+
+\section{Project Timeline}
+
+\begin{itemize}
+    \item \textbf{Week 1--2 (Mar\,28 -- Apr\,10):} Build character knowledge base and RAG pipeline; design few-shot prompts for LLM Context Engine covering 6 emotion categories; classify all 664 training samples by emotion; implement basic end-to-end pipeline (script $\to$ RAG $\to$ LLM $\to$ ref selection $\to$ TTS).
+    \item \textbf{Week 3 (Apr\,11 -- Apr\,17):} Integrate emotion arc tracking; run initial 10-sentence end-to-end test; prepare milestone report with 2--4 annotated screenshots.
+    \item \textbf{Week 4--5 (Apr\,18 -- May\,1):} Extend frontend dashboard (scene input, emotion visualization, A/B playback); run three-way comparative evaluation; conduct subjective A/B preference test with 10+ evaluators.
+    \item \textbf{Week 6 (May\,2 -- May\,10):} Write 4--6 page final report; produce 3-minute demo video; package and submit source code.
+\end{itemize}
+
+\end{document}
