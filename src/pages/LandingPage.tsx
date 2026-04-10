@@ -1,12 +1,12 @@
 import { useState, useRef } from 'react'
 import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
-import { ChevronDown, Activity, Mic2 } from 'lucide-react'
+import { ChevronDown, Activity, Mic2, Brain } from 'lucide-react'
 import GradientText from '../components/GradientText'
 import Dashboard from '../components/Dashboard'
 
 // ─── HERO ─────────────────────────────────────────────────────────────
-const HeroSection = ({ onDemo }: { onDemo: () => void }) => {
+const HeroSection = ({ onDemo, onEmotionalTTS }: { onDemo: () => void; onEmotionalTTS: () => void }) => {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] })
   const titleY = useTransform(scrollYProgress, [0, 1], [0, -180])
@@ -40,7 +40,7 @@ const HeroSection = ({ onDemo }: { onDemo: () => void }) => {
           <span className="text-gray-500 text-sm">CUDA Graph acceleration · 3.1× real-time</span>
         </motion.p>
 
-        <motion.div style={{ opacity: descOpacity }} className="flex gap-4 justify-center">
+        <motion.div style={{ opacity: descOpacity }} className="flex gap-4 justify-center flex-wrap">
           <motion.button
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
@@ -48,6 +48,14 @@ const HeroSection = ({ onDemo }: { onDemo: () => void }) => {
             className="px-8 py-3.5 bg-white text-black rounded-lg font-semibold flex items-center gap-2 hover:bg-gray-100 transition-all"
           >
             <Mic2 size={17} /> Listen to Samples
+          </motion.button>
+          <motion.button
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={onEmotionalTTS}
+            className="px-8 py-3.5 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-lg font-semibold flex items-center gap-2 hover:from-purple-500 hover:to-blue-500 transition-all"
+          >
+            <Brain size={17} /> Emotional TTS Demo
           </motion.button>
           <motion.button
             whileHover={{ scale: 1.03 }}
@@ -331,7 +339,7 @@ export default function LandingPage() {
       <div className="fixed inset-0 z-0 bg-black/30" />
 
       <div className="relative z-10">
-        <HeroSection onDemo={() => navigate('/demo')} />
+        <HeroSection onDemo={() => navigate('/demo')} onEmotionalTTS={() => navigate('/emotional-tts')} />
         <MetricsSection />
         <FeaturesSection />
         <InnovationsSection onDashboard={() => setShowDashboard(true)} />
