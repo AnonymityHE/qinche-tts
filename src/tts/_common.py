@@ -7,6 +7,10 @@ from pathlib import Path
 import numpy as np
 import soundfile as sf
 
+# Workaround for cuDNN CUDNN_STATUS_NOT_INITIALIZED error on this machine
+import torch
+torch.backends.cudnn.enabled = False
+
 
 def select_device() -> tuple[str, "torch.dtype"]:
     """Return (device, dtype) for model loading."""

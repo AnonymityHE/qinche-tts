@@ -1,0 +1,117 @@
+{
+  "summary": {
+    "auto": {
+      "count": 4,
+      "sim_ref_mean": 0.702,
+      "sim_gt_mean": null,
+      "wer_mean": 0.1645,
+      "emotion_acc": null
+    },
+    "clone_xvec": {
+      "count": 4,
+      "sim_ref_mean": 0.6665,
+      "sim_gt_mean": null,
+      "wer_mean": 0.1507,
+      "emotion_acc": null
+    },
+    "baseline": {
+      "count": 4,
+      "sim_ref_mean": 0.7409,
+      "sim_gt_mean": null,
+      "wer_mean": 0.1599,
+      "emotion_acc": null
+    }
+  },
+  "details": {
+    "auto": [
+      {
+        "file": "line_000.wav",
+        "path": "output/auto/line_000.wav",
+        "sim_ref": 0.7038147449493408,
+        "wer": 0.14814814814814814,
+        "ref_text": "前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。"
+      },
+      {
+        "file": "line_002.wav",
+        "path": "output/auto/line_002.wav",
+        "sim_ref": 0.6778761148452759,
+        "wer": 0.21739130434782608,
+        "ref_text": "慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。"
+      },
+      {
+        "file": "line_003.wav",
+        "path": "output/auto/line_003.wav",
+        "sim_ref": 0.7107024788856506,
+        "wer": 0.19230769230769232,
+        "ref_text": "别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。"
+      },
+      {
+        "file": "line_005.wav",
+        "path": "output/auto/line_005.wav",
+        "sim_ref": 0.7154428362846375,
+        "wer": 0.1,
+        "ref_text": "好吧，林空试试，你的地盘你做主，有事给我打电话。"
+      }
+    ],
+    "clone_xvec": [
+      {
+        "file": "line_000.wav",
+        "path": "output/clone_xvec/line_000.wav",
+        "sim_ref": 0.6193643808364868,
+        "wer": 0.14814814814814814,
+        "ref_text": "前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。"
+      },
+      {
+        "file": "line_002.wav",
+        "path": "output/clone_xvec/line_002.wav",
+        "sim_ref": 0.6827653646469116,
+        "wer": 0.17391304347826086,
+        "ref_text": "慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。"
+      },
+      {
+        "file": "line_003.wav",
+        "path": "output/clone_xvec/line_003.wav",
+        "sim_ref": 0.6634089350700378,
+        "wer": 0.23076923076923078,
+        "ref_text": "别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。"
+      },
+      {
+        "file": "line_005.wav",
+        "path": "output/clone_xvec/line_005.wav",
+        "sim_ref": 0.7005475759506226,
+        "wer": 0.05,
+        "ref_text": "好吧，林空试试，你的地盘你做主，有事给我打电话。"
+      }
+    ],
+    "baseline": [
+      {
+        "file": "line_000.wav",
+        "path": "output/baseline/line_000.wav",
+        "sim_ref": 0.7372390627861023,
+        "wer": 0.14814814814814814,
+        "ref_text": "前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。"
+      },
+      {
+        "file": "line_002.wav",
+        "path": "output/baseline/line_002.wav",
+        "sim_ref": 0.7380215525627136,
+        "wer": 0.2608695652173913,
+        "ref_text": "慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。"
+      },
+      {
+        "file": "line_003.wav",
+        "path": "output/baseline/line_003.wav",
+        "sim_ref": 0.7513106465339661,
+        "wer": 0.23076923076923078,
+        "ref_text": "别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。"
+      },
+      {
+        "file": "line_005.wav",
+        "path": "output/baseline/line_005.wav",
+        "sim_ref": 0.737166166305542,
+        "wer": 0.0,
+        "ref_text": "好吧，林空试试，你的地盘你做主，有事给我打电话。"
+      }
+    ]
+  }
+}

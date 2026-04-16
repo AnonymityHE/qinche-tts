@@ -1,0 +1,94 @@
+/bin/sh: 1: sox: not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+
+[TIMING] Init (retriever + analyzer + tracker): 496.17s
+
+[1/6] 秦彻: 前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。
+  [TIMING] emotion analysis: 18.90s
+  → emotion: gentle_reassuring (tender)
+  [auto] → clone_blend (cat=tender, intensity=0.70)
+  [clone_blend] missing x-vec (calm=False, tender=False), fallback to xvec
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+  [clone] output/auto/line_000.wav (ref: qinche_pure_p11_0048.wav)
+  → [auto] output/auto/line_000.wav (238.57s)
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/clone_xvec/line_000.wav (ref: qinche_pure_p11_0048.wav)
+  → [clone_xvec] output/clone_xvec/line_000.wav (9.27s)
+  → [baseline] output/baseline/line_000.wav (73.46s)
+
+[3/6] 秦彻: 慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。
+  [TIMING] emotion analysis: 3.24s
+  → emotion: gentle_reassuring (tender)
+  [auto] → clone_blend (cat=tender, intensity=0.70)
+  [clone_blend] missing x-vec (calm=False, tender=False), fallback to xvec
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/auto/line_002.wav (ref: qinche_pure_p11_0048.wav)
+  → [auto] output/auto/line_002.wav (8.61s)
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/clone_xvec/line_002.wav (ref: qinche_pure_p11_0048.wav)
+  → [clone_xvec] output/clone_xvec/line_002.wav (8.76s)
+  → [baseline] output/baseline/line_002.wav (8.72s)
+
+[4/6] 秦彻: 别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。
+  [TIMING] emotion analysis: 3.76s
+  → emotion: gentle_reassuring (tender)
+  [auto] → clone_blend (cat=tender, intensity=0.70)
+  [clone_blend] missing x-vec (calm=False, tender=False), fallback to xvec
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/auto/line_003.wav (ref: qinche_pure_p11_0048.wav)
+  → [auto] output/auto/line_003.wav (9.56s)
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/clone_xvec/line_003.wav (ref: qinche_pure_p11_0048.wav)
+  → [clone_xvec] output/clone_xvec/line_003.wav (8.86s)
+  → [baseline] output/baseline/line_003.wav (8.48s)
+
+[6/6] 秦彻: 好吧，林空试试，你的地盘你做主，有事给我打电话。
+  [TIMING] emotion analysis: 2.58s
+  → emotion: gentle_reassuring (tender)
+  [auto] → clone_blend (cat=tender, intensity=0.70)
+  [clone_blend] missing x-vec (calm=False, tender=False), fallback to xvec
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/auto/line_005.wav (ref: qinche_pure_p11_0048.wav)
+  → [auto] output/auto/line_005.wav (8.80s)
+  [clone_xvec] no avg prompt for tender, falling back to ICL
+  [clone] output/clone_xvec/line_005.wav (ref: qinche_pure_p11_0048.wav)
+  → [clone_xvec] output/clone_xvec/line_005.wav (7.71s)
+  → [baseline] output/baseline/line_005.wav (9.82s)
+
+============================================================
+TIMING SUMMARY
+============================================================
+Total pipeline time: 932.33s
+Init time: 496.17s
+auto: total=265.54s, mean=66.39s, n=4
+clone_xvec: total=34.61s, mean=8.65s, n=4
+baseline: total=100.47s, mean=25.12s, n=4
+emotion_analysis: total=28.46s, mean=7.12s, n=4
+rag_retrieval: total=5.65s, mean=1.41s, n=4
+============================================================
+
+Results saved to output/pipeline_results_timed.json

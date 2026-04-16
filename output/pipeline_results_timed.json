@@ -1,0 +1,111 @@
+{
+  "pipeline_results": [
+    {
+      "index": 0,
+      "text": "前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。",
+      "emotion": {
+        "emotion": "gentle_reassuring",
+        "intensity": 0.7,
+        "pace": "slow",
+        "style": "用温柔且故作轻松的语气说",
+        "ref_emotion_category": "tender",
+        "fish_audio_tags": "[温柔][轻松]前面的红绿灯路口执行，不错，你的反应速度比梅菲斯特快0.1秒。"
+      },
+      "audio": {
+        "auto": "output/auto/line_000.wav",
+        "clone_xvec": "output/clone_xvec/line_000.wav",
+        "baseline": "output/baseline/line_000.wav"
+      },
+      "timing": {
+        "auto": 238.57154488563538,
+        "clone_xvec": 9.273874998092651,
+        "baseline": 73.45703029632568
+      }
+    },
+    {
+      "index": 2,
+      "text": "慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。",
+      "emotion": {
+        "emotion": "gentle_reassuring",
+        "intensity": 0.7,
+        "pace": "slow",
+        "style": "用温柔且故作轻松的语气说",
+        "ref_emotion_category": "tender",
+        "fish_audio_tags": "[温柔][轻松]慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很"
+      },
+      "audio": {
+        "auto": "output/auto/line_002.wav",
+        "clone_xvec": "output/clone_xvec/line_002.wav",
+        "baseline": "output/baseline/line_002.wav"
+      },
+      "timing": {
+        "auto": 8.611901760101318,
+        "clone_xvec": 8.762279748916626,
+        "baseline": 8.716269493103027
+      }
+    },
+    {
+      "index": 3,
+      "text": "别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。",
+      "emotion": {
+        "emotion": "gentle_reassuring",
+        "intensity": 0.7,
+        "pace": "slow",
+        "style": "用温柔且故作轻松的语气说",
+        "ref_emotion_category": "tender",
+        "fish_audio_tags": "[温柔][轻松]别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门"
+      },
+      "audio": {
+        "auto": "output/auto/line_003.wav",
+        "clone_xvec": "output/clone_xvec/line_003.wav",
+        "baseline": "output/baseline/line_003.wav"
+      },
+      "timing": {
+        "auto": 9.562305212020874,
+        "clone_xvec": 8.861466646194458,
+        "baseline": 8.477178573608398
+      }
+    },
+    {
+      "index": 5,
+      "text": "好吧，林空试试，你的地盘你做主，有事给我打电话。",
+      "emotion": {
+        "emotion": "gentle_reassuring",
+        "intensity": 0.7,
+        "pace": "slow",
+        "style": "用温柔且故作轻松的语气说",
+        "ref_emotion_category": "tender",
+        "fish_audio_tags": "[温柔][轻松]好吧，林空试试，你的地盘你做主，有事给我打电话"
+      },
+      "audio": {
+        "auto": "output/auto/line_005.wav",
+        "clone_xvec": "output/clone_xvec/line_005.wav",
+        "baseline": "output/baseline/line_005.wav"
+      },
+      "timing": {
+        "auto": 8.796322584152222,
+        "clone_xvec": 7.712856292724609,
+        "baseline": 9.817468643188477
+      }
+    }
+  ],
+  "timing_summary": {
+    "total_pipeline_s": 932.327440738678,
+    "init_s": 496.17499256134033,
+    "auto_total_s": 265.5420744419098,
+    "auto_mean_s": 66.38551861047745,
+    "auto_count": 4,
+    "clone_xvec_total_s": 34.610477685928345,
+    "clone_xvec_mean_s": 8.652619421482086,
+    "clone_xvec_count": 4,
+    "baseline_total_s": 100.46794700622559,
+    "baseline_mean_s": 25.116986751556396,
+    "baseline_count": 4,
+    "emotion_analysis_total_s": 28.462676763534546,
+    "emotion_analysis_mean_s": 7.1156691908836365,
+    "emotion_analysis_count": 4,
+    "rag_retrieval_total_s": 5.650392770767212,
+    "rag_retrieval_mean_s": 1.412598192691803,
+    "rag_retrieval_count": 4
+  }
+}

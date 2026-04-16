@@ -1,0 +1,81 @@
+/bin/sh: 1: sox: not found
+SoX could not be found!
+
+    If you do not have SoX, proceed here:
+     - - - http://sox.sourceforge.net/ - - -
+
+    If you do (or think that you should) have SoX, double-check your
+    path variables.
+    
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Could not infer sample rate from base model; defaulting to 24000 Hz.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2150 for open-end generation.
+
+********
+Warning: flash-attn is not installed. Will only run the manual PyTorch version. Please install flash-attn for faster inference.
+********
+ 
+============================================================
+Native SFT CustomVoice (no CUDA Graph)
+============================================================
+Loading model...
+Model loaded in 59.25s
+Warmup...
+  前面的红绿灯路口执行，不错，你的反应速度... → 8.31s, audio=6.24s, RTF=1.332
+  慌什么，肩上的伤早就愈合了，听我的声音，... → 8.49s, audio=6.40s, RTF=1.327
+  别妄自菲薄，你比你想象中有用得多，这几天... → 8.31s, audio=6.24s, RTF=1.331
+  好吧，林空试试，你的地盘你做主，有事给我... → 7.42s, audio=5.60s, RTF=1.326
+
+Native SFT: mean_gen=8.13s, mean_RTF=1.329
+
+============================================================
+FasterQwen3TTS (CUDA Graph)
+============================================================
+Loading model...
+Model loaded in 25.86s
+Warmup + CUDA Graph capture...
+Warming up predictor (3 runs)...
+Capturing CUDA graph for predictor...
+CUDA graph captured!
+Warming up talker graph (3 runs)...
+Capturing CUDA graph for talker decode...
+Talker CUDA graph captured!
+Warmup done in 4.94s
+  前面的红绿灯路口执行，不错，你的反应速度... → 2.13s, audio=6.24s, RTF=0.341
+  慌什么，肩上的伤早就愈合了，听我的声音，... → 2.02s, audio=5.92s, RTF=0.341
+  别妄自菲薄，你比你想象中有用得多，这几天... → 1.97s, audio=5.76s, RTF=0.342
+  好吧，林空试试，你的地盘你做主，有事给我... → 1.91s, audio=5.60s, RTF=0.342
+
+CUDA Graph SFT: mean_gen=2.01s, mean_RTF=0.341
+
+============================================================
+Base Model Clone (x-vector, native)
+============================================================
+Loading base model...
+Model loaded in 15.23s
+Computing x-vector from ref audio...
+Warmup...
+  前面的红绿灯路口执行，不错，你的反应速度... → 9.50s, audio=7.12s, RTF=1.334
+  慌什么，肩上的伤早就愈合了，听我的声音，... → 8.93s, audio=6.72s, RTF=1.329
+  别妄自菲薄，你比你想象中有用得多，这几天... → 10.12s, audio=7.60s, RTF=1.332
+  好吧，林空试试，你的地盘你做主，有事给我... → 9.56s, audio=6.96s, RTF=1.374
+
+Clone x-vec: mean_gen=9.53s, mean_RTF=1.342
+
+============================================================
+FINAL COMPARISON
+============================================================
+native_sft                 mean_RTF=1.329
+cuda_graph_sft             mean_RTF=0.341
+clone_xvec                 mean_RTF=1.342
+============================================================
+Results saved to output/benchmark_results.json
