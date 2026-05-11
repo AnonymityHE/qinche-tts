@@ -1,0 +1,39 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction \& Problem Recap}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Completed Work}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Technical Approach}{2}{section.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {System architecture.} Three layers are new in this milestone: \textsc  {(2)}\nobreakspace  {}Character RAG injects persona knowledge, \textsc  {(3)}\nobreakspace  {}LLM + Emotion Arc Tracker turns scene + history into strict JSON emotion annotations, and \textsc  {(5)}\nobreakspace  {}an emotion-aware TTS dispatcher picks the right backend and reference clip. Layers \textsc  {(1)}, \textsc  {(4)} and Phase-1's Qwen3-TTS\,v5 were already in place.\relax }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:arch}{{1}{2}{\textbf {System architecture.} Three layers are new in this milestone: \textsc {(2)}~Character RAG injects persona knowledge, \textsc {(3)}~LLM + Emotion Arc Tracker turns scene + history into strict JSON emotion annotations, and \textsc {(5)}~an emotion-aware TTS dispatcher picks the right backend and reference clip. Layers \textsc {(1)}, \textsc {(4)} and Phase-1's Qwen3-TTS\,v5 were already in place.\relax }{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Key Challenges}{2}{section.4}\protected@file@percent }
+\newlabel{fig:ui-arc}{{2a}{3}{Scene input + Emotion Arc (Demo Mode). \textcircled {\scriptsize 1}~LLM emotion label, \textcircled {\scriptsize 2}~bubble radius $\propto $ intensity, \textcircled {\scriptsize 3}~arc across turns.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:ui-arc}{{a}{3}{Scene input + Emotion Arc (Demo Mode). \textcircled {\scriptsize 1}~LLM emotion label, \textcircled {\scriptsize 2}~bubble radius $\propto $ intensity, \textcircled {\scriptsize 3}~arc across turns.\relax }{figure.caption.2}{}}
+\newlabel{fig:ui-detail}{{2b}{3}{Per-line detail panel: LLM analysis, \textcircled {\scriptsize 1}~RAG-injected KB snippet, picked \textcircled {\scriptsize 2}~\texttt {ref\_emotion\_category}, reference-audio waveform, and 10-turn history.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:ui-detail}{{b}{3}{Per-line detail panel: LLM analysis, \textcircled {\scriptsize 1}~RAG-injected KB snippet, picked \textcircled {\scriptsize 2}~\texttt {ref\_emotion\_category}, reference-audio waveform, and 10-turn history.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Frontend visualization of the emotional TTS pipeline} (\texttt  {frontend/src/pages/EmotionalTTSPage.tsx}). Both panels are rendered from the same offline \emph  {Demo Mode} data, so teammates can iterate on UX without a GPU or an API key.\relax }}{3}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:ui}{{2}{3}{\textbf {Frontend visualization of the emotional TTS pipeline} (\texttt {frontend/src/pages/EmotionalTTSPage.tsx}). Both panels are rendered from the same offline \emph {Demo Mode} data, so teammates can iterate on UX without a GPU or an API key.\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {(a)}\nobreakspace  {}Distribution of the 30 curated emotion-bucket references (5 per category) distilled from the 664 training clips; the flat distribution is intentional so the dispatcher always has a matching reference regardless of the LLM label. \textbf  {(b)}\nobreakspace  {}Phase-1 objective numbers: our Qwen3 SFT\nobreakspace  {}v5\nobreakspace  {}ep3 is tied with Qwen ZS on SIM\_gt (0.689 vs 0.710) but halves WER (4.25\% vs 12.0\%), and dominates Fish\nobreakspace  {}S2\nobreakspace  {}Pro on SIM\_gt at similar WER --- the remaining quality headroom is in \emph  {emotion}, not timbre.\relax }}{3}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:phase1}{{3}{3}{\textbf {(a)}~Distribution of the 30 curated emotion-bucket references (5 per category) distilled from the 664 training clips; the flat distribution is intentional so the dispatcher always has a matching reference regardless of the LLM label. \textbf {(b)}~Phase-1 objective numbers: our Qwen3 SFT~v5~ep3 is tied with Qwen ZS on SIM\_gt (0.689 vs 0.710) but halves WER (4.25\% vs 12.0\%), and dominates Fish~S2~Pro on SIM\_gt at similar WER --- the remaining quality headroom is in \emph {emotion}, not timbre.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Remaining Tasks \& Timeline}{3}{section.5}\protected@file@percent }
+\newlabel{sec:remaining}{{5}{3}{Remaining Tasks \& Timeline}{section.5}{}}
+\newlabel{LastPage}{{}{3}{}{page.3}{}}
+\xdef\lastpage@lastpage{3}
+\xdef\lastpage@lastpageHy{3}
+\gdef \@abspage@last{3}

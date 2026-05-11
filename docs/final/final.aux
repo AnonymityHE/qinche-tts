@@ -1,0 +1,93 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand*\HyPL@Entry[1]{}
+\HyPL@Entry{0<</S/D>>}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Our thesis.}{1}{paragraph*.1}\protected@file@percent }
+\citation{instavar2026}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:pipeline}{{1a}{2}{Audio preprocessing pipeline.\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:pipeline}{{a}{2}{Audio preprocessing pipeline.\relax }{figure.caption.2}{}}
+\newlabel{fig:datadist}{{1b}{2}{Clip duration distribution (v5, 664 clips, $\sim $28\,min).\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:datadist}{{b}{2}{Clip duration distribution (v5, 664 clips, $\sim $28\,min).\relax }{figure.caption.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Data pipeline and dataset statistics.} Bilibili audio is processed end-to-end into 1--15\,s utterances; the v5 distribution is right-skewed with a mean of 2.5\,s.\relax }}{2}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:data}{{1}{2}{\textbf {Data pipeline and dataset statistics.} Bilibili audio is processed end-to-end into 1--15\,s utterances; the v5 distribution is right-skewed with a mean of 2.5\,s.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Phase 1 --- Voice Cloning Foundation}{2}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data pipeline (664 clips, $\sim $28\nobreakspace  {}min)}{2}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Five fine-tuning iterations}{2}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}The bf16 speaker-embedding bug -- our biggest single lever}{2}{subsection.2.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {Five fine-tuning iterations.} Best-epoch numbers reported on the 18-clip held-out test set; SIM\textsubscript  {gt} is cosine similarity against ground-truth reference embeddings; RTF measured with FasterQwen3TTS where applicable. v5 ep3 is our shipped model.\relax }}{3}{table.caption.3}\protected@file@percent }
+\newlabel{tab:p1iters}{{1}{3}{\textbf {Five fine-tuning iterations.} Best-epoch numbers reported on the 18-clip held-out test set; SIM\textsubscript {gt} is cosine similarity against ground-truth reference embeddings; RTF measured with FasterQwen3TTS where applicable. v5 ep3 is our shipped model.\relax }{table.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {Inference acceleration attempts (Phase 1).} Only CUDA Graph survived; the three failed methods inform our future-work direction. Numbers measured on 18-clip held-out set with FasterQwen3TTS where applicable.\relax }}{3}{table.caption.4}\protected@file@percent }
+\newlabel{tab:accel}{{2}{3}{\textbf {Inference acceleration attempts (Phase 1).} Only CUDA Graph survived; the three failed methods inform our future-work direction. Numbers measured on 18-clip held-out set with FasterQwen3TTS where applicable.\relax }{table.caption.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Inference acceleration}{3}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Phase-1 final numbers}{3}{subsection.2.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Phase 2 --- Emotional-Aware Context Pipeline}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}LLM Context Engine -- structured emotion as a hard contract}{3}{subsection.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \textbf  {Phase-1 final numbers.} 18-clip held-out test set, full audio. CUDA-Graph inference gives a 7$\times $ RTF reduction at no quality cost. The \textbf  {v5 ep3} row is our shipped configuration.\relax }}{4}{table.caption.5}\protected@file@percent }
+\newlabel{tab:p1final}{{3}{4}{\textbf {Phase-1 final numbers.} 18-clip held-out test set, full audio. CUDA-Graph inference gives a 7$\times $ RTF reduction at no quality cost. The \textbf {v5 ep3} row is our shipped configuration.\relax }{table.caption.5}{}}
+\newlabel{fig:bf16}{{2a}{4}{The bf16 spk-emb accumulation bug: SIM\textsubscript {gt} jumps from $\sim $0.29 to $\sim $0.70 after the fp32-accumulation fix ($+141\,\%$).\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:bf16}{{a}{4}{The bf16 spk-emb accumulation bug: SIM\textsubscript {gt} jumps from $\sim $0.29 to $\sim $0.70 after the fp32-accumulation fix ($+141\,\%$).\relax }{figure.caption.6}{}}
+\newlabel{fig:rtf}{{2b}{4}{Inference acceleration: FasterQwen3TTS CUDA Graph drops RTF from 2.54 to 0.357 ($7.1\times $); INT8 / speculative decoding / early-exit all failed (\S 5).\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:rtf}{{b}{4}{Inference acceleration: FasterQwen3TTS CUDA Graph drops RTF from 2.54 to 0.357 ($7.1\times $); INT8 / speculative decoding / early-exit all failed (\S 5).\relax }{figure.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {The two largest Phase-1 wins:} a one-line bf16 fix and a CUDA-Graph integration. Together they took the project from ``not converging'' to ``real-time, near zero-shot quality, lower WER.''\relax }}{4}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:phase1milestones}{{2}{4}{\textbf {The two largest Phase-1 wins:} a one-line bf16 fix and a CUDA-Graph integration. Together they took the project from ``not converging'' to ``real-time, near zero-shot quality, lower WER.''\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Character RAG and the 10-turn Emotion Arc Tracker}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Eight-backend TTS dispatcher and the \texttt  {auto\_quality} gate}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}FastAPI service and the React Demo Mode}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {(a)} The 6-bucket emotion library (5 curated reference clips per category, used by the Phase-2 dispatcher). \textbf  {(b)} Phase-1 head-to-head: v5\,ep3 matches Qwen ZS on SIM and beats Fish\nobreakspace  {}S2\nobreakspace  {}Pro on SIM at similar WER.\relax }}{5}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:phase1nums}{{3}{5}{\textbf {(a)} The 6-bucket emotion library (5 curated reference clips per category, used by the Phase-2 dispatcher). \textbf {(b)} Phase-1 head-to-head: v5\,ep3 matches Qwen ZS on SIM and beats Fish~S2~Pro on SIM at similar WER.\relax }{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {End-to-end system architecture.} Three layers are new in Phase\nobreakspace  {}2: \textsc  {(2)}\nobreakspace  {}Character\nobreakspace  {}RAG injects persona knowledge, \textsc  {(3)}\nobreakspace  {}LLM\nobreakspace  {}+\nobreakspace  {}Emotion\nobreakspace  {}Arc\nobreakspace  {}Tracker turns scene + history into a strict JSON emotion annotation, and \textsc  {(5)}\nobreakspace  {}the emotion-aware TTS dispatcher routes to one of eight backends with a matching reference clip. Layers \textsc  {(1)}, \textsc  {(4)} and the Phase-1 Qwen3-TTS\,v5 model were already in place.\relax }}{5}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:arch}{{4}{5}{\textbf {End-to-end system architecture.} Three layers are new in Phase~2: \textsc {(2)}~Character~RAG injects persona knowledge, \textsc {(3)}~LLM~+~Emotion~Arc~Tracker turns scene + history into a strict JSON emotion annotation, and \textsc {(5)}~the emotion-aware TTS dispatcher routes to one of eight backends with a matching reference clip. Layers \textsc {(1)}, \textsc {(4)} and the Phase-1 Qwen3-TTS\,v5 model were already in place.\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}End-to-End Evaluation on A100}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Per-line latency breakdown}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces \textbf  {Eight TTS backends exposed by the dispatcher.} The \texttt  {auto\_quality} backend is the dispatcher's quality-insurance gate; \texttt  {fish} is the cross-architecture A/B baseline.\relax }}{6}{table.caption.9}\protected@file@percent }
+\newlabel{tab:backends}{{4}{6}{\textbf {Eight TTS backends exposed by the dispatcher.} The \texttt {auto\_quality} backend is the dispatcher's quality-insurance gate; \texttt {fish} is the cross-architecture A/B baseline.\relax }{table.caption.9}{}}
+\newlabel{fig:ui-arc}{{5a}{6}{Scene input + Emotion Arc (Demo Mode). \textcircled {\scriptsize 1}~LLM emotion label, \textcircled {\scriptsize 2}~bubble radius $\propto $ intensity, \textcircled {\scriptsize 3}~arc across turns.\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:ui-arc}{{a}{6}{Scene input + Emotion Arc (Demo Mode). \textcircled {\scriptsize 1}~LLM emotion label, \textcircled {\scriptsize 2}~bubble radius $\propto $ intensity, \textcircled {\scriptsize 3}~arc across turns.\relax }{figure.caption.10}{}}
+\newlabel{fig:ui-detail}{{5b}{6}{Per-line detail panel: \textcircled {\scriptsize 1}~RAG-injected KB snippet, picked \textcircled {\scriptsize 2}~\texttt {ref\_emotion\_category}, reference-audio waveform, and 10-turn history.\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:ui-detail}{{b}{6}{Per-line detail panel: \textcircled {\scriptsize 1}~RAG-injected KB snippet, picked \textcircled {\scriptsize 2}~\texttt {ref\_emotion\_category}, reference-audio waveform, and 10-turn history.\relax }{figure.caption.10}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Front-end visualisation of the emotional TTS pipeline.} The same React page powers production and Demo Mode (offline preset).\relax }}{6}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:ui}{{5}{6}{\textbf {Front-end visualisation of the emotional TTS pipeline.} The same React page powers production and Demo Mode (offline preset).\relax }{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Native vs CUDA-Graph benchmark on A100}{6}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Three-condition SIM\textsubscript  {ref} + WER}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Cross-environment caveats (honest disclosure)}{6}{subsection.4.4}\protected@file@percent }
+\newlabel{fig:p_timing}{{6a}{7}{Per-line latency stack: LLM is 67\,\% of total cost.\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:p_timing}{{a}{7}{Per-line latency stack: LLM is 67\,\% of total cost.\relax }{figure.caption.11}{}}
+\newlabel{fig:p_bench}{{6b}{7}{A100 inference benchmark: CUDA Graph reproduces the $\sim $3.9$\times $ speed-up.\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:p_bench}{{b}{7}{A100 inference benchmark: CUDA Graph reproduces the $\sim $3.9$\times $ speed-up.\relax }{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces \textbf  {Pipeline timing on A100.} The LLM stage dominates; this targets the single most actionable optimisation in \S  7.1.\relax }}{7}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:phase2timing}{{6}{7}{\textbf {Pipeline timing on A100.} The LLM stage dominates; this targets the single most actionable optimisation in \S 7.1.\relax }{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces \textbf  {End-to-end three-condition evaluation on A100.} SIM\textsubscript  {ref} = cosine speaker similarity vs.\ a held reference clip; WER = Mandarin word-error rate (whisper-base ASR; not directly comparable to Phase-1 numbers, see \S  4.4). \textbf  {baseline} is the no-emotion timbre upper bound; \textbf  {auto} pays $\sim $5\,\% SIM for the emotional performance; \textbf  {clone\_xvec} fell back to ICL because average-x-vectors were not pre-computed (see \S  4.4).\relax }}{7}{table.caption.12}\protected@file@percent }
+\newlabel{tab:e2e}{{5}{7}{\textbf {End-to-end three-condition evaluation on A100.} SIM\textsubscript {ref} = cosine speaker similarity vs.\ a held reference clip; WER = Mandarin word-error rate (whisper-base ASR; not directly comparable to Phase-1 numbers, see \S 4.4). \textbf {baseline} is the no-emotion timbre upper bound; \textbf {auto} pays $\sim $5\,\% SIM for the emotional performance; \textbf {clone\_xvec} fell back to ICL because average-x-vectors were not pre-computed (see \S 4.4).\relax }{table.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Lessons Learned --- What Worked, What Failed}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}What worked (highlight reel)}{7}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}What failed (and why) -- read this section honestly}{7}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces \textbf  {Three-condition end-to-end SIM\textsubscript  {ref} and WER.} The $\sim $5\,\% SIM gap between \texttt  {baseline} and \texttt  {auto} is the ``cost'' of injecting emotion into the synthesis -- exactly what \texttt  {auto\_quality} (\S  3.3) is designed to detect and fall back from.\relax }}{8}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:e2e}{{7}{8}{\textbf {Three-condition end-to-end SIM\textsubscript {ref} and WER.} The $\sim $5\,\% SIM gap between \texttt {baseline} and \texttt {auto} is the ``cost'' of injecting emotion into the synthesis -- exactly what \texttt {auto\_quality} (\S 3.3) is designed to detect and fall back from.\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Bottleneck Analysis}{8}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Future Work --- Concrete, Web-Researched Solutions}{9}{section.7}\protected@file@percent }
+\newlabel{sec:future}{{7}{9}{Future Work --- Concrete, Web-Researched Solutions}{section.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Immediate (1--2 weeks, no retraining)}{9}{subsection.7.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Mid-term (1 month, may require retraining)}{9}{subsection.7.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Exploratory}{9}{subsection.7.3}\protected@file@percent }
+\bibcite{instavar2026}{1}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusion}{10}{section.8}\protected@file@percent }
+\newlabel{LastPage}{{}{10}{}{page.10}{}}
+\xdef\lastpage@lastpage{10}
+\xdef\lastpage@lastpageHy{10}
+\gdef \@abspage@last{10}
