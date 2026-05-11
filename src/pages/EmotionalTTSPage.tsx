@@ -242,9 +242,10 @@ function EmotionArcChart({ arc }: { arc: ArcPoint[] }) {
           />
           <Tooltip
             contentStyle={{ background: '#1f2937', border: '1px solid #374151', borderRadius: 8, color: '#f9fafb', fontSize: 12 }}
-            formatter={(_: unknown, __: unknown, props: { payload: { label: string; style: string; intensity: number } }) => {
-              const d = props.payload
-              return [`${d.label} · ${d.style || ''}`, `Intensity: ${d.intensity}`]
+            formatter={(_: unknown, __: unknown, props: { payload?: { label?: string; style?: string; intensity?: number } }) => {
+              const d = props?.payload
+              if (!d) return [String(_), '']
+              return [`${d.label || ''} · ${d.style || ''}`, `Intensity: ${d.intensity ?? 0}`]
             }}
             labelFormatter={(v) => `Turn ${v}`}
           />
@@ -258,9 +259,10 @@ function EmotionArcChart({ arc }: { arc: ArcPoint[] }) {
             name="Emotion Category"
             stroke="#a855f7"
             strokeWidth={2}
-            dot={(props: { cx: number; cy: number; index: number }) => {
-              const d = data[props.index]
-              if (!d || d.catY === null) return <></>
+            dot={(props: { cx?: number; cy?: number; index?: number }) => {
+              const idx = props.index ?? 0
+              const d = data[idx]
+              if (!d || d.catY === null || props.cx == null || props.cy == null) return <></>
               const color = EMOTION_COLORS[d.category || 'calm'] || '#a855f7'
               const r = 4 + (d.intensity || 0) * 6
               return (
@@ -374,11 +376,11 @@ function DetailPanel({ result }: { result: LineResult | null }) {
               "{em.style as string}"
             </p>
           </div>
-          {em.fish_audio_tags && (
+          {!!em.fish_audio_tags && (
             <div>
               <span className="text-xs text-gray-500 block mb-1">Fish Audio Tags</span>
               <code className="text-xs text-green-300 bg-green-500/10 border border-green-500/20 rounded-lg p-2 block break-all">
-                {em.fish_audio_tags as string}
+                {String(em.fish_audio_tags)}
               </code>
             </div>
           )}
@@ -432,6 +434,92 @@ function DetailPanel({ result }: { result: LineResult | null }) {
   )
 }
 
+const DEMO_EMOTIONS: Record<string, { emotion: string; category: string; intensity: number; pace: string; style: string; fish_audio_tags: string }> = {
+  '慌什么，肩上的伤早就愈合了，听我的声音，这不是好得很。': {
+    emotion: 'reassuring warmth', category: 'tender', intensity: 0.65, pace: 'slow',
+    style: '低沉温柔，带有安抚性的笑意，声线平稳但尾音微微上扬',
+    fish_audio_tags: 'calm male voice, warm tone, gentle reassurance',
+  },
+  '别妄自菲薄，你比你想象中有用得多，这几天他都会跟着你出门。': {
+    emotion: 'protective gentleness', category: 'calm', intensity: 0.45, pace: 'moderate',
+    style: '沉稳而郑重，声线比上句低了半度，每个字都带着不容置疑的力量',
+    fish_audio_tags: 'deep male voice, steady pace, authoritative warmth',
+  },
+  '好吧，林空试试，你的地盘你做主，有事给我打电话。': {
+    emotion: 'relaxed affection', category: 'playful', intensity: 0.4, pace: 'moderate',
+    style: '轻松随意的语气，尾音略带调侃味，像在故意让步',
+    fish_audio_tags: 'casual male voice, slightly playful, light-hearted',
+  },
+  '还没睡？窗外的雨声很大，我在电话里都能听到。': {
+    emotion: 'quiet concern', category: 'intimate', intensity: 0.55, pace: 'slow',
+    style: '压低的声线，像怕吵醒谁，每个音节都裹着夜晚的柔软',
+    fish_audio_tags: 'whisper-like male voice, intimate, night atmosphere',
+  },
+  '什么事让你这么费神？说给我听听。': {
+    emotion: 'gentle inquiry', category: 'tender', intensity: 0.5, pace: 'slow',
+    style: '温和的询问，语速放慢，声音里有引导对方倾诉的耐心',
+    fish_audio_tags: 'soft male voice, patient, caring tone',
+  },
+  '别人怎么说不重要，你心里那把尺才是准绳，相信自己的直觉。': {
+    emotion: 'firm tenderness', category: 'intense', intensity: 0.7, pace: 'moderate',
+    style: '语气忽然认真起来，每个字掷地有声，但底色仍然温暖',
+    fish_audio_tags: 'firm male voice, earnest conviction, warm undertone',
+  },
+  '有个很久没见的人想在N109约会，除了这个，还能是因为什么？': {
+    emotion: 'teasing', category: 'playful', intensity: 0.6, pace: 'moderate',
+    style: '带着笑意的反问，声线上扬，明显在逗对方',
+    fish_audio_tags: 'amused male voice, teasing, confident charm',
+  },
+  '路过还点了两杯咖啡？你的演技需要提升。': {
+    emotion: 'playful mockery', category: 'playful', intensity: 0.7, pace: 'moderate',
+    style: '语速适中但咬字清晰，尾音带着压抑的笑声，满是调侃',
+    fish_audio_tags: 'witty male voice, sarcastic amusement, charming',
+  },
+}
+
+function generateDemoResponse(dialogue: DialogueLine[]): AnalyzeResponse {
+  const results: LineResult[] = dialogue.map((line, i) => {
+    const isQinche = line.speaker === '秦彻'
+    const demoEmo = DEMO_EMOTIONS[line.text]
+    return {
+      index: i,
+      speaker: line.speaker,
+      text: line.text,
+      emotion: isQinche && demoEmo ? {
+        emotion: demoEmo.emotion,
+        ref_emotion_category: demoEmo.category,
+        intensity: demoEmo.intensity,
+        pace: demoEmo.pace,
+        style: demoEmo.style,
+        fish_audio_tags: demoEmo.fish_audio_tags,
+      } : null,
+      rag_context: isQinche ? [
+        `[性格] 秦彻外表冷峻强势，但对亲近的人有着不易察觉的温柔。`,
+        `[说话风格] 语言简洁有力，偶尔带有调侃或反问，很少直接表达关心但行动上总是第一时间出现。`,
+      ] : [],
+      emotion_history: [],
+      ref_audio: isQinche ? `data/ref_audio/${demoEmo?.category || 'calm'}_sample.wav` : null,
+      audio: isQinche
+        ? { auto: `output/auto/line_${i}.wav`, baseline: `output/baseline/line_${i}.wav` }
+        : ({} as Record<string, string>),
+      skipped: !isQinche,
+    }
+  })
+
+  const emotion_arc: ArcPoint[] = results
+    .filter(r => !r.skipped && r.emotion)
+    .map(r => ({
+      index: r.index,
+      speaker: r.speaker,
+      category: (r.emotion?.ref_emotion_category as string) || null,
+      intensity: (r.emotion?.intensity as number) || 0,
+      emotion: r.emotion?.emotion as string,
+      style: r.emotion?.style as string,
+    }))
+
+  return { session_id: `demo-${Date.now()}`, results, emotion_arc }
+}
+
 export default function EmotionalTTSPage() {
   const navigate = useNavigate()
   const [scene, setScene] = useState(PRESET_SCENES[0].scene)
@@ -439,34 +527,21 @@ export default function EmotionalTTSPage() {
   const [loading, setLoading] = useState(false)
   const [response, setResponse] = useState<AnalyzeResponse | null>(null)
   const [activeIdx, setActiveIdx] = useState<number | null>(null)
-  const [error, setError] = useState<string | null>(null)
+  const [demoMode, setDemoMode] = useState(false)
   const resultsRef = useRef<HTMLDivElement>(null)
 
   const handleAnalyze = useCallback(async () => {
     setLoading(true)
-    setError(null)
     setResponse(null)
     setActiveIdx(null)
+    setDemoMode(true)
 
-    try {
-      const res = await fetch('/api/analyze', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ scene, dialogue }),
-      })
-      if (!res.ok) {
-        const err = await res.text()
-        throw new Error(err)
-      }
-      const data: AnalyzeResponse = await res.json()
-      setResponse(data)
-      const firstQinche = data.results.findIndex(r => !r.skipped)
-      if (firstQinche >= 0) setActiveIdx(firstQinche)
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Unknown error')
-    } finally {
-      setLoading(false)
-    }
+    await new Promise(r => setTimeout(r, 800))
+    const data = generateDemoResponse(dialogue)
+    setResponse(data)
+    const firstQinche = data.results.findIndex(r => !r.skipped)
+    if (firstQinche >= 0) setActiveIdx(firstQinche)
+    setLoading(false)
   }, [scene, dialogue])
 
   useEffect(() => {
@@ -510,11 +585,15 @@ export default function EmotionalTTSPage() {
           />
         </motion.div>
 
-        {error && (
+        {demoMode && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}
-            className="bg-red-500/10 border border-red-500/30 rounded-xl p-4 mb-6 text-red-300 text-sm"
+            className="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4 mb-6 text-amber-300 text-sm flex items-center gap-3"
           >
-            {error}
+            <Sparkles size={16} className="shrink-0" />
+            <div>
+              <span className="font-semibold">Demo Mode</span> — 当前页面为演示版，展示预设的情感分析与情绪弧线效果。
+              更多能力（实时分析与在线合成）敬请期待。
+            </div>
           </motion.div>
         )}
 
