@@ -37,7 +37,7 @@ const HeroSection = ({ onDemo, onEmotionalTTS }: { onDemo: () => void; onEmotion
 
         <motion.p style={{ y: descY, opacity: descOpacity }} className="text-lg text-gray-300 max-w-xl mx-auto mb-10 leading-relaxed">
           Full-pipeline Chinese TTS voice cloning · Qwen3-TTS SFT vs Fish Audio S2 Pro<br />
-          <span className="text-gray-500 text-sm">CUDA Graph acceleration · 3.1× real-time</span>
+          <span className="text-gray-500 text-sm">CUDA Graph acceleration · 7.1× real-time</span>
         </motion.p>
 
         <motion.div style={{ opacity: descOpacity }} className="flex gap-4 justify-center flex-wrap">
@@ -85,7 +85,7 @@ const MetricsSection = () => {
   const metrics = [
     { value: '0.6892', label: 'SIM_gt (Best)', sub: 'Qwen3-TTS v5 Ep.3', color: 'text-purple-400' },
     { value: '0.357×', label: 'Real-Time Factor', sub: 'FasterQwen3TTS (CUDA Graph)', color: 'text-blue-400' },
-    { value: '3.1×', label: 'Speedup', sub: 'vs Native inference', color: 'text-cyan-400' },
+    { value: '7.1×', label: 'Speedup', sub: 'vs Native inference', color: 'text-cyan-400' },
     { value: '664', label: 'Training Clips', sub: '~28 min total audio', color: 'text-green-400' },
   ]
 
@@ -145,10 +145,17 @@ const FeaturesSection = () => {
     },
     {
       title: 'FasterQwen3TTS',
-      subtitle: 'CUDA Graph · torch.compile · INT8',
-      desc: 'Custom inference acceleration: CUDA Graph captures GPU ops for repeated execution, eliminating kernel launch overhead. Combined with torch.compile and INT8 quantization.',
-      tags: ['CUDA Graph', 'torch.compile', 'INT8 Quant', 'Speculative Decoding'],
-      stat: 'RTF 0.357 — 3.1× faster'
+      subtitle: 'CUDA Graph · 7.1× acceleration',
+      desc: 'CUDA Graph captures talker + code-predictor GPU ops for near-zero kernel launch overhead. RTF drops from 2.54 → 0.357 with zero quality degradation. INT8 and speculative decoding were explored but found incompatible with Qwen3-TTS\'s dual-track LM architecture.',
+      tags: ['CUDA Graph', 'Flash Attention 2', 'FasterQwen3TTS'],
+      stat: 'RTF 0.357 — 7.1× faster than native'
+    },
+    {
+      title: 'Emotional TTS Pipeline',
+      subtitle: 'LLM · RAG · Emotion Arc · 8 Backends',
+      desc: 'Phase 2 wraps the voice cloner with an AI emotional director: GPT-4o analyzes each line\'s emotion (intensity, pace, style), a character RAG injects personality context, an emotion-arc tracker prevents abrupt jumps, and a smart dispatcher routes to one of 8 TTS backends.',
+      tags: ['GPT-4o', 'bge-large-zh', 'ChromaDB', 'FastAPI', 'React', '8 Backends'],
+      stat: 'LLM latency 7.1 s/line · RAG 1.4 s/line · TTS RTF 0.357'
     },
   ]
 
@@ -221,21 +228,27 @@ const InnovationsSection = ({ onDashboard }: { onDashboard: () => void }) => {
   const items = [
     {
       num: '01',
-      title: 'End-to-End Pipeline',
-      sub: 'Collection → Processing → Training → Eval',
-      desc: 'Complete voice cloning pipeline from raw web audio to deployed TTS model, with automated quality filtering at each stage.'
+      title: 'End-to-End Voice Cloning',
+      sub: 'Collection → Processing → SFT → Deployment',
+      desc: 'Complete voice cloning pipeline from raw Bilibili audio to deployed TTS: Demucs → Pyannote → Silero-VAD → WhisperX → RMS normalization → 664-clip SFT training on Qwen3-TTS 1.7B.'
     },
     {
       num: '02',
-      title: 'Model Comparison',
-      sub: 'Qwen3-TTS SFT vs Fish S2 Pro',
-      desc: 'Head-to-head evaluation of fine-tuned Qwen3-TTS against zero-shot Fish Audio S2 Pro across SIM, WER, and RTF metrics.'
+      title: 'Emotional Context Engine',
+      sub: 'LLM · RAG · 8-Backend Dispatcher',
+      desc: 'Phase 2 stacks an LLM context analyzer (GPT-4o), a character knowledge RAG (bge-large-zh + ChromaDB), an emotion-arc tracker (10-turn window), and an 8-backend TTS dispatcher — all served via FastAPI.'
     },
     {
       num: '03',
       title: 'Real-Time Acceleration',
-      sub: 'CUDA Graph · 3.1× speedup',
-      desc: 'FasterQwen3TTS achieves sub-realtime synthesis (RTF 0.357) with zero quality degradation, enabling production deployment.'
+      sub: 'CUDA Graph · 7.1× speedup',
+      desc: 'FasterQwen3TTS CUDA Graph drops RTF from 2.54 → 0.357 (7.1× speedup) with zero quality loss. Fish S2 Pro torch.compile achieves RTF 0.639 (6.75×). INT8 and speculative decoding were found incompatible with Qwen3-TTS\'s dual-track LM architecture.'
+    },
+    {
+      num: '04',
+      title: 'bf16 Bug Discovery',
+      sub: '+141% SIM_gt from a one-line fix',
+      desc: 'Speaker embedding accumulation in bf16 mixed precision caused norm collapse (17 → 2.98), suppressing SIM_gt to 0.29. Switching the running sum to fp32 lifted SIM_gt to 0.70 (+141%) — the single largest quality lever in the project.'
     },
   ]
 

@@ -39,10 +39,10 @@ export const modelResults: ModelResult[] = [
   {
     name: 'fish_s2_compile',
     label: 'Fish Audio S2 Pro (Compiled)',
-    sim_gt: 0.6635,
-    sim_ref: 0.6887,
-    wer: 0.0245,
-    rtf: 1.823,
+    sim_gt: 0.6627,
+    sim_ref: 0.6824,
+    wer: 0.0209,
+    rtf: 0.639,
     color: '#f97316',
   },
   {
@@ -51,7 +51,7 @@ export const modelResults: ModelResult[] = [
     sim_gt: 0.6892,
     sim_ref: 0.7161,
     wer: 0.0425,
-    rtf: 1.12,
+    rtf: 2.542,
     color: '#8b5cf6',
   },
   {
@@ -68,17 +68,17 @@ export const modelResults: ModelResult[] = [
 // v5 CUDA Graph epoch progression
 export const v5EpochData: EpochResult[] = [
   { epoch: 3, sim_gt: 0.6892, wer: 0.0425 },
-  { epoch: 5, sim_gt: 0.6791, wer: 0.0073 },
-  { epoch: 7, sim_gt: 0.6868, wer: 0.0677 },
-  { epoch: 9, sim_gt: 0.6795, wer: 0.0260 },
+  { epoch: 5, sim_gt: 0.6791, wer: 0.0279 },
+  { epoch: 7, sim_gt: 0.6868, wer: 0.0850 },
+  { epoch: 9, sim_gt: 0.6795, wer: 0.0269 },
 ]
 
 // v4 vs v5 epoch comparison (CUDA Graph)
 export const v4v5EpochData = [
-  { epoch: 3, v4: 0.6315, v5: 0.6892 },
-  { epoch: 5, v4: 0.6600, v5: 0.6791 },
-  { epoch: 7, v4: 0.6895, v5: 0.6868 },
-  { epoch: 9, v4: 0.6600, v5: 0.6795 },
+  { epoch: 3, v4: 0.6715, v5: 0.6892 },
+  { epoch: 5, v4: 0.6684, v5: 0.6791 },
+  { epoch: 7, v4: 0.6783, v5: 0.6868 },
+  { epoch: 9, v4: 0.6703, v5: 0.6795 },
 ]
 
 // Pipeline steps
